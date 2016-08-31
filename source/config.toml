@@ -1,4 +1,4 @@
-baseurl = "https://geografia-au.github.io"
+baseurl = "https://geografia-au.github.io/"
 languageCode = "en-us"
 title = "Geografia: Demography, Economics, Spatial Planning"
 theme = "hugo-universal-theme"
