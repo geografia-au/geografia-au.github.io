@@ -1,0 +1,94 @@
+/* Anchors Top Spacing */
+
+.testimonial {
+    height: 400px;
+}
+.testimonial .photo {
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.anchor {
+    display: block;
+    padding-bottom: 90px;
+}
+
+/* MapBox Controls under Main Nav*/
+.leaflet-top.leaflet-top {
+    z-index: 10;
+}
+
+/* Overlay Email and Linkedin*/
+
+.testimonial:hover .overlay {
+  opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.testimonial .overlay a {
+  font-size: 36px;
+}
+
+.testimonial .overlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #fff;
+  line-height: 240px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+.testimonial .overlay a {
+  margin: 0 8px;
+  display: inline-block;
+  color: #ffffff;
+}
+.testimonial .overlay a:hover,
+.testimonial .overlay a:focus,
+.testimonial .overlay a.active {
+  color: #e3e7e8;
+}
+.testimonial .photo-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  overflow: hidden;
+  -webkit-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+.testimonial:hover .photo-wrapper {
+  background-color: #D50000;
+}
+
+.testimonial .photo {
+  max-height: 190px;
+}
+
+.testimonial:hover .photo {
+  opacity: 40;
+  filter: alpha(opacity=4000);
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+.testimonial:hover .overlay {
+  opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
