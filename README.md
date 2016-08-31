@@ -10,15 +10,15 @@ Rewrite of the geografia.com.au Website Using the Hugo Static Site Generator
 Start a development server:
 
 ```sh
-cd sources
+cd source
 hugo server
 ```
 
-# (re)building the static site
+# (re)build the static site
 
-navigate to the sources folder and build the page in ../
+navigate to the sources folder and build the page in ``../``
 
 ```sh
-cd sources
+cd source
 hugo -d ../
 ```
