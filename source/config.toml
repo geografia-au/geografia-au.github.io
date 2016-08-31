@@ -1,0 +1,89 @@
+baseurl = "https://geografia-au.github.io"
+languageCode = "en-us"
+title = "Geografia: Demography, Economics, Spatial Planning"
+theme = "hugo-universal-theme"
+
+[Permalinks]
+    blog = "/blog/:year/:month/:day/:filename/"
+
+[params]
+    viewMorePostLink     = "/blog/"
+    author = "geografia"
+    description = "[Γε0γραφια] a 3,000 year old discipline that explores the interaction between people and places"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+
+    email = "info@geografia.com.au"
+    about_us = ""
+    copyright = "Copyright (c) 2015 - 2016, Geografia; all rights reserved."
+    date_format = "2006-01-02"
+    logo = "img/geografia_logo.svg"
+    address = """
+
+    """
+
+[[params.menu]]
+    name = "Work"
+    url  = "/#work"
+    weight = 1
+
+[[params.menu]]
+    name = "Ideas"
+    url  = "/#ideas"
+    weight = 1
+
+[[params.menu]]
+    name = "Team"
+    url  = "/#team"
+    weight = 1
+
+[[params.menu]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 1
+
+[[params.menu]]
+    name = "Lab"
+    url  = "/lab"
+    weight = 1
+
+[params.features]
+    enable = true
+    teaser = "Cities, towns, economies and communities are complex systems. Geografia’s expertise in this field helps clients understand and solve the challenges they face."
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more informtion take a look at the README.
+
+[params.map]
+    enable = true
+    title = "Work"
+    subtitle = "Geografia works around Australia and in South East Asia. Use the map below to discover a selection of our projects."
+
+[params.recent_posts]
+    enable = true
+    title = "From our blog"
+    subtitle = ""
+
+[params.team]
+    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Our Team"
+    subtitle = ""
+
+[params.addresses]
+    enable = true
+    title = "Contact"

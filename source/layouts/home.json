@@ -1,0 +1,8 @@
+[
+    {{ range sort .Site.Data.testimonials "weight" "asc" }}
+    {
+        "name": "{{.name}}",
+        "description": "{{.text}}",
+    }
+    {{end}}
+]
