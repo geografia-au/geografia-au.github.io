@@ -2,7 +2,7 @@
 {{ if .Site.Params.team.enable }}
 {{ if gt (len .Site.Data.team) 0 }}
 <a name="team" class="anchor"></a>
-<section class="bar background-pentagon no-mb">
+<section>
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -17,11 +17,11 @@
         <div class="container-fluid">
           <div class="testimonials">
             {{ range sort .Site.Data.team "weight" "asc" }}
-            <div class="testimonial col-md-3 col-sm-6">
+            <div class="testimonial col-md-4 col-sm-6">
               <div class="text">
                 <div class="photo-wrapper">
                   <img class="img-responsive photo" alt=""
-                      style="background-image:url('{{ .avatar | absURL }}');"/>
+                      style="border-radius:6px;background-position: center;background-image:url('{{ .avatar | absURL }}');"/>
                 </div>
                 <h4>{{ .name }}</h4>
                 <p><b>{{ .position }}</b></p>
