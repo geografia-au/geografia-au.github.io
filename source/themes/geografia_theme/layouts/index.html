@@ -11,152 +11,148 @@
     <div id='main' role='main'>
 
       <div class='mod modDefaultSlider'>
-      <div class='sequence' data-autostop='on' data-timeout='0'>
-        <a class='sequence-prev' href='javascript:void(0);'>
-          <span></span>
-        </a>
-        <a class='sequence-next' href='javascript:void(0);'>
-          <span></span>
-        </a>
-        <ul class='sequence-pagination'>
-          {{ range $index, $element := .Site.Data.slides }}
-            {{ if gt $index 1 }}
-              <li></li>
-            {{ else }}
-              <li class="current"></li>
+        <div class='sequence' data-autostop='on' data-timeout='0'>
+          <a class='sequence-prev' href='javascript:void(0);'>
+            <span></span>
+          </a>
+          <a class='sequence-next' href='javascript:void(0);'>
+            <span></span>
+          </a>
+          <ul class='sequence-pagination'>
+            {{ range $index, $element := .Site.Data.slides }}
+            <li class="{{ if gt $index 1 }}{{else}}current{{end}}"></li>
             {{ end }}
-          {{ end }}
-        </ul>
-        <ul class='sequence-canvas'>
-          {{ range $index, $element := .Site.Data.slides }}
+          </ul>
+          <ul class='sequence-canvas'>
+            {{ range $index, $element := .Site.Data.slides }}
             {{ if gt $index 1 }}
             <li class='frame {{ $element.klass }}'>
-            {{ else }}
-            <li class='frame static {{ $element.klass }}'>
-            {{ end }}
+              {{ else }}
+              <li class='frame static {{ $element.klass }}'>
+                {{ end }}
 
-              <div class='bg' style='background-image: url({{ $element.bg}});'></div>
-              <div class='small-title {{ $element.small_title.klass }}'>
-                <div class='row'>
-                  <div class='large-12 columns'>
-                    <h2>{{ $element.small_title.text }}</h2>
+                <div class='bg' style='background-image: url({{ $element.bg}});'></div>
+                <div class='small-title {{ $element.small_title.klass }}'>
+                  <div class='row'>
+                    <div class='large-12 columns'>
+                      <h2>{{ $element.small_title.text }}</h2>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='title {{ $element.title.klass }}'>
-                <div class='row'>
-                  <div class='large-12 columns'>
-                    <h2>{{ $element.title.text }}</h2>
+                <div class='title {{ $element.title.klass }}'>
+                  <div class='row'>
+                    <div class='large-12 columns'>
+                      <h2>{{ $element.title.text }}</h2>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class='buttons-wrapper {{ $element.buttons.klass }}'>
-                <div class='row'>
-                  <div class='large-12 columns'>
-                    <div class='two spacing'></div>
-                    {{ range $element.buttons.items }}
+                <div class='buttons-wrapper {{ $element.buttons.klass }}'>
+                  <div class='row'>
+                    <div class='large-12 columns'>
+                      <div class='two spacing'></div>
+                      {{ range $element.buttons.items }}
                       <a class='button {{ .klass }}' href='{{ .link_to }}'>{{ .text }}</a>
-                    {{ end }}
+                      {{ end }}
+                    </div>
                   </div>
                 </div>
-              </div>
-            </li>
-          {{ end }}
-        </ul>
+              </li>
+              {{ end }}
+          </ul>
+        </div>
       </div>
-    </div>
 
-    <div class="four spacing"></div>
+      <div class="four spacing"></div>
 
-    <div class="row">
-      {{ range .Site.Data.features }}
+      <div class="row">
+        {{ range .Site.Data.features }}
         <div class="medium-4 large-4 columns">
           {{ partial "icon_text.html" (dict "title" .name "desc" .description "icon_class" .icon "delay" "0" "shape_class" "icon-text-circle") }}
         </div>
-      {{ end }}
-    </div>
-
-    <div class="spacing"></div>
-
-    <div class="full" style="background: #f5f5f5;">
-      <div class="row">
-        <div class="large-12 columns">
-          {{ partial "section_header.html" (dict "title" "Our works") }}
-          <div class="spacing"></div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-          </p>
-          <div class="three spacing"></div>
-        </div>
+        {{ end }}
       </div>
 
-      <div class="mod modGallery">
-        <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-          {{ range .Site.Data.works }}
-          <li class="{{ .klass }}">
-            <a href='{{ .link_to }}'>
-              <img alt="" src="{{ .image }}" />
-              <div class='overlay'>
-                <div class='thumb-info'>
-                  <h3>{{ .title }}</h3>
-                  <p>{{ .desc }}</p>
+      <div class="spacing"></div>
+
+      <div class="full" style="background: #f5f5f5;">
+        <div class="row">
+          <div class="large-12 columns">
+            {{ partial "section_header.html" (dict "title" "Our works") }}
+            <div class="spacing"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+            </p>
+            <div class="three spacing"></div>
+          </div>
+        </div>
+
+        <div class="mod modGallery">
+          <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
+            {{ range .Site.Data.works }}
+            <li class="{{ .klass }}">
+              <a href='{{ .link_to }}'>
+                <img alt="" src="{{ .image }}" />
+                <div class='overlay'>
+                  <div class='thumb-info'>
+                    <h3>{{ .title }}</h3>
+                    <p>{{ .desc }}</p>
+                  </div>
                 </div>
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+
+
+      <div class='full'>
+        <div class='row'>
+          <div class='large-12 columns'>
+            {{ partial "section_header.html" (dict "title" "Our services") }}
+            <div class='spacing'></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+            </p>
+            <div class='three spacing'></div>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='medium-6 columns'>
+            <img class="fadeinleft" alt="" src="images/@stock/responsive.png" />
+            <div class='three spacing'></div>
+          </div>
+          <div class='medium-6 columns'>
+            {{ range $index, $element := .Site.Data.features }}
+            {{ $delay := (mul 300 1) }}
+            <div class='fadein mod modIconText' data-delay='{{ $delay }}'>
+              <div class='icon-text-simple'>
+                <i class='fa fa-{{ .icon }}'></i>
+                <h3>{{ .name }}</h3>
+                <p>{{ .description }}</p>
               </div>
-            </a>
-          </li>
-          {{ end }}
-        </ul>
-      </div>
-    </div>
-
-
-    <div class='full'>
-      <div class='row'>
-        <div class='large-12 columns'>
-          {{ partial "section_header.html" (dict "title" "Our services") }}
-          <div class='spacing'></div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-          </p>
-          <div class='three spacing'></div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='medium-6 columns'>
-          <img class="fadeinleft" alt="" src="images/@stock/responsive.png" />
-          <div class='three spacing'></div>
-        </div>
-        <div class='medium-6 columns'>
-          {{ range $index, $element := .Site.Data.features }}
-          {{ $delay := (mul 300 1) }}
-          <div class='fadein mod modIconText' data-delay='{{ $delay }}'>
-            <div class='icon-text-simple'>
-              <i class='fa fa-{{ .icon }}'></i>
-              <h3>{{ .name }}</h3>
-              <p>{{ .description }}</p>
+              <div class='two spacing'></div>
             </div>
+            {{ end }}
+          </div>
+        </div>
+        <div class='spacing'></div>
+      </div>
+
+
+      <div class='full parallax' style='background-image: url(images/@stock/milestone-bg.jpg); color: #fff;'>
+        <div class='row'>
+          <div class='large-12 columns'>
+            {{ partial "section_header.html" (dict "title" "Parallax effect" "color" "#fff") }}
+            <div class='spacing'></div>
+            <p class='centered-text' style='color: #ccc;'>
+              Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+            </p>
             <div class='two spacing'></div>
           </div>
-          {{ end }}
         </div>
-      </div>
-      <div class='spacing'></div>
-    </div>
-
-
-    <div class='full parallax' style='background-image: url(images/@stock/milestone-bg.jpg); color: #fff;'>
-      <div class='row'>
-        <div class='large-12 columns'>
-          {{ partial "section_header.html" (dict "title" "Parallax effect" "color" "#fff") }}
-          <div class='spacing'></div>
-          <p class='centered-text' style='color: #ccc;'>
-            Dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-          </p>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-      <div class='row'>
-        {{ range .Site.Data.milestones }}
+        <div class='row'>
+          {{ range .Site.Data.milestones }}
           <div class='medium-3 large-3 columns'>
             <div class='mod modMilestone'>
               <i class='fa fa-{{.icon}}'></i>
@@ -165,136 +161,135 @@
               <div class='four spacing'></div>
             </div>
           </div>
-        {{ end }}
-      </div>
-      <div class='two spacing'></div>
-    </div>
-
-    <div class='full'>
-      <div class='row'>
-        <div class='large-12 columns'>
-          {{ partial "section_header.html" (dict  "title" "Our team") }}
-          <div class='spacing'></div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-          </p>
-          <div class='two spacing'></div>
+          {{ end }}
         </div>
+        <div class='two spacing'></div>
       </div>
-      <div class='row'>
-        {{ range sort .Site.Data.team "weight" "asc"  }}
-        <div class='small-6 medium-3 large-3 columns'>
-          <div class='mod modTeamMember'>
-            <div class='member'>
-              <img class="avatar" src="{{ .avatar | relURL }}" alt=""
-                  style="max-width:250px;max-height:250px;background-position: center;background-image:url('{{ .avatar | relURL }}');"
-              />
-              <div class='overlay'>
-                <div class='intro'>
-                  <h3>{{ .name}}</h3>
-                  <p>{{ .position}}</p>
-                  <ul class='socials'>
 
-                    {{ if isset . "linkedin" }}
-                    <li>
-                      <a target="_blank" rel="noopener" href="{{.linkedin}}">
-                        <i class="fa fa-linkedin" aria-hidden="true"></i></span>
-                      </a>
-                    </li>
-                    {{ end }}
-                    {{ if isset . "email" }}
-                    <li>
-                      <a target="_blank" rel="noopener" href="mailto:{{.email}}">
-                        <i class="fa fa-envelope" aria-hidden="true"></i></span>
-                      </a>
-                    </li>
-                    {{ end }}
-                    {{ if isset . "website" }}
-                    <li>
-                      <a target="_blank" rel="noopener" href="{{.website}}">
-                        <i class="fa fa-external-link-square" aria-hidden="true"></i>
-                      </a>
-                    </li>
-                    {{ end }}
-                  </ul>
-                </div>
-              </div>
-            </div>
+      <div class='full'>
+        <div class='row'>
+          <div class='large-12 columns'>
+            {{ partial "section_header.html" (dict  "title" "Our team") }}
+            <div class='spacing'></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+            </p>
             <div class='two spacing'></div>
           </div>
         </div>
-        {{ end }}
-      </div>
-    </div>
 
-    <div class='full' style='background: #f5f5f5'>
-      <div class='row'>
-        <div class='large-12 columns'>
-          {{ partial "section_header.html" (dict "title" "Our recent posts") }}
-          <div class='spacing'></div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-          </p>
-          <div class='two spacing'></div>
+        <div class='row'>
+          {{ range sort .Site.Data.team "weight" "asc"  }}
+          <div class='small-6 medium-3 large-3 columns'>
+            <div class='mod modTeamMember'>
+              <div class='member'>
+                <img class="avatar" src="{{ "images/@stock/member-1.jpg" | relURL }}" alt=""/>
+                <div class='overlay'>
+                  <div class='intro'>
+                    <h3>{{ .name}}</h3>
+                    <p>{{ .position}}</p>
+                    <ul class='socials'>
+
+                      {{ if isset . "linkedin" }}
+                      <li>
+                        <a target="_blank" rel="noopener" href="{{.linkedin}}">
+                          <i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                        </a>
+                      </li>
+                      {{ end }}
+                      {{ if isset . "email" }}
+                      <li>
+                        <a target="_blank" rel="noopener" href="mailto:{{.email}}">
+                          <i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        </a>
+                      </li>
+                      {{ end }}
+                      {{ if isset . "website" }}
+                      <li>
+                        <a target="_blank" rel="noopener" href="{{.website}}">
+                          <i class="fa fa-external-link-square" aria-hidden="true"></i>
+                        </a>
+                      </li>
+                      {{ end }}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class='two spacing'></div>
+            </div>
+          </div>
+          {{ end }}
         </div>
       </div>
 
-      <div class='row'>
-        {{ range (first 3 (where .Data.Pages "Section" "blog"))}}
+      <div class='full' style='background: #f5f5f5'>
+        <div class='row'>
+          <div class='large-12 columns'>
+            {{ partial "section_header.html" (dict "title" "Our recent posts") }}
+            <div class='spacing'></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
+            </p>
+            <div class='two spacing'></div>
+          </div>
+        </div>
 
-        <div class='large-4 medium-4 columns'>
-          <div class='mod modBlogPost'>
-            <a href="{{ .Permalink }}"><img alt="" src="{{ .Params.banner | relURL }}" /></a>
-            <div class='content'>
-              <p class='date'>{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
-              <h4><a href="#">{{ .Title}}</a></h4>
-              <p>{{ .Summary }}</p>
-              <!--
-                   <div class="tags">
-                   {{ range .Params.categories }}
-                   <a href="#">{{. | humanize}}</a>
-                   {{ end }}
-                   </div>
-                 -->
+        <div class='row'>
+          {{ range (first 3 (where .Data.Pages "Section" "blog"))}}
+
+          <div class='large-4 medium-4 columns'>
+            <div class='mod modBlogPost'>
+              <a href="{{ .Permalink }}"><img alt="" src="{{ .Params.banner | relURL }}" /></a>
+              <div class='content'>
+                <p class='date'>{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
+                <h4><a href="#">{{ .Title}}</a></h4>
+                <p>{{ .Summary }}</p>
+                <!--
+                     <div class="tags">
+                     {{ range .Params.categories }}
+                     <a href="#">{{. | humanize}}</a>
+                     {{ end }}
+                     </div>
+                   -->
+              </div>
+            </div>
+          </div>
+
+          {{ end }}
+
+        </div>
+
+
+        <div class='two spacing'></div>
+        <div class='row'>
+          <div class='large-12 columns'>
+            <p class='centered-text'>
+              <a class='button' href='blog.html'>See more posts</a>
+            </p>
+          </div>
+        </div>
+        <div class='two spacing'></div>
+
+      </div>
+
+
+      {{ partial "our_customers.html" . }}
+
+
+      <div class='full no-padding' style='background: #fff'>
+        <div class='two spacing'></div>
+        <div class='mod modCallToAction'>
+          <div class='row'>
+            <div class='medium-9 large-9 columns'>
+              <p>Like what you see here? Checkout this theme and start to build your site immediately.</p>
+            </div>
+            <div class='medium-3 large-3 columns'>
+              <a class='button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
             </div>
           </div>
         </div>
-
-        {{ end }}
-
+        <div class='spacing'></div>
       </div>
-
-
-      <div class='two spacing'></div>
-      <div class='row'>
-        <div class='large-12 columns'>
-          <p class='centered-text'>
-            <a class='button' href='blog.html'>See more posts</a>
-          </p>
-        </div>
-      </div>
-      <div class='two spacing'></div>
-
-    </div>
-
-
-    {{ partial "our_customers.html" . }}
-
-
-    <div class='full no-padding' style='background: #fff'>
-      <div class='two spacing'></div>
-      <div class='mod modCallToAction'>
-        <div class='row'>
-          <div class='medium-9 large-9 columns'>
-            <p>Like what you see here? Checkout this theme and start to build your site immediately.</p>
-          </div>
-          <div class='medium-3 large-3 columns'>
-            <a class='button' href='http://themeforest.net/user/honryou/portfolio?ref=honryou'>Learn more</a>
-          </div>
-        </div>
-      </div>
-      <div class='spacing'></div>
-    </div>
     </div>
     {{ partial "footer.html" . }}
   </body>

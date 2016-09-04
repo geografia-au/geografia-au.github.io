@@ -1,3 +1,11 @@
+/*
+ * Fix the wonky mobild problem
+ */
+
+body, html {
+    overflow-x: hidden;
+}
+
 @charset "UTF-8";@font-face {
   font-family: "Steelfish";
   src: url('../fonts/steelfish/steelfish_eb-webfont.eot');
