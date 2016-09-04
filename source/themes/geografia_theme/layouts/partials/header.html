@@ -1,0 +1,36 @@
+<div class='contain-to-grid sticky'>
+  <nav class='top-bar' data-options='sticky_on: large' data-topbar=''>
+    <ul class='title-area'>
+      <li class='name'>
+        <h1>
+          <a href='{{.Site.BaseURL}}/index.html'>
+            <img alt="" src="{{.Site.BaseURL}}images/geografia_logo.svg" onerror="this.onerror=null; this.src='{{.Site.BaseURL}}/images/geografia_logo.png'"/>
+          </a>
+        </h1>
+      </li>
+      <li class='toggle-topbar menu-icon'>
+        <a href='#'>Menu</a>
+      </li>
+    </ul>
+    <section class='top-bar-section'>
+      <ul class="right">
+        {{ $currentNode := . }}
+
+        {{ range .Site.Menus.main }}
+          <li class="{{if .HasChildren}}has-dropdown{{end}} {{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
+            <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+            {{ if .HasChildren }}
+              <ul class='dropdown'>
+                {{ range .Children }}
+                <li>
+                  <a href="{{ .Path | relURL }}">{{ .Name }}</a>
+                </li>
+                {{ end }}
+              </ul>
+            {{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  </nav>
+</div>

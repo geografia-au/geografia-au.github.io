@@ -1,0 +1,37 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{{ .Site.Title }}</title>
+  <meta name="description" content="{{ $.Param "description" | plainify | chomp }}">
+
+  <link rel="stylesheet" href="{{ "/css/foundation.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "/css/fontello.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "/css/font-awesome.css" | relURL }}">
+  <script src="{{ "/js/libs.js" | relURL }}" type="text/javascript"></script>
+  <script>
+   // terrificjs bootstrap
+   (function($) {
+     $(document).ready(function() {
+       var $page = $('body');
+       var config = {
+         dependencyPath: {
+           plugin: '/js/'
+         }
+       }
+       var application = new Tc.Application($page, config);
+       application.registerModules();
+       application.start();
+     });
+   })(Tc.$);
+  </script>
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+  <script src="{{ "/js/masonry.pkgd.js" | relURL }}" type="text/javascript"></script>
+  <script src="{{ "/js/imagesloaded.pkgd.min.js" | relURL }}" type="text/javascript"></script>
+  <script src="{{ "/js/slick.min.js" | relURL }}" type="text/javascript"></script>
+  <script src="{{ "/js/json2.js" | relURL }}" type="text/javascript"></script>
+  <link rel="canonical" href="{{ if .IsPage }} {{ .RelPermalink }} {{ else }} {{ .URL }} {{ end }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ $.Param "Title" }}" href="{{ "/feed.xml" | relURL }}" />
+</head>

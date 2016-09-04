@@ -1,0 +1,8 @@
+<div class="mod modSectionHeader {{$.Var.Class}}">
+  <div class="special-title centered-text">
+    <h2 style="color: {{.color}};">{{ .title }}</h2>
+  </div>
+  {{ if isset . "tagline" }}
+    <h3 class='centered-text' style='color: {{$.Var.Color}}'>{{.tagline}}</h3>
+  {{ end }}
+</div>
