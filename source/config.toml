@@ -1,7 +1,7 @@
 baseurl = "https://geografia-au.github.io/"
 languageCode = "en-us"
 title = "Geografia: Demography, Economics, Spatial Planning"
-theme = "hugo-universal-theme"
+theme = "geografia_theme"
 
 [Permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -34,27 +34,27 @@ theme = "hugo-universal-theme"
 
     """
 
-[[params.menu]]
+[[menu.main]]
     name = "Work"
     url  = "/#work"
     weight = 1
 
-[[params.menu]]
+[[menu.main]]
     name = "Ideas"
     url  = "/#ideas"
     weight = 1
 
-[[params.menu]]
+[[menu.main]]
     name = "Team"
     url  = "/#team"
     weight = 1
 
-[[params.menu]]
+[[menu.main]]
     name = "Contact"
     url  = "/#contact"
     weight = 1
 
-[[params.menu]]
+[[menu.main]]
     name = "Lab"
     url  = "/lab"
     weight = 1

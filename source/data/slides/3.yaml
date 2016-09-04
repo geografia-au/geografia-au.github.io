@@ -1,0 +1,12 @@
+bg: images/Geografia/slide-7-geo.jpg
+small_title:
+  klass: bottom-to-top
+  text: This is a blog that you'll
+title:
+  klass: bottom-to-top
+  text: definitely love...
+buttons:
+  klass: bottom-to-top
+  items:
+    - text: Learn More
+      link_to: http://www.geografia.com.au

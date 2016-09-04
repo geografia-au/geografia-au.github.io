@@ -1,0 +1,16 @@
+bg: images/Geografia/slide-2-geo.jpg
+klass: centered-text
+small_title:
+  klass: bottom-to-top
+  text: We want to let you know about
+title:
+  klass: bottom-to-top
+  text: Our innovative work
+buttons:
+  klass: bottom-to-top
+  items:
+    - klass: boxed
+      text: View Blog
+      link_to: /blog/
+    - text: About us
+      link_to: /about/
