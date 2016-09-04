@@ -2,8 +2,15 @@
  * Fix the wonky mobild problem
  */
 
-body, html {
-    overflow-x: hidden;
+/* Portrait */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    body, html {
+        overflow-x: hidden;
+    }
 }
 
 @charset "UTF-8";@font-face {
