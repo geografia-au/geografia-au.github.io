@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    {{ partial "header.html" . }}
+
+    <div class='full parallax' style='background-image: url(/images/@stock/blog-header-bg.jpg); color: #fff;'>
+      <div class='row'>
+        <div class='large-12 columns'>
+          {{ partial "section_header.html" (dict "title" "Our blog" "tagline" "Know what we are thinking and doing" "color" "#fff" "class" "big")}}
+        </div>
+      </div>
+      <div class='four spacing'></div>
+    </div>
+
+
+    <div class='full' style='background: #f5f5f5'>
+      <div class='row'>
+        <div class='large-9 columns'>
+
+          {{ range .Paginator.Pages }}
+            {{ partial "single_blog" .}}
+          {{ end }}
+
+          {{ with .Paginator }}
+          <div class="pager">
+            {{ if .HasNext }}
+              {{ if (eq .Next.NumberOfElements 1) }}
+                <a href="/blog" class="older">Older Entries</a>
+              {{ else }}
+                <a href="{{ .Next.URL }}" class="older">Older Entries</a>
+              {{ end }}
+            {{ else }}
+              <span class="older">Older Entries</span>
+            {{ end }}
+            {{ if .HasPrev }}
+              {{ if (eq .Prev.NumberOfElements 1) }}
+                <a href="/blog" class="newer">Newer Entries</a>
+              {{ else }}
+                <a href="{{ .Prev.URL }}" class="newer">Newer Entries</a>
+              {{ end }}
+            {{ else }}
+              <span class="newer">Newer Entries</span>
+            {{ end }}
+          </div>
+          {{ end }}
+
+
+          <div class='four spacing'></div>
+        </div>
+        <div class='large-3 columns' id='sidebar'>
+          <!-- partial sidebar -->
+          <div class='four spacing'></div>
+        </div>
+      </div>
+    </div>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>

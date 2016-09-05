@@ -1,0 +1,24 @@
+<div class='big mod modBlogPost'>
+  <div class='images'>
+    {{ with .Param "banner" }}
+    <div class='image'><img alt="" src="{{ . | relURL}}" /></div>
+    {{ end }}
+  </div>
+  <div class='content'>
+    <p class='info'>
+      <span>{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+      /
+      <span>
+        by {{ .Param "author" }}
+      </span>
+      /
+      <span>
+        <a href="#">4 comments</a>
+      </span>
+    </p>
+    <h3><a href="{{.Permalink}}">{{.Title}}</a></h3>
+    <p>{{.Summary}}</p>
+    <div class='spacing'></div>
+    <a class="button small" href="{{.Permalink}}">Read more</a>
+  </div>
+</div>

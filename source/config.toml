@@ -30,49 +30,66 @@ theme = "geografia_theme"
     copyright = "Copyright (c) 2015 - 2016, Geografia; all rights reserved."
     date_format = "2006-01-02"
     logo = "img/geografia_logo.svg"
-    address = """
+    address = "Suite 1, Level 21, 15 Collins St, Melbourne VIC 3000"
+    phone = "+61 3 9329 9004"
+    fax = ""
 
-    """
+# [[menu.main]]
+#     name = "Work"
+#     url  = "/#work"
+#     weight = 1
+#
+# [[menu.main]]
+#     name = "About"
+#     url  = "/about"
+#     weight = 1
 
 [[menu.main]]
-    name = "Work"
-    url  = "/#work"
+    name = "Home"
+    url = "/"
     weight = 1
 
 [[menu.main]]
     name = "About"
-    url  = "/about"
-    weight = 1
+    url = "/about"
+    weight = 2
 
 [[menu.main]]
     name = "Services"
     url  = "/services"
-    weight = 1
+    weight = 3
 
 [[menu.main]]
     name = "Portfolio"
     url  = "/portfolio"
-    weight = 1
-
-[[menu.main]]
-    name = "Ideas"
-    url  = "/#ideas"
-    weight = 1
-
-[[menu.main]]
-    name = "Team"
-    url  = "/#team"
-    weight = 1
+    weight = 4
 
 [[menu.main]]
     name = "Contact"
-    url  = "/#contact"
-    weight = 1
+    url  = "/contact"
+    weight = 5
 
 [[menu.main]]
     name = "Lab"
     url  = "/lab"
-    weight = 1
+    weight = 6
+
+[[menu.main]]
+    name = "Blog"
+    url  = "/blog"
+    weight = 7
+
+# [[menu.main]]
+#     name = "Ideas"
+#     url  = "/#ideas"
+#     weight = 1
+#
+# [[menu.main]]
+#     name = "Team"
+#     url  = "/#team"
+#     weight = 1
+
+
 
 [params.features]
     enable = true
