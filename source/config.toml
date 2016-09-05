@@ -50,6 +50,11 @@ theme = "geografia_theme"
     weight = 1
 
 [[menu.main]]
+    name = "Portfolio"
+    url  = "/portfolio"
+    weight = 1
+
+[[menu.main]]
     name = "Ideas"
     url  = "/#ideas"
     weight = 1
