@@ -25,39 +25,34 @@
           </ul>
           <ul class='sequence-canvas'>
             {{ range $index, $element := .Site.Data.slides }}
-            {{ if gt $index 1 }}
-            <li class='frame {{ $element.klass }}'>
-              {{ else }}
-              <li class='frame static {{ $element.klass }}'>
-                {{ end }}
-
-                <div class='bg' style='background-image: url({{ $element.bg}});'></div>
-                <div class='small-title {{ $element.small_title.klass }}'>
-                  <div class='row'>
-                    <div class='large-12 columns'>
-                      <h2>{{ $element.small_title.text }}</h2>
-                    </div>
+            <li class='frame {{ if gt $index 1 }}{{else}}static{{end}} {{ $element.klass }}'>
+              <div class='bg' style='background-image: url({{ $element.bg}});'></div>
+              <div class='small-title {{ $element.small_title.klass }}'>
+                <div class='row'>
+                  <div class='large-12 columns'>
+                    <h2>{{ $element.small_title.text }}</h2>
                   </div>
                 </div>
-                <div class='title {{ $element.title.klass }}'>
-                  <div class='row'>
-                    <div class='large-12 columns'>
-                      <h2>{{ $element.title.text }}</h2>
-                    </div>
+              </div>
+              <div class='title {{ $element.title.klass }}'>
+                <div class='row'>
+                  <div class='large-12 columns'>
+                    <h2>{{ $element.title.text }}</h2>
                   </div>
                 </div>
-                <div class='buttons-wrapper {{ $element.buttons.klass }}'>
-                  <div class='row'>
-                    <div class='large-12 columns'>
-                      <div class='two spacing'></div>
-                      {{ range $element.buttons.items }}
-                      <a class='button {{ .klass }}' href='{{ .link_to }}'>{{ .text }}</a>
-                      {{ end }}
-                    </div>
+              </div>
+              <div class='buttons-wrapper {{ $element.buttons.klass }}'>
+                <div class='row'>
+                  <div class='large-12 columns'>
+                    <div class='two spacing'></div>
+                    {{ range $element.buttons.items }}
+                    <a class='button {{ .klass }}' href='{{ .link_to }}'>{{ .text }}</a>
+                    {{ end }}
                   </div>
                 </div>
-              </li>
-              {{ end }}
+              </div>
+            </li>
+            {{ end }}
           </ul>
         </div>
       </div>
