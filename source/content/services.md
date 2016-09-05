@@ -1,5 +1,6 @@
 ---
 type: "services"
+url: "/services"
 services_left:
   - icon: "trophy"
     title: "Web Design"

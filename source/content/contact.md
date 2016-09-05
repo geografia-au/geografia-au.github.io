@@ -1,3 +1,4 @@
 +++
 type = "contact"
+url = "/contact"
 +++

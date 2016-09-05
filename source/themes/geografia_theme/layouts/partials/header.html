@@ -14,10 +14,11 @@
     </ul>
     <section class='top-bar-section'>
       <ul class="right">
-        {{ $currentNode := . }}
+
+        {{ $.Scratch.Add "currenturl" .URL }}
 
         {{ range .Site.Menus.main }}
-          <li class="{{if .HasChildren}}has-dropdown{{end}} {{if $currentNode.HasMenuCurrent "main" . }} active{{end}}">
+        <li class="{{if .HasChildren}}has-dropdown{{end}} {{if (eq (replaceRE "/$" "" ($.Scratch.Get "currenturl")) (replaceRE "/$" "" .URL)) }} active{{end}}">
             <a href="{{ .URL | relURL }}">{{ .Name }}</a>
             {{ if .HasChildren }}
               <ul class='dropdown'>

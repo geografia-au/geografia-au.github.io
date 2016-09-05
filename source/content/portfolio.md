@@ -1,5 +1,6 @@
 ---
 type: "portfolio"
+url: "/portfolio"
 works:
   - image: images/@stock/work-1.jpg
     title: Beautiful Girl
