@@ -1,4 +1,4 @@
-<div class='full parallax' style='background-image: url(images/@stock/customers-bg.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url({{ "/images/@stock/customers-bg.jpg" | absURL}}); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
       {{ partial "section_header.html" (dict "title" "Our customers" "color" "#fff") }}
@@ -14,7 +14,7 @@
       <div class='mod modClients' data-slides_to_show='4'>
         <div class='clients'>
           {{ range .Site.Data.clients }}
-            <div><img alt="" src="{{ .image }}" /></div>
+            <div><img alt="" src="{{ .image | relURL }}" /></div>
           {{ end }}
         </div>
       </div>

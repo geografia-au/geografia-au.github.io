@@ -30,7 +30,7 @@
       <div class='links'>
         <h4>Recent posts</h4>
         <ul>
-          {{ range (where .Data.Pages "Section" "blog") }}
+          {{ range (where .Site.Pages "Section" "blog") }}
           <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
           {{ end }}
         </ul>
