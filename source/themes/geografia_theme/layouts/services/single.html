@@ -1,0 +1,52 @@
+<!doctype html>
+
+<html lang="en">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    {{ partial "header.html" . }}
+
+    <div class='full parallax' style='background-image: url(/images/@stock/service-page-header.jpg); color: #fff;'>
+      <div class='row'>
+        <div class='large-12 columns'>
+          {{ partial "section_header.html" (dict "title" "Our services" "tagline" "Get to know what we do" "color" "#fff" "class" "big") }}
+        </div>
+      </div>
+      <div class='four spacing'></div>
+    </div>
+
+
+    <div class='full'>
+      <div class='row'>
+        <div class='medium-6 columns'>
+          {{ range $index, $element := .Params.services_left }}
+          <div class='fadein mod modIconText' data-delay='{{ mul 300 (sub $index 1) }}'>
+            <div class='icon-text-simple'>
+              <i class='fa fa-{{.icon}}'></i>
+              <h3>{{.title}}</h3>
+              <p>{{.desc}}</p>
+            </div>
+            <div class='two spacing'></div>
+          </div>
+          {{ end }}
+        </div>
+        <div class='medium-6 columns'>
+          {{ range $index, $element := .Params.services_right }}
+          <div class='fadein mod modIconText' data-delay='{{  mul 300 (sub $index 1) }}'>
+            <div class='icon-text-simple'>
+              <i class='fa fa-{{.icon}}'></i>
+              <h3>{{.title}}</h3>
+              <p>{{.desc}}</p>
+            </div>
+            <div class='two spacing'></div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      <div class='spacing'></div>
+    </div>
+    {{ partial "footer.html" }}
+  </body>
+</html>

@@ -40,8 +40,13 @@ theme = "geografia_theme"
     weight = 1
 
 [[menu.main]]
-    name = "about"
+    name = "About"
     url  = "/about"
+    weight = 1
+
+[[menu.main]]
+    name = "Services"
+    url  = "/services"
     weight = 1
 
 [[menu.main]]

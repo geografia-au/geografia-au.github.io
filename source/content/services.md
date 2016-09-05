@@ -1,0 +1,30 @@
+---
+type: "services"
+services_left:
+  - icon: "trophy"
+    title: "Web Design"
+    desc: "Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos."
+  - icon: "cogs"
+    title: "Web Development"
+    desc: "Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos."
+  - icon: "pagelines"
+    title: "Branding"
+    desc: "Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos."
+  - icon: "lock"
+    title: "Security"
+    desc: "Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos."
+services_right:
+  - icon: "compass"
+    title: "Art Direction"
+    desc: "Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos."
+  - icon: "image"
+    title: "Photography"
+    desc: "Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos."
+  - icon: "database"
+    title: "Data"
+    desc: "Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos."
+  - icon: "film"
+    title: "Video"
+    desc: "Acusamus laborum totam omnis inventore et error aut et eos aut. fuga mollitia vitae id enim omnis perspiciatis. modi maxime eos."
+---
+hey
