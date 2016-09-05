@@ -383,7 +383,6 @@ jQuery(document).foundation();
         },
         pauseOnHover: false
       }
-
       var autostop = $('.sequence', $ctx).data('autostop') == 'on' ? true : false;
       var timeout = $('.sequence', $ctx).data('timeout');
 
@@ -401,7 +400,6 @@ jQuery(document).foundation();
       }
 
       // console.log(options);
-
       var sequence = $(".sequence", $ctx).sequence(options).data("sequence");
       sequence.beforeCurrentFrameAnimatesOut = function() {
         var sequence = this;
@@ -421,8 +419,6 @@ jQuery(document).foundation();
         }
 
       }
-
-
     }
   })
 })(Tc.$);
@@ -745,10 +741,10 @@ jQuery(document).foundation();
   })
 })(Tc.$);
 (function($) {
-  Tc.Module.SectionHeader = Tc.Module.extend({    
+  Tc.Module.SectionHeader = Tc.Module.extend({
     init: function($ctx, sandbox, modId) {
       this._super($ctx, sandbox, modId);
-    },    
+    },
     dependencies: function() {
     },
     onBinding: function() {
@@ -797,5 +793,3 @@ jQuery(document).foundation();
     }
   })
 })(Tc.$);
-
-
