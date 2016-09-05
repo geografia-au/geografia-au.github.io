@@ -210,7 +210,7 @@
 
           <div class='large-4 medium-4 columns'>
             <div class='mod modBlogPost'>
-              <a href="{{ .Permalink }}"><img alt="" src="{{ .Params.banner | relURL }}" /></a>
+              <a href="{{ .RelPermalink }}"><img alt="" src="{{ .Params.banner | relURL }}" /></a>
               <div class='content'>
                 <p class='date'>{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
                 <h4><a href="#">{{ .Title}}</a></h4>

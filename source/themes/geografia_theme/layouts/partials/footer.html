@@ -31,7 +31,7 @@
         <h4>Recent posts</h4>
         <ul>
           {{ range (where .Site.Pages "Section" "blog") }}
-          <li><a href="{{ .Permalink }}">{{ .Title}}</a></li>
+          <li><a href="{{ .RelPermalink }}">{{ .Title}}</a></li>
           {{ end }}
         </ul>
       </div>
