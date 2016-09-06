@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    {{ partial "header.html" . }}
+
+    <div class='full parallax' style='background-image: url(/images/@stock/portfolio-header-bg.jpg); color: #fff;'>
+      <div class='row'>
+        <div class='large-12 columns'>
+          {{ partial "section_header.html" (dict "title" "Our portfolio" "tagline" "Have a look at our works" "color" "#fff" "class" "big") }}
+        </div>
+      </div>
+      <div class='four spacing'></div>
+    </div>
+
+
+    <div class='full'>
+      <div class='row'>
+        <div class='mod modGallery'>
+          <div class='gallery-nav'>
+            <ul>
+              <li class='current'>
+                <a data-cat='all' href='#'>All</a>
+              </li>
+              {{ range .Site.Params.projects_categories}}
+                <li>
+                  <a data-cat='{{ . }}' href='#'>{{ humanize . }}</a>
+                </li>
+              {{ end }}
+            </ul>
+          </div>
+
+          <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
+
+            {{ range (where .Site.Pages "Section" "projects") }}
+            <li class="{{ delimit .Params.categories " " }}">
+              <a href='{{ .RelPermalink }}'>
+                <img style="width:400px;height:269px;background-size:cover;background-image:url({{ with .Params.banner }}/img/projects/{{  . }}{{else}}/images/@stock/work-1.jpg{{end}});" alt="" src="" />
+                <div class='overlay'>
+                  <div class='thumb-info'>
+                    <h3>{{ .Params.title }}</h3>
+                    <p>{{ .Params.summary_text }}</p>
+                  </div>
+                </div>
+              </a>
+            </li>
+            {{ end }}
+
+          </ul>
+
+        </div>
+      </div>
+
+      <div class='four spacing'></div>
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

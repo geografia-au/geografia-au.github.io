@@ -1,0 +1,87 @@
+<!doctype html>
+
+<html lang="en">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    {{ partial "header.html" . }}
+
+    <div class='full parallax' style='background-image: url(/images/@stock/portfolio-header-bg.jpg); color: #fff;'>
+      <div class='row'>
+        <div class='large-12 columns'>
+          {{ partial "section_header.html" (dict "title" "Our portfolio" "tagline" "Have a look at our works" "color" "#fff" "class" "big") }}
+        </div>
+      </div>
+      <div class='four spacing'></div>
+    </div>
+
+
+    <div class='full'>
+      <div class='row'>
+        <div class='large-12 columns'>
+          <div class='mod modBoxedSlider'>
+            <div class='slides'>
+              {{ with .Params.banner}}
+                <div class='slide'>
+                  <img width=80% height=auto alt="" src="/img/projects/{{ . }}" />
+                </div>
+              {{ end }}
+              {{ range .Params.images }}
+                <div class='slide'>
+                  <img width=80% height=auto alt="" src="/img/projects/{{ . }}" />
+                </div>
+              {{ end}}
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='spacing'></div>
+      <div class='row'>
+        <div class='large-8 columns'>
+          <h3>{{ .Title}}</h3>
+          {{ .Content }}
+          {{ with .Params.website }}
+            <div class='spacing'></div>
+            <a class='button small' target="_blank" rel=noopener href='{{.}}'>Visit website</a>
+          {{ end }}
+        </div>
+        <div class='large-4 columns'>
+          <ul class='info'>
+            {{ with .Params.Client }}
+            <li>
+              <strong>Client:</strong>
+              {{ . }}
+            </li>
+            {{ end }}
+            {{ with .Date.Format "Jan 2006" }}
+            <li>
+              <strong>Date:</strong>
+              {{ . }}
+            </li>
+            {{ end }}
+            <li>
+              <div class='spacing'></div>
+              {{with .PrevInSection}}
+              <a href="{{.RelPermalink}}" title='previous'>
+                <i class='icon-left-open'></i>
+              </a>
+              {{end}}
+              <a href="/{{.Section}}" title='back to work list'>
+                <i class='icon-layout'></i>
+              </a>
+              {{with .NextInSection}}
+              <a href="{{.RelPermalink}}" title='next'>
+                <i class='icon-right-open'></i>
+              </a>
+              {{end}}
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class='four spacing'></div>
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

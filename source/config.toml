@@ -33,6 +33,7 @@ theme = "geografia_theme"
     address = "Suite 1, Level 21, 15 Collins St, Melbourne VIC 3000"
     phone = "+61 3 9329 9004"
     fax = ""
+    projects_categories = ["mapping", "forecast", "census" ]
 
 # [[menu.main]]
 #     name = "Work"
@@ -61,7 +62,7 @@ theme = "geografia_theme"
 
 [[menu.main]]
     name = "Portfolio"
-    url  = "/portfolio"
+    url  = "/projects"
     weight = 4
 
 [[menu.main]]
