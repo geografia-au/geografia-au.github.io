@@ -1,0 +1,12 @@
+---
+id: 5
+title: "Housing market mismatches in Northern Tasmania"
+author: "Nicki Booth"
+draft: false
+slug: "housing-market-mismatches-in-northern-tasmania"
+date: "2015-02-06T00:16:00+00:00"
+description: "There is a growing gap between homes people want and need, and those being constructed in Tasmania"
+banner: "/img/blog/housing.jpg"
+---
+
+<div>In northern Tasmania, the population is growing slowly, but ageing rapidly. While the housing supply pipeline appears to be more than adequate to meet the modest demand, the rapid ageing of the population means that the type of current and planned housing stock is increasingly unsuited to the population, who are living in smaller households, consequently, seeking smaller houses and lots. The counter-intuitive result is that, although, at best, the population may grow by 25% (from around 150,000 to 180,000).<br><br>The data is fairly extensive and reliable and all point to a complex pattern that forms an important strategic issue for regional housing. On one side of the ledger, the population is ageing, growth is slowing and rural-urban migration has almost run its course (there is a noticeable counter-urbanisation trend). On the other side, households are getting smaller; lot and dwelling sizes have stopped increasing; house prices have flatlined; and housing construction rates has been both steady and pretty consistently focused on detached dwellings in general residential zones.<br><br><img alt="Thumb tas housing article 1" src="/img/blog/large_Tas_Housing_article_1.jpg" class="wysiwyg-float-left"><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>Yet the ageing householder is increasingly interested in small lot, semi-detached living. To date, the way around this has been through a de facto densification trend of strata title housing development. The evidence here and elsewhere in regional Australia is that there is growing demand for smaller lots and more diversity in housing. Modelling suggests there will be demand for maybe 1-2,000 new detached houses over the next 20 years, but possibly 13-15,000 semi-detached dwellings, flats and apartments. Unlike in Greater Bunbury, in this case, the land supply is adequate, its just that the housing market and planning system is not encouraging the mix of housing that people are starting to preference. Does this mean that Northern Tasmania will end up with a lot of unwanted housing stock?&nbsp;&nbsp;</div>

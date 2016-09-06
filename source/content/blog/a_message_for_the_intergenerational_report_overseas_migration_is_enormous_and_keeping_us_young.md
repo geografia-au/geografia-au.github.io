@@ -1,0 +1,12 @@
+---
+id: 9
+title: "A message for the Intergenerational Report: Overseas migration is a bit like the fountain of youth"
+author: "Nicki Booth"
+draft: false
+slug: "a-message-for-the-intergenerational-report-overseas-migration-is-enormous-and-keeping-us-young"
+date: "2015-03-06T04:40:00+00:00"
+description: "Overseas migration keeps many parts of our city younger than they would be otherwise and its an important factor to consider in any long-term economic or financial analysis."
+banner: "/img/blog/Melbourne_Suburbs.jpg"
+---
+
+<div><div>It’s pleasing to see the Intergenerational Report focusing on long-term demographic trends and their implications for Australia. It reminds us that international migration has been, and is likely to continue to be, a major factor for change, influencing the pace and the makeup of growth in our communities.</div><div><br></div><div>With Advanced Demographic Modelling, we’ve been examining what alternative long-term migration scenarios might mean for different municipalities. Obviously, the scale of net overseas migration has been the key reason some areas have grown rapidly, and it needs to be part of the strategic thinking by councils wishing to address population decline.</div><div><br></div><div>Overseas migration’s effect on age is even more interesting. Historical data shows it has significantly (and by that, we mean statistically significantly) reduced the median age of local government areas such as the City of Melbourne, Port Phillip, Greater Dandenong and Monash in Victoria and Brisbane, Gold Coast and McKinlay in Queensland (the map for Melbourne is shown below). In fact, if we exclude the new residents who arrived from overseas, the median ages would be up to 12 years higher in some of these places. That’s critical information for any local government service planner.</div><div><br></div><div>Overseas migration has had the most significant influence on the pace of growth and the age profile in these and other municipalities. Consequently, assumptions about future migration rates will have a major influence on infrastructure demand, labour force size, the dependency ratio and, ultimately, the Commonwealth budget. Whatever assumption you make about overseas migration should be central to&nbsp;any intergenerational reporting.<br><br></div></div><p><img alt="Thumb melbourne map" src="/img/blog/large_Melbourne_Map.png" class="wysiwyg-float-left"></p><p><br></p><p><br></p>
