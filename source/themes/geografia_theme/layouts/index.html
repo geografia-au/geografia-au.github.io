@@ -83,14 +83,14 @@
 
         <div class="mod modGallery">
           <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-            {{ range .Site.Data.works }}
-            <li class="{{ .klass }}">
-              <a href='{{ .link_to }}'>
-                <img alt="" src="{{ .image }}" />
+            {{ range (first 12 (where .Site.Pages "Section" "projects")) }}
+            <li class="{{ delimit .Params.categories " " }}">
+              <a href='{{ .RelPermalink }}'>
+                <img style="width:400px;height:269px;background-size:cover;background-image:url({{ with .Params.banner }}/img/projects/{{  . }}{{else}}/images/@stock/work-1.jpg{{end}});" alt="" src="" />
                 <div class='overlay'>
                   <div class='thumb-info'>
-                    <h3>{{ .title }}</h3>
-                    <p>{{ .desc }}</p>
+                    <h3>{{ .Params.title }}</h3>
+                    <p>{{ .Params.summary_text }}</p>
                   </div>
                 </div>
               </a>
