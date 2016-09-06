@@ -30,7 +30,7 @@
       <div class='links'>
         <h4>Recent posts</h4>
         <ul>
-          {{ range (where .Site.Pages "Section" "blog") }}
+          {{ range (first 4 (where .Site.Pages.ByDate.Reverse "Section" "blog")) }}
           <li><a href="{{ .RelPermalink }}">{{ .Title}}</a></li>
           {{ end }}
         </ul>

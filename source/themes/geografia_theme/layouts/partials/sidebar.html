@@ -1,0 +1,18 @@
+<div class='links'>
+  <h3>Archives</h3>
+  <ul>
+
+    {{ range (.Data.Pages.GroupByDate "2006-01")}}
+    <ul>
+      <strong>{{ .Key }}</strong>
+      {{ range .Pages }}
+      <li>
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+        <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+      </li>
+      {{ end }}
+    </ul>
+    {{ end }}
+
+  </ul>
+</div>

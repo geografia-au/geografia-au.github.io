@@ -26,9 +26,9 @@
               <li class='current'>
                 <a data-cat='all' href='#'>All</a>
               </li>
-              {{ range .Site.Params.projects_categories}}
+              {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
                 <li>
-                  <a data-cat='{{ . }}' href='#'>{{ humanize . }}</a>
+                  <a data-cat='{{ $name }}' href='#'>{{ humanize $name }}</a>
                 </li>
               {{ end }}
             </ul>

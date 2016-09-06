@@ -83,7 +83,7 @@
 
         <div class="mod modGallery">
           <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-            {{ range (first 12 (where .Site.Pages "Section" "projects")) }}
+            {{ range (first 12 (where .Site.Pages.ByDate.Reverse "Section" "projects")) }}
             <li class="{{ delimit .Params.categories " " }}">
               <a href='{{ .RelPermalink }}'>
                 <img style="width:400px;height:269px;background-size:cover;background-image:url({{ with .Params.banner }}/img/projects/{{  . }}{{else}}/images/@stock/work-1.jpg{{end}});" alt="" src="" />
@@ -206,7 +206,7 @@
         </div>
 
         <div class='row'>
-          {{ range (first 3 (where .Data.Pages "Section" "blog"))}}
+          {{ range (first 3 (where .Site.Pages.ByDate.Reverse "Section" "blog"))}}
 
           <div class='large-4 medium-4 columns'>
             <div class='mod modBlogPost'>

@@ -33,17 +33,9 @@ theme = "geografia_theme"
     address = "Suite 1, Level 21, 15 Collins St, Melbourne VIC 3000"
     phone = "+61 3 9329 9004"
     fax = ""
-    projects_categories = ["mapping", "forecast", "census" ]
 
-# [[menu.main]]
-#     name = "Work"
-#     url  = "/#work"
-#     weight = 1
-#
-# [[menu.main]]
-#     name = "About"
-#     url  = "/about"
-#     weight = 1
+[taxonomies]
+  category = "categories"
 
 [[menu.main]]
     name = "Home"
@@ -79,18 +71,6 @@ theme = "geografia_theme"
     name = "Blog"
     url  = "/blog"
     weight = 7
-
-# [[menu.main]]
-#     name = "Ideas"
-#     url  = "/#ideas"
-#     weight = 1
-#
-# [[menu.main]]
-#     name = "Team"
-#     url  = "/#team"
-#     weight = 1
-
-
 
 [params.features]
     enable = true

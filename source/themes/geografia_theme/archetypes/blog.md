@@ -6,6 +6,5 @@ date =
 description =
 images = []
 menu =
-tags = []
 title =
 +++
