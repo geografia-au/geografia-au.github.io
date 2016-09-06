@@ -41,9 +41,15 @@
       <div class='spacing'></div>
       <h4>Contact us</h4>
       <ul>
-        <li>Phone: +86 (03) 9810 4612</li>
-        <li>Emial: info@devoll-team.com</li>
-        <li>Location: 41 Dean Street, London, UK</li>
+        {{ with .Site.Params.phone }}
+          <li>Phone: {{ . }}</li>
+        {{ end}}
+          {{ with .Site.Params.email }}
+          <li>Email: {{ . }}</li>
+        {{ end }}
+        {{ with .Site.Params.address }}
+          <li>{{ . }}</li>
+        {{ end }}
       </ul>
       <div class='spacing'></div>
       <ul class='socials'>
