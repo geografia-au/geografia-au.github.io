@@ -4,7 +4,19 @@
 
 /* Portrait */
 #main {
-    width:100%;overflow-x:hidden
+    width:100%;
+    overflow-x:hidden;
+}
+
+body {
+    font-family: monospace;
+}
+
+.content div, p {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #2e382c;
 }
 
 @media only screen

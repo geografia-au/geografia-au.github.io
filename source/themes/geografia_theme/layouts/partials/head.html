@@ -5,11 +5,11 @@
 
   <title>{{ .Site.Title }}</title>
   <meta name="description" content="{{ $.Param "description" | plainify | chomp }}">
-
+  <link rel="stylesheet" href="{{ "/css/fonts.css" | relURL }}">
   <link rel="stylesheet" href="{{ "/css/foundation.css" | relURL }}">
-  <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
   <link rel="stylesheet" href="{{ "/css/fontello.css" | relURL }}">
   <link rel="stylesheet" href="{{ "/css/font-awesome.css" | relURL }}">
+  <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
   <script src="{{ "/js/libs.js" | relURL }}" type="text/javascript"></script>
   <script>
    // terrificjs bootstrap
@@ -28,6 +28,7 @@
    })(Tc.$);
   </script>
   <link href="//fonts.googleapis.com/css?family=Raleway:400,700,300" media="screen" rel="stylesheet" type="text/css" />
+
   <script src="{{ "/js/masonry.pkgd.js" | relURL }}" type="text/javascript"></script>
   <script src="{{ "/js/imagesloaded.pkgd.min.js" | relURL }}" type="text/javascript"></script>
   <script src="{{ "/js/slick.min.js" | relURL }}" type="text/javascript"></script>
