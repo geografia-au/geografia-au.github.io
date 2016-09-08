@@ -29,10 +29,10 @@
       <div class='spacing'></div>
       <div class='links'>
         <h4>Recent posts</h4>
-        <ul>
-          {{ range (first 4 (where .Site.Pages.ByDate.Reverse "Section" "blog")) }}
-          <li><a href="{{ .RelPermalink }}">{{ .Title}}</a></li>
-          {{ end }}
+        <ul class="recent_from_medium">
+          <!-- {{ range (first 4 (where .Site.Pages.ByDate.Reverse "Section" "blog")) }}
+               <li><a href="{{ .RelPermalink }}">{{ .Title}}</a></li>
+               {{ end }} -->
         </ul>
       </div>
       <div class='spacing'></div>
@@ -42,13 +42,13 @@
       <h4>Contact us</h4>
       <ul>
         {{ with .Site.Params.phone }}
-          <li>Phone: {{ . }}</li>
+        <li>Phone: {{ . }}</li>
         {{ end}}
-          {{ with .Site.Params.email }}
-          <li>Email: {{ . }}</li>
+        {{ with .Site.Params.email }}
+        <li>Email: {{ . }}</li>
         {{ end }}
         {{ with .Site.Params.address }}
-          <li>{{ . }}</li>
+        <li>{{ . }}</li>
         {{ end }}
       </ul>
       <div class='spacing'></div>
@@ -80,6 +80,7 @@
   <div class='two spacing'></div>
 </div>
 
+<script src="{{ "/js/medium_feed.js" | relURL }}" type="text/javascript"></script>
 <script src="{{ "/js/jquery.countTo.js" | relURL }}" type="text/javascript"></script>
 <script src="{{ "/js/jquery.appear.js" | relURL }}" type="text/javascript"></script>
 <script src="{{ "/js/jquery.validate.js" | relURL }}" type="text/javascript"></script>
