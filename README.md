@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/geografia-au/geografia-au.github.io.svg?label=ready&title=Ready)](http://waffle.io/geografia-au/geografia-au.github.io)
+
 # geografia-au.github.io
 Rewrite of the geografia.com.au Website Using the Hugo Static Site Generator
 
@@ -23,4 +25,3 @@ cd source
 hugo -d ../
 ```
 
-[![Throughput Graph](https://graphs.waffle.io/geografia-au/geografia-au.github.io/throughput.svg)](https://waffle.io/geografia-au/geografia-au.github.io/metrics/throughput)
