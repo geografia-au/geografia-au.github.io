@@ -1,0 +1,46 @@
+<div class='mod modDefaultSlider'>
+  <div class='sequence' data-autostop='on' data-timeout='0'>
+    <a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <a class='sequence-next' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <ul class='sequence-pagination'>
+      {{ range $index, $element := .Site.Data.slides }}
+      <li class="{{ if gt $index 1 }}{{else}}current{{end}}"></li>
+      {{ end }}
+    </ul>
+    <ul class='sequence-canvas'>
+      {{ range $index, $element := .Site.Data.slides }}
+      <li class='frame {{ if gt $index 1 }}{{else}}static{{end}} {{ $element.klass }}'>
+        <div class='bg' style='background-image: url({{ $element.bg}});'></div>
+        <div class='small-title {{ $element.small_title.klass }}'>
+          <div class='row'>
+            <div class='large-12 columns'>
+              <h2>{{ $element.small_title.text }}</h2>
+            </div>
+          </div>
+        </div>
+        <div class='title {{ $element.title.klass }}'>
+          <div class='row'>
+            <div class='large-12 columns'>
+              <h2>{{ $element.title.text }}</h2>
+            </div>
+          </div>
+        </div>
+        <div class='buttons-wrapper {{ $element.buttons.klass }}'>
+          <div class='row'>
+            <div class='large-12 columns'>
+              <div class='two spacing'></div>
+              {{ range $element.buttons.items }}
+              <a class='button {{ .klass }}' href='{{ .link_to }}'>{{ .text }}</a>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

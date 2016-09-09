@@ -53,26 +53,34 @@
       </ul>
       <div class='spacing'></div>
       <ul class='socials'>
+        {{ with .Site.Params.facebook }}
         <li>
-          <a href='http://facebook.com'>
+          <a href='{{.}}'>
             <i class='fa fa-facebook'></i>
           </a>
         </li>
+        {{ end }}
+        {{ with .Site.Params.twitter }}
         <li>
-          <a href='http://twitter.com'>
+          <a href='{{.}}'>
             <i class='fa fa-twitter'></i>
           </a>
         </li>
+        {{ end }}
+        {{ with .Site.Params.dribbble }}
         <li>
-          <a href='http://dribbble.com'>
+          <a href='{{.}}'>
             <i class='fa fa-dribbble'></i>
           </a>
         </li>
+        {{ end }}
+        {{ with .Site.Params.tumblr }}
         <li>
-          <a href='http://tumblr.com'>
+          <a href='{{.}}'>
             <i class='fa fa-tumblr'></i>
           </a>
         </li>
+        {{ end }}
       </ul>
       <div class='spacing'></div>
     </div>
