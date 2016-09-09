@@ -4,7 +4,7 @@ title: "Wellington Economic Development & Tourism Strategy"
 draft: false
 longitude: 147.064
 latitude: -38.1112
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "wellington-economic-development-strategy"
 date: "2016-03-18T00:40:00+00:00"
 summary_text: "Wellington Shire punches above its weight in agribusiness, manufacturing and services"

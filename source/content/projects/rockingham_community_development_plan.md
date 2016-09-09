@@ -4,7 +4,7 @@ title: "Rockingham Community Development Plan"
 draft: false
 longitude: 115.746
 latitude: -32.2864
-categories: ["mapping", "forecast"]
+categories: ["economics", "spatial planning"]
 slug: "rockingham-community-development-plan"
 date: "2016-05-13T00:49:00+00:00"
 summary_text: "Driven by a 'Boom' economy, both population and housing demand are growing fast"

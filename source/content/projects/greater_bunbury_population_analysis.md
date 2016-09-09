@@ -4,7 +4,7 @@ title: "Greater Bunbury Population Analysis"
 draft: false
 longitude: 115.637
 latitude: -33.327
-categories: ["mapping", "forecast"]
+categories: ["demography"]
 slug: "greater-bunbury-population-analysis"
 date: "2016-03-18T01:18:00+00:00"
 summary_text: "Employment-based population forecasts are more reliable in rapidly growing regional Western Australia"

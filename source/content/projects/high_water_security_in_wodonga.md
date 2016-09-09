@@ -4,7 +4,7 @@ title: "Business Opportunities from High Water Security in Wodonga"
 draft: false
 longitude: 146.888
 latitude: -36.1227
-categories: ["mapping", "forecast"]
+categories: ["economics", "spatial planning"]
 slug: "high-water-security-in-wodonga"
 date: "2016-05-12T04:01:00+00:00"
 summary_text: "Food and beverage industry prospects in Wodonga off the back of high water security"

@@ -4,7 +4,7 @@ title: "Broome Economic Development Strategy"
 draft: false
 longitude: 122.244
 latitude: -17.9511
-categories: ["mapping", "forecast"]
+categories: ["economics", "spatial planning"]
 slug: "broome-economic-development-strategy"
 date: "2015-02-19T08:01:00+00:00"
 summary_text: "Positioning Broome to be the Kimberley's 'supertown'"

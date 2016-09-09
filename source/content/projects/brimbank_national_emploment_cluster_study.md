@@ -4,7 +4,7 @@ title: "Brimbank National Employment Cluster Study"
 draft: false
 longitude: 144.838
 latitude: -37.784
-categories: ["mapping", "forecast"]
+categories: [economics", "spatial planning"]
 slug: "brimbank-national-emploment-cluster-study"
 date: "2015-02-17T22:20:00+00:00"
 summary_text: "Modelling and GIS produces likely growth scenarios in Sunshine"

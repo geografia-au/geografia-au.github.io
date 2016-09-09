@@ -4,7 +4,7 @@ title: "Penrith Economic Development & Tourism Strategy"
 draft: false
 longitude: 150.689
 latitude: -33.75
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "penrith-economic-development-strategy"
 date: "2016-03-18T00:21:00+00:00"
 summary_text: "Land and infrastructure assets give Penrith a competitive edge"

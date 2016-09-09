@@ -4,7 +4,7 @@ title: "Greater Bunbury Global and Regional Futures"
 draft: false
 longitude: 116.657
 latitude: -33.3234
-categories: ["mapping", "forecast"]
+categories: ["demography", "economics", "spatial planning"]
 slug: "greater-bunbury-global-and-regional-futures"
 date: "2016-03-18T00:16:00+00:00"
 summary_text: "Greater Bunbury has untapped potential in agribusiness, manufacturing and tourism"

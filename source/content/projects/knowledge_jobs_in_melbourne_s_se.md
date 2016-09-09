@@ -4,7 +4,7 @@ title: "Knowledge Jobs in Melbourne's SE"
 draft: false
 longitude: 145.134
 latitude: -37.4853
-categories: ["mapping", "forecast"]
+categories: ["demography", "economics", "spatial planning"]
 slug: "knowledge-jobs-in-melbourne-s-se"
 date: "2016-05-13T01:08:00+00:00"
 summary_text: "Creating innovation and knowledge-based business employment in Melbourne's south-east"

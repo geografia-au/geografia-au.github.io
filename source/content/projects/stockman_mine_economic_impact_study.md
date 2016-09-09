@@ -4,7 +4,7 @@ title: "Stockman Mine Economic Impact Study"
 draft: false
 longitude: 147.736
 latitude: -36.955
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "stockman-mine-economic-impact-study"
 date: "2015-02-18T23:03:00+00:00"
 summary_text: "A sound evidence-base for discussing community development contributions from the private sector"

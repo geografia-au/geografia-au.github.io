@@ -4,7 +4,7 @@ title: "Economic Impact of Arts Venues in Melbourne"
 draft: false
 longitude: 144.587
 latitude: -37.4918
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "economic-impact-of-arts-venues-in-melbourne"
 date: "2016-05-12T06:31:00+00:00"
 summary_text: "There is a measurable local term impact of artist-led gentrification on Melbourne's economy"

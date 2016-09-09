@@ -4,7 +4,7 @@ title: "East Arnhem Land Economic Review"
 draft: false
 longitude: 135.57
 latitude: -12.0197
-categories: ["mapping", "forecast"]
+categories: ["demography", "economics"]
 slug: "east-arnhem-land-economic-review"
 date: "2016-03-23T04:38:00+00:00"
 summary_text: "Economic modelling and GIS outlines the potential growth opportunities in Galiwink'u, East Arnhem Land"

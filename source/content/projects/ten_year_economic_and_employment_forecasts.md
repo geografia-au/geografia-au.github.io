@@ -4,7 +4,7 @@ title: "Western Australian Economic and Employment Forecasts"
 draft: false
 longitude: 115.872
 latitude: -31.9527
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "ten-year-economic-and-employment-forecasts"
 date: "2015-02-18T23:56:00+00:00"
 summary_text: "Mining and gas industry cycles create volatility in Western Australia's employment and economic output

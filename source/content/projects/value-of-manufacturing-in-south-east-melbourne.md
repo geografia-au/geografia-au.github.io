@@ -4,8 +4,7 @@ title: "Value of Manufacturing in South East Melbourne"
 draft: false
 longitude: 145.212
 latitude: -37.9886
-categories: ["mapping", "forecast"]
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "value-of-manufacturing-in-south-east-melbourne"
 date: "2016-05-12T07:02:00+00:00"
 summary_text: "South east Melbourne is the heart of manufacturing in Australia "

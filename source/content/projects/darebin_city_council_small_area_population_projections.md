@@ -4,7 +4,7 @@ title: "Darebin City Council Small Area Population Projections"
 draft: false
 longitude: 145.005
 latitude: -37.7397
-categories: ["mapping", "forecast"]
+categories: ["demography"]
 slug: "darebin-city-council-small-area-population-projections"
 date: "2015-02-19T00:05:00+00:00"
 summary_text: "Infill development will drive dwelling and population changes

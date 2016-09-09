@@ -4,7 +4,7 @@ title: "Modelling School Demand"
 draft: false
 longitude: 144.976
 latitude: -37.8128
-categories: ["mapping", "forecast"]
+categories: ["demography", "economics", "spatial planning"]
 slug: "estimating-school-enrolment-demands"
 date: "2015-02-16T23:44:00+00:00"
 summary_text: "School demand predictions can be significantly more accurate with relatively straightforward improvement in statistical modelling"

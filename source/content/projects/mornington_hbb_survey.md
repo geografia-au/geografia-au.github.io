@@ -4,7 +4,7 @@ title: "Mornington HBB Survey"
 draft: false
 longitude: 145.036
 latitude: -38.2175
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "mornington-hbb-survey"
 date: "2016-04-22T00:05:00+00:00"
 summary_text: "Surveys identify just how large the home based business sector is in Mornington Peninsula"

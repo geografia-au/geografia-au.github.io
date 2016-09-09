@@ -4,7 +4,7 @@ title: "Preston Beach Population, Economic and Infrastructure Study"
 draft: false
 longitude: 115.658
 latitude: -32.8829
-categories: ["mapping", "forecast"]
+categories: ["demography", "economics"]
 slug: "preston-beach-population-economic-and-infrastructure-study"
 date: "2015-02-26T02:47:00+00:00"
 summary_text: "With the right infrastructure priorities, we can nudge small coastal towns along a sustainable development pathway"

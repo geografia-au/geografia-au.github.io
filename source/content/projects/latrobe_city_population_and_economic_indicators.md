@@ -4,7 +4,7 @@ title: "Latrobe City: Population and Economic Indicators"
 draft: false
 longitude: 146.395
 latitude: -38.2365
-categories: ["mapping", "forecast"]
+categories: ["demography", "economics"]
 slug: "latrobe-city-population-and-economic-indicators"
 date: "2015-02-26T03:14:00+00:00"
 summary_text: "Profiling Eastern Victoria's only regional city"

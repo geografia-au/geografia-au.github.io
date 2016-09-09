@@ -4,7 +4,7 @@ title: "Economic Impact of Upgrades to Naracoorte Livestock Exchange"
 draft: false
 longitude: 140.742
 latitude: -36.9551
-categories: ["mapping", "forecast"]
+categories: ["economics", "spatial planning"]
 slug: "value-adding-to-the-naracoorte-livestock-exchange"
 date: "2016-03-18T00:02:00+00:00"
 summary_text: "Upgrading the livestock exchanges returns a net benefit"

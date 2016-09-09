@@ -4,7 +4,7 @@ title: "Royal Agricultural Society of Victoria's Economic & Social Impact Assess
 draft: false
 longitude: 144.912
 latitude: -37.7822
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "royal-agricultural-society-of-victoria-s-economic-social-impact-assessment"
 date: "2015-02-19T22:32:00+00:00"
 summary_text: "The Royal Melbourne Show has a significant and positive effect on GSP

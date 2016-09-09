@@ -4,7 +4,7 @@ title: "Winchelsea Economic Options Study"
 draft: false
 longitude: 143.591
 latitude: -38.1439
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "winchelsea-economic-options-study"
 date: "2015-02-16T23:07:00+00:00"
 summary_text: "Winchelsea prepares for economic and employment growth"

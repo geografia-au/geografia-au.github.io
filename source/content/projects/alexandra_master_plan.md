@@ -4,7 +4,7 @@ title: "Alexandra Master Plan"
 draft: false
 longitude: 145.714
 latitude: -37.1843
-categories: ["mapping", "census"]
+categories: ["spatial planning"]
 slug: "alexandra-master-plan"
 date: "2016-04-22T00:09:00+00:00"
 summary_text: "Masterplanning that builds on the historical legacy of a beautiful historical railway precinct"

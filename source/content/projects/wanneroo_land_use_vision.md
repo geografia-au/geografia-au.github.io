@@ -4,7 +4,7 @@ title: "Wanneroo Land Use Vision"
 draft: false
 longitude: 115.806
 latitude: -31.7497
-categories: ["mapping", "forecast"]
+categories: ["demography", "economics", "spatial planning"]
 slug: "wanneroo-land-use-vision"
 date: "2015-02-18T23:31:00+00:00"
 summary_text: "Helping you to visualise change using different models for housing, land development and transport

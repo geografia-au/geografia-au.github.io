@@ -5,7 +5,7 @@ draft: false
 images: ["Education_Facility_Access_Map.jpg"]
 longitude: 115.979
 latitude: -32.054
-categories: ["mapping", "forecast"]
+categories: ["demography", "economics"]
 slug: "maddington-kenwick-education-and-training-services-profile"
 date: "2016-05-12T07:32:00+00:00"
 summary_text: "Investment in early education can help turn around a disadvantaged community"

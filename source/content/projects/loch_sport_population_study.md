@@ -4,7 +4,7 @@ title: "Loch Sport Population Study"
 draft: false
 longitude: 147.578
 latitude: -38.0545
-categories: ["mapping", "forecast"]
+categories: ["demography"]
 slug: "loch-sport-population-study"
 date: "2015-02-25T07:07:00+00:00"
 summary_text: "Can targeted public and private investment stimulate population growth in Loch Sport?

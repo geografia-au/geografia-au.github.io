@@ -4,7 +4,7 @@ title: "Georgetown World Heritage Precinct Land Use Survey"
 draft: false
 longitude: 100.334
 latitude: 5.41667
-categories: ["mapping", "forecast"]
+categories: ["economics", "spatial planning"]
 slug: "georgetown-world-heritage-precinct-baseline-land-use-survey"
 date: "2015-02-17T00:21:00+00:00"
 summary_text: "Designing and implementing a land use census of World Heritage listed George Town"

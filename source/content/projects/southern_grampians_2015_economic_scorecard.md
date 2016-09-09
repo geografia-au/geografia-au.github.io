@@ -4,7 +4,7 @@ title: "Southern Grampians Economic Development and Retail Strategy"
 draft: false
 longitude: 142.024
 latitude: -37.7422
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "southern-grampians-2015-economic-scorecard"
 date: "2015-02-20T00:14:00+00:00"
 summary_text: "Agribusiness the driving force behind the Shire's economy"

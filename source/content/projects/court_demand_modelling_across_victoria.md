@@ -4,7 +4,7 @@ title: "Court Service Demand Modelling"
 draft: false
 longitude: 144.957
 latitude: -37.814
-categories: ["mapping", "forecast"]
+categories: ["demography", "spatial planning"]
 slug: "court-demand-modelling-across-victoria"
 date: "2016-03-18T00:27:00+00:00"
 summary_text: "Growing demand for court services across the State"

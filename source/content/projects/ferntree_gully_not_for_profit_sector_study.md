@@ -4,7 +4,7 @@ title: "Ferntree Gully Not for Profit Sector Study"
 draft: false
 longitude: 145.295
 latitude: -37.8815
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "ferntree-gully-not-for-profit-sector-study"
 date: "2015-02-16T23:18:00+00:00"
 summary_text: "Not-For-Profit sector a major contributor to the local economy"

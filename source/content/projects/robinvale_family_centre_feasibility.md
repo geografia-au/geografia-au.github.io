@@ -4,7 +4,7 @@ title: "Robinvale Family Centre Feasibility"
 draft: false
 longitude: 142.772
 latitude: -34.584
-categories: ["mapping", "forecast"]
+categories: ["demography", "economics"]
 slug: "robinvale-family-centre-feasibility"
 date: "2015-02-26T03:29:00+00:00"
 summary_text: "A multi-purpose family centre essential for this diverse community"

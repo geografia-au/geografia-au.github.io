@@ -4,7 +4,7 @@ title: "The Pilbara Plan"
 draft: false
 longitude: 117.925
 latitude: -22.172
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "the-pilbara-plan"
 date: "2015-02-25T07:29:00+00:00"
 summary_text: "A comprehensive infrastructure and services plan to help sustain economic activity in the Pilbara region"

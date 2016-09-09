@@ -4,7 +4,7 @@ title: "Melbourne Population & Economic Projections and Profile"
 draft: false
 longitude: 144.947
 latitude: -37.8165
-categories: ["mapping", "forecast"]
+categories: ["demography"]
 slug: "melbourne-population-economic-projections-and-profile"
 date: "2015-03-11T03:22:00+00:00"
 summary_text: "On current trends, City of Melbourne's population to double by 2036"

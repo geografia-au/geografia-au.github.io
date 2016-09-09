@@ -4,7 +4,7 @@ title: "Newman Economic Impact Study"
 draft: false
 longitude: 119.76
 latitude: -23.3611
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "newman-economic-impact-study"
 date: "2015-02-18T23:46:00+00:00"
 summary_text: "Mine camps can place significant pressure on small town services

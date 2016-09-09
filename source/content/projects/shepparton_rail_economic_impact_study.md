@@ -4,7 +4,7 @@ title: "Shepparton Rail Economic Impact Study"
 draft: false
 longitude: 145.402
 latitude: -36.3767
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "shepparton-rail-economic-impact-study"
 date: "2015-02-16T23:35:00+00:00"
 summary_text: "Improved passenger rail services can drive regional population and economic growth and efficiency"

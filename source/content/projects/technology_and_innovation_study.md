@@ -4,8 +4,7 @@ title: "Technology and Innovation Study"
 draft: false
 longitude: 100.332
 latitude: 5.42286
-categories: ["mapping", "forecast"]
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "technology-and-innovation-study"
 date: "2016-03-18T01:13:00+00:00"
 summary_text: "Targeted public investment as a catalyst for private sector investment"

@@ -4,7 +4,7 @@ title: "George Town Grants Program"
 draft: false
 longitude: 100.329
 latitude: 5.41496
-categories: ["mapping", "forecast"]
+categories: ["economics"]
 slug: "george-town-grants-program"
 date: "2016-05-13T01:15:00+00:00"
 summary_text: "Think City's grants program has had an enormous positive impact on local investment"

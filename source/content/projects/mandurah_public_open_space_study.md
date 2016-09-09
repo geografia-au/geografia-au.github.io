@@ -4,7 +4,7 @@ title: "Mandurah Public Open Space Study"
 draft: false
 longitude: 115.721
 latitude: -32.5264
-categories: ["mapping", "forecast"]
+categories: ["demography", "spatial planning"]
 slug: "mandurah-public-open-space-study"
 date: "2016-05-12T06:22:00+00:00"
 summary_text: "Public open space planning in one of the fastest growing municipalities in Australia"

@@ -4,7 +4,7 @@ title: "Metropolitan Perth Local Government Reform: Demographic Analysis"
 draft: false
 longitude: 115.747
 latitude: -32.056
-categories: ["mapping", "forecast"]
+categories: ["demography"]
 slug: "metropolitan-perth-local-government-reform-demographic-analysis"
 date: "2015-02-19T07:35:00+00:00"
 summary_text: "New municipal boundaries will significantly change the character of some communities"
