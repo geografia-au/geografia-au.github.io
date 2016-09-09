@@ -27,6 +27,7 @@ function toBlogTeaser(post) {
   date.className = "date";
   date.textContent = post.pubDate
   var body = jQuery.parseHTML(post.description)[0];
+  jQuery('.medium-feed-link', body).remove();
   divpost.appendChild(header);
   divpost.appendChild(date);
   divpost.appendChild(body);
