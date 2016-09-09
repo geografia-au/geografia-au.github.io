@@ -28,6 +28,17 @@ function toBlogTeaser(post) {
   date.textContent = post.pubDate
   var body = jQuery.parseHTML(post.description)[0];
   jQuery('.medium-feed-link', body).remove();
+  var image = jQuery('img', body)[0];
+  var path = image.src;
+  var iDiv = document.createElement("div");
+  iDiv.style.maxHeight = "80x";
+  iDiv.style["background-image"] = "url(" + path + ")";
+  iDiv.style["background-position"] = "50% 50%";
+  iDiv.style["background-size"] = "100% auto";
+  iDiv.style.height = "100px";
+
+  image.parentElement.insertBefore(iDiv, image);
+  image.remove();
   divpost.appendChild(header);
   divpost.appendChild(date);
   divpost.appendChild(body);
