@@ -22,6 +22,7 @@ function toBlogTeaser(post) {
   a.href = post.link;
   a.textContent = post.title;
   var header = document.createElement("h4");
+  header.style.minHeight = "40px";
   header.appendChild(a);
   var date = document.createElement("p");
   date.className = "date";
