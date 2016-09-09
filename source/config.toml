@@ -54,7 +54,7 @@ theme = "geografia_theme"
     weight = 3
 
 [[menu.main]]
-    name = "Portfolio"
+    name = "Projects"
     url  = "/projects"
     weight = 4
 
