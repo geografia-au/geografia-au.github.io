@@ -22,3 +22,5 @@ navigate to the sources folder and build the page in ``../``
 cd source
 hugo -d ../
 ```
+
+[![Throughput Graph](https://graphs.waffle.io/geografia-au/geografia-au.github.io/throughput.svg)](https://waffle.io/geografia-au/geografia-au.github.io/metrics/throughput)
