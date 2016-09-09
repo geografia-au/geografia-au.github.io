@@ -4,7 +4,7 @@ title: "Karratha 2020"
 draft: false
 longitude: 116.846
 latitude: -20.7354
-categories: ["economics", "spatial planning"]
+categories: ["economics", "spatial_planning"]
 slug: "karratha-2020"
 date: "2015-02-18T23:17:00+00:00"
 summary_text: "Community infrastructure is essential to sustaining productivity in Karratha"

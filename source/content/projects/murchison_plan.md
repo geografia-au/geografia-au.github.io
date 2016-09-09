@@ -4,7 +4,7 @@ title: "Murchison Plan"
 draft: false
 longitude: 145.726
 latitude: -40.9904
-categories: ["demography", "economics", "spatial planning"]
+categories: ["demography", "economics", "spatial_planning"]
 slug: "murchison-plan"
 date: "2016-04-21T23:05:00+00:00"
 summary_text: "Untapped tourism and lifestyle potential in NW Tasmania"

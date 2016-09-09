@@ -4,7 +4,7 @@ title: "Lindenow Agricultural Intensification Cost Benefit Analysis"
 draft: false
 longitude: 147.458
 latitude: -37.8002
-categories: ["economics", "spatial planning"]
+categories: ["economics", "spatial_planning"]
 slug: "lindenow-agricultural-intensification-cost-benefit-analysis"
 date: "2015-02-19T00:14:00+00:00"
 summary_text: "Enhanced water security stimulates agricultural production, diversification, employment and population growth

@@ -4,7 +4,7 @@ title: "Employment and Skills Gaps in Outer Metropolitan Growth Areas"
 draft: false
 longitude: 150.908
 latitude: -33.7691
-categories: ["economics", "spatial planning"]
+categories: ["economics", "spatial_planning"]
 slug: "employment-and-skills-gaps-in-outer-metropolitan-growth-areas"
 date: "2015-02-27T07:21:00+00:00"
 summary_text: "A mix of jobs and skills deficits create unique challenges in each of the 25 national growth area alliance councils"

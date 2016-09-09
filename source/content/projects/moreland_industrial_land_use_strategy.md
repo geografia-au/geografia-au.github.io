@@ -4,7 +4,7 @@ title: "Moreland Industrial Land Strategy"
 draft: false
 longitude: 144.966
 latitude: -37.7416
-categories: ["economics", "spatial planning"]
+categories: ["economics", "spatial_planning"]
 slug: "moreland-industrial-land-use-strategy"
 date: "2015-02-17T02:42:00+00:00"
 summary_text: "Rezoning decisions are guided by the long-term economic value of Moreland's industrial precincts"

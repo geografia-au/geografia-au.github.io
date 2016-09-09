@@ -4,7 +4,7 @@ title: "Golden Plains Economic Development & Tourism Strategy"
 draft: false
 longitude: 144.175
 latitude: -38.0435
-categories: ["demography", "economics", "spatial planning"]
+categories: ["demography", "economics", "spatial_planning"]
 slug: "golden-plains-economic-development-strategy"
 date: "2015-02-20T00:02:00+00:00"
 summary_text: "The balancing act between intensive farming and residential development"
