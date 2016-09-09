@@ -172,25 +172,8 @@
           </div>
         </div>
 
-        <div class='row'>
-          {{ range sort .Site.Data.team "weight" "asc"  }}
-          <div class='small-6 medium-3 large-3 columns'>
-            <div class='mod modTeamMember'>
-              <div class='member'>
-                <img class="avatar" src="{{ "images/@stock/member-1.jpg" | relURL }}" alt=""/>
-                <div class='overlay'>
-                  <div class='intro'>
-                    <h3>{{ .name}}</h3>
-                    <p>{{ .position}}</p>
-                    {{ partial "member_social.html" . }}
-                  </div>
-                </div>
-              </div>
-              <div class='two spacing'></div>
-            </div>
-          </div>
-          {{ end }}
-        </div>
+        {{ partial "members_list" .Site.Data.team }}
+
       </div>
 
       <div class='full' style='background: #f5f5f5'>

@@ -1,0 +1,24 @@
+  <div class='row'>
+    {{ range $index, $member := sort . "weight" "asc" }}
+    <div class='small-6 medium-3 large-3 columns'>
+      <div class='mod modTeamMember'>
+        <div class='member'>
+          <img class="avatar" alt="" src="{{ .avatar | relURL}}" />
+          <div class='overlay'>
+            <div class='intro'>
+              <h3>{{.name}}</h3>
+              <p>{{.position}}</p>
+              {{ partial "member_social.html" . }}
+            </div>
+          </div>
+        </div>
+        <p class='centered-text'>{{.text}}</p>
+        <div class='two spacing'></div>
+      </div>
+    </div>
+    {{ if (eq (mod (add $index 1) 4) 0) }}
+  </div>
+  <div class='row'>
+    {{ end }}
+    {{ end }}
+  </div>
