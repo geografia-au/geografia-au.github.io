@@ -1,0 +1,19 @@
+[{
+    "weight": 1,
+    "name": "City Atlas",
+    "icon": "fa fa-map-marker",
+    "description": "explore jobs and service patterns in our cities",
+    "link": "https://geografia-au.github.io/city-atlas"
+},{
+    "weight": 2,
+    "name": "Victowns",
+    "icon": "fa fa-map-marker",
+    "description": "compare connectivity of towns and municipalities in rural Victoria",
+    "link": "https://geografia-au.github.io/victowns/"
+},{
+    "weight": 3,
+    "name": "Port Phillip",
+    "icon": "fa fa-map-marker",
+    "description": "forecasted changes in population for the City of Port Phillip",
+    "link": "http://geografia-au.github.io/lab-port-phillip/"
+}]

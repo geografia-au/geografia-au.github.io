@@ -20,7 +20,7 @@ body {
 }
 
 @media only screen
-  and (max-device-width: 420px)  {
+  and (max-device-width: 620px)  {
     .sticky.fixed {
         top: 0px;
     }
@@ -41,6 +41,11 @@ body {
   src: url('../fonts/steelfish/steelfish_bd-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/steelfish/steelfish_bd-webfont.woff') format('woff'), url('../fonts/steelfish/steelfish bd.otf') format('opentype');
   font-weight: bold;
 }
+
+.modMilestone i {
+    color: white!important;
+}
+
 /*!
  * jQuery UI CSS Framework 1.10.3
  * http://jqueryui.com
