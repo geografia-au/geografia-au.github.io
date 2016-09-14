@@ -42,10 +42,18 @@
       <h4>Contact us</h4>
       <ul>
         {{ with .Site.Params.phone }}
-        <li>Phone: {{ . }}</li>
+        <li>
+          <a href="tel:{{.}}">
+            Phone: {{ . }}
+          </a>
+        </li>
         {{ end}}
         {{ with .Site.Params.email }}
-        <li>Email: {{ . }}</li>
+        <li>
+          <a href="mailto:{{.}}">
+            Email: {{ . }}
+          </a>
+        </li>
         {{ end }}
         {{ with .Site.Params.address }}
           <div class="vcard">
