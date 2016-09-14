@@ -1,4 +1,0 @@
-+++
-type = "lab"
-url = "/lab"
-+++

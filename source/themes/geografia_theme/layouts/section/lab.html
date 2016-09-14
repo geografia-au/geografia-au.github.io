@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    {{ partial "header.html" . }}
+
+    <div class='full parallax' style='background-image: url(/images/Geografia/portfolio-header-bg.jpg); color: #fff;'>
+      <div class='row'>
+        <div class='large-12 columns'>
+          {{ partial "section_header.html" (dict "title" "Lab" "tagline" "Experiments and Prototypes" "color" "#fff" "class" "big") }}
+        </div>
+      </div>
+      <div class='four spacing'></div>
+    </div>
+
+    <div class='full'>
+      <div class='row'>
+        <div class='mod modGallery'>
+
+          <ul class='gallery large-block-grid-3 medium-block-grid-3 small-block-grid-1'>
+
+            {{ range (where .Site.Pages "Section" "lab") }}
+            {{ partial "lab_item.html" . }}
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class='four spacing'></div>
+
+    </div>
+
+    {{ partial "footer.html" . }}
+  </body>
+</html>
