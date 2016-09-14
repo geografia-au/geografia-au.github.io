@@ -8,6 +8,10 @@
     overflow-x:hidden;
 }
 
+.gallery li {
+    padding: 10px;
+}
+
 body {
     font-family: monospace;
 }
@@ -21,6 +25,7 @@ body {
 
 @media only screen
   and (max-device-width: 620px)  {
+
     .sticky.fixed {
         top: 0px;
     }
@@ -3148,6 +3153,7 @@ body {
   overflow: hidden;
   opacity: 1;
 }
+
 .modMasonryGallery ul.gallery li a:hover .overlay .thumb-info {
   -moz-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Labs on Geografia: Demography, Economics, Spatial Planning</title>
+    <link>https://geografia-au.github.io/lab/</link>
+    <description>Recent content in Labs on Geografia: Demography, Economics, Spatial Planning</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Feb 2015 03:09:00 +0000</lastBuildDate>
+    <atom:link href="https://geografia-au.github.io/lab/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>City Atlas</title>
+      <link>https://geografia-au.github.io/lab/city_atlas/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>https://geografia-au.github.io/lab/city_atlas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Port Phillip</title>
+      <link>https://geografia-au.github.io/lab/port_phillip/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>https://geografia-au.github.io/lab/port_phillip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Victowns</title>
+      <link>https://geografia-au.github.io/lab/victowns/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>https://geografia-au.github.io/lab/victowns/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
