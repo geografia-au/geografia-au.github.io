@@ -1,8 +1,13 @@
 <div class="mod modSectionHeader {{.class}}">
   <div class="special-title centered-text">
-    <h2 style="color: {{.color}};">{{ .title }}</h2>
+    <h2 style="color: {{.color}};">
+      {{ with .icon }}
+      <i class="fa {{.}}"></i>
+      {{ end }}
+      {{ .title }}
+    </h2>
   </div>
   {{ if isset . "tagline" }}
-    <h3 class='centered-text' style='color: {{.color}}'>{{.tagline}}</h3>
+  <h3 class='centered-text' style='color: {{.color}}'>{{.tagline}}</h3>
   {{ end }}
 </div>

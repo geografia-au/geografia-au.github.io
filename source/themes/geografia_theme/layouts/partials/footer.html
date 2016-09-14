@@ -48,7 +48,27 @@
         <li>Email: {{ . }}</li>
         {{ end }}
         {{ with .Site.Params.address }}
-        <li>{{ . }}</li>
+          <div class="vcard">
+            <div class="adr">
+              <p style="color:#999;font-family:monospace;font-size:14px;">
+                <span class="street-address">
+                  {{replace .street_address "\n" "<br/>" | safeHTML}}
+                </span>
+                <span class="locality">
+                  {{replace .loaclity "\n" "<br/>" | safeHTML}}
+                </span>
+                <br/>
+                <span class="postal-code">
+                  {{replace .postal_code "\n" "<br/>" | safeHTML}}
+                </span>
+                <br/>
+                <span class="country-name">
+                  {{replace .country_name "\n" "<br/>" | safeHTML}}
+                </span>
+              </p>
+            </div>
+          </div>
+
         {{ end }}
       </ul>
       <div class='spacing'></div>

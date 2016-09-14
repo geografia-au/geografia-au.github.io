@@ -3,5 +3,11 @@ subtitle: "Perkhidmatan Perundingan <br/>Geografi Sdn Bhd "
 phone: "+604 229 9004 "
 email: "info@geografia.com.au"
 linkedin: "https://www.linkedin.com/company/2778272"
-address: "4 Lorong Bertam<br/>George Town<br/>Pulau Pinang 10400"
-map_gist_url: "https://a.tiles.mapbox.com/v4/geoml.k53fdof2/attribution,zoompan,zoomwheel,geocoder,share.html?access_token=pk.eyJ1IjoiZ2VvbWwiLCJhIjoiNjNZUEFJVSJ9.eMgXDUTt2B7FgivXr5rS7g"
+address:
+  street_address: 4 Lorong Bertam
+  locality: George Town
+  postal_code: Pulau Pinang 10400
+  country_name: Malaysia
+
+map_gist_url: "https://render.githubusercontent.com/view/geojson?enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f676973742f7361626d616e2f64633936623331663537646534626136646432386633633337313132623861342f7261772f313038666638653765373933373239646461303839663566396163666632613132353631393931372f6d61702e67656f6a736f6e#31fce282-7a07-499e-85d9-d470706b8b3c"
+map_link: "https://goo.gl/maps/UzynddLqvv62"

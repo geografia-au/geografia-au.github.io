@@ -8,6 +8,17 @@
     overflow-x:hidden;
 }
 
+.contacts-item * {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.vcard {
+  all: initial;
+  div {
+    all: unset;
+  }
+}
 .gallery li {
     padding: 10px;
 }

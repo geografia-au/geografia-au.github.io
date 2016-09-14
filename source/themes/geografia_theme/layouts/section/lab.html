@@ -11,7 +11,7 @@
     <div class='full parallax' style='background-image: url(/images/Geografia/portfolio-header-bg.jpg); color: #fff;'>
       <div class='row'>
         <div class='large-12 columns'>
-          {{ partial "section_header.html" (dict "title" "Lab" "tagline" "Experiments and Prototypes" "color" "#fff" "class" "big") }}
+          {{ partial "section_header.html" (dict "title" .Site.Params.lab.title "icon" "fa-flask" "tagline" .Site.Params.lab.teaser "color" "#fff" "class" "big") }}
         </div>
       </div>
       <div class='four spacing'></div>

@@ -1,0 +1,58 @@
+<div class='contacts-item medium-6 columns'>
+  <div class="row">
+    <h2>{{.title}}</h2>
+  </div>
+  <div class="row">
+    {{ with .map_gist_url }}
+    <iframe width='100%' height='300px' frameBorder='0'  src="{{.}}" sandbox="allow-scripts allow-same-origin allow-top-navigation">Viewer requires iframe.</iframe>
+
+    {{ end }}
+  </div>
+  <div class="row">
+    <div class='contact-details'>
+
+      {{ with .map_link }}
+      <a target="_blank" ref="noopener" href='{{ . }}'>
+      {{ end }}
+      {{ with .address }}
+        <h4>Our location:</h4>
+        <div class="vcard">
+          <div class="adr">
+            <p>
+              <span class="street-address">
+                {{replace .street_address "\n" "<br/>" | safeHTML}}
+              </span>
+              <span class="locality">
+                {{replace .loaclity "\n" "<br/>" | safeHTML}}
+              </span>
+              <br/>
+              <span class="postal-code">
+                {{replace .postal_code "\n" "<br/>" | safeHTML}}
+              </span>
+              <br/>
+              <span class="country-name">
+                {{replace .country_name "\n" "<br/>" | safeHTML}}
+              </span>
+            </p>
+          </div>
+        </div>
+      {{ end }}
+      {{ with .map_link }}
+      </a>
+      {{ end }}
+
+      {{ with .phone }}
+      <h4>Our Phone:</h4>
+      <p><a href="tel:{{.}}">{{ . }}</a></p>
+      {{ end }}
+      {{with .fax}}
+      <h4>Fax:</h4>
+      <p><a href="fax:{{.}}">{{ . }}</a></p>
+      {{ end }}
+      {{ with .email }}
+      <h4>Our Email:</h4>
+      <p><a href="mailto:{{.}}">{{ . }}</a></p>
+      {{ end }}
+    </div>
+  </div>
+</div>

@@ -25,17 +25,22 @@ theme = "geografia_theme"
     #
     # Enable the contact form by entering your Formspree.io email
 
-    email = "info@geografia.com.au"
     about_us = ""
     copyright = "Copyright (c) 2015 - 2016, Geografia; all rights reserved."
     date_format = "2006-01-02"
     logo = "img/geografia_logo.svg"
-    address = "Suite 1, Level 21, 15 Collins St, Melbourne VIC 3000"
+    email = "info@geografia.com.au"
     phone = "+61 3 9329 9004"
     fax = ""
     facebook = "https://www.facebook.com/Geografia-AU-1771221553162100/"
 
     address_map_gist = "//render.githubusercontent.com/view/geojson?enc_url=68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f676973742f7361626d616e2f64393961353535333738623463383435323839346564636137393233613363622f7261772f373936613835386533396437386635616439613465326232616461366532373263313938326638392f6d61702e67656f6a736f6e#d1934a7c-d14f-447e-9ca6-10a700871df1"
+
+[params.address]
+    street_address = "Suite 1, Level 21 - 15 Collins St"
+    locality = "Melbourne"
+    postal_code = "VIC 3000"
+    country_name = "Australia"
 
 [taxonomies]
   category = "categories"
@@ -110,3 +115,8 @@ theme = "geografia_theme"
 [params.addresses]
     enable = true
     title = "Contact"
+    teaser = "Drop by, call or send an email us"
+
+[params.lab]
+    title = "Lab"
+    teaser = "Experiments and Prototypes"
