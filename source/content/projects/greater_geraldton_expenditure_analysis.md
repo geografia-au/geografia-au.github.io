@@ -12,4 +12,4 @@ banner: "Small_Tap.jpg"
 In or out: "In"
 ---
 
-Working with Landcorp to quantify business, government and consumer expenditure leakage from Greater Geraldton. From this, we can identify supply chain opportunities for new business establishment in the municipality. CrowdSpot is used to collect and map&nbsp;consumer expenditure data.&nbsp;
+Working with Landcorp, the MidWest Development Commission and the City of Greater Geraldton, we quantified business, government and consumer expenditure leakage from the region. For consumer leakage, we used real expenditure data sourced from Quantium. The outcome included the identification of supply chain opportunities for new business enterprises in the region.
