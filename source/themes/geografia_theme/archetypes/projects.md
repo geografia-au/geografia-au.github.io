@@ -8,7 +8,7 @@ client:
 website:
 slug:
 date:
-categpories: []
+categories: []
 summary_text:
 banner:
 ---
