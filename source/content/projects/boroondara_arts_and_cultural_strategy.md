@@ -1,13 +1,13 @@
 ---
 id: 65
 title: "Boroondara Arts and Cultural Strategy"
-draft: false
+draft: true
 images: ["Boroondara_arts_access.jpg"]
 longitude: 145.059
 latitude: -37.8344
 categories: ["economics"]
 slug: "boroondara-arts-and-cultural-strategy"
-date: "2016-05-13T00:25:00+00:00"
+date: "2008"
 summary_text: "Eager arts participants need a little more geographical spread to arts facilities"
 banner: "Boroondara_map.jpg"
 ---
