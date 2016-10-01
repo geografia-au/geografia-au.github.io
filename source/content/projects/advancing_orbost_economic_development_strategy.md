@@ -6,7 +6,7 @@ longitude: 148.456
 latitude: -37.7046
 categories: ["economics"]
 slug: "advancing-orbost-economic-development-strategy"
-date: "2015"
+date: "2015-02-26T03:09:00+00:00"
 summary_text: "Working with communities identifies economic opportunities in growth industries"
 banner: "orbost.jpg"
 ---
