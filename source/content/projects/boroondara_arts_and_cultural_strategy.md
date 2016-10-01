@@ -7,7 +7,7 @@ longitude: 145.059
 latitude: -37.8344
 categories: ["economics"]
 slug: "boroondara-arts-and-cultural-strategy"
-date: "2008"
+date: "2008-05-01"
 summary_text: "Eager arts participants need a little more geographical spread to arts facilities"
 banner: "Boroondara_map.jpg"
 ---

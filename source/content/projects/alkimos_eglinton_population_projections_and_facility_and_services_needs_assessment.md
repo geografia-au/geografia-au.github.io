@@ -6,7 +6,7 @@ longitude: 115.657
 latitude: -31.6003
 categories: ["demography", "economics", "spatial_planning"]
 slug: "alkimos-eglinton-population-projections-and-facility-and-services-needs-assessment"
-date: "2008"
+date: "2008-05-12T07:59:00+00:00"
 summary_text: "Sustainability is the key feature of one of Perth's largest new subdivisions in recent years"
 banner: "Alkimos_Overall_Map.jpg"
 ---
