@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Economics on Geografia: Demography, Economics, Spatial Planning</title>
+    <title>Economics on Geografia: Demography, Economics, Spatial Analysis</title>
     <link>https://geografia-au.github.io/categories/economics/</link>
-    <description>Recent content in Economics on Geografia: Demography, Economics, Spatial Planning</description>
+    <description>Recent content in Economics on Geografia: Demography, Economics, Spatial Analysis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 May 2016 01:15:00 +0000</lastBuildDate>
@@ -40,22 +40,12 @@
     </item>
     
     <item>
-      <title>Boroondara Arts and Cultural Strategy</title>
-      <link>https://geografia-au.github.io/projects/boroondara-arts-and-cultural-strategy/</link>
+      <title>Greater Geraldton Expenditure Leakage Analysis</title>
+      <link>https://geografia-au.github.io/projects/greater-geraldton-expenditure-analysis/</link>
       <pubDate>Fri, 13 May 2016 00:25:00 +0000</pubDate>
       
-      <guid>https://geografia-au.github.io/projects/boroondara-arts-and-cultural-strategy/</guid>
-      <description>&lt;p&gt;Introducing evidence-based analysis into arts participation and demand, we developed an arts and cultural strategy that emphasised the development of new and existing arts clusters to ensure the enthusiastic participants of Boroondara had access to a range of arts and cultural activities and facilities. This map below&amp;nbsp;was one of our earliest mapping efforts to identify spatial gaps in service delivery.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alkimos Eglinton Population Projections and Facility and Services Needs Assessment</title>
-      <link>https://geografia-au.github.io/projects/alkimos-eglinton-population-projections-and-facility-and-services-needs-assessment/</link>
-      <pubDate>Thu, 12 May 2016 07:59:00 +0000</pubDate>
-      
-      <guid>https://geografia-au.github.io/projects/alkimos-eglinton-population-projections-and-facility-and-services-needs-assessment/</guid>
-      <description>&lt;p&gt;We ran population forecasts for the 2,100ha Alkimos Eglinton subdivision using a cellular automata method to populate the land through small contiguous cells. Then we used these figures to prepare a community infrastructure plan with staged rollout of schools and other community facilities over the development cycle of the new suburb.&amp;nbsp;&lt;/p&gt;
+      <guid>https://geografia-au.github.io/projects/greater-geraldton-expenditure-analysis/</guid>
+      <description>&lt;p&gt;Working with Landcorp, the MidWest Development Commission and the City of Greater Geraldton, we quantified business, government and consumer expenditure leakage from the region. For consumer leakage, we used real expenditure data sourced from Quantium. The outcome included the identification of supply chain opportunities for new business enterprises in the region.&lt;/p&gt;
 </description>
     </item>
     
@@ -150,12 +140,22 @@
     </item>
     
     <item>
-      <title>Greater Geraldton Expenditure Analysis</title>
-      <link>https://geografia-au.github.io/projects/greater-geraldton-expenditure-analysis/</link>
-      <pubDate>Fri, 15 Apr 2016 05:47:00 +0000</pubDate>
+      <title>East Arnhem Land Economic Review</title>
+      <link>https://geografia-au.github.io/projects/east-arnhem-land-economic-review/</link>
+      <pubDate>Wed, 23 Mar 2016 04:38:00 +0000</pubDate>
       
-      <guid>https://geografia-au.github.io/projects/greater-geraldton-expenditure-analysis/</guid>
-      <description>&lt;p&gt;Working with Landcorp to quantify business, government and consumer expenditure leakage from Greater Geraldton. From this, we can identify supply chain opportunities for new business establishment in the municipality. CrowdSpot is used to collect and map&amp;nbsp;consumer expenditure data.&amp;nbsp;&lt;/p&gt;
+      <guid>https://geografia-au.github.io/projects/east-arnhem-land-economic-review/</guid>
+      <description>&lt;p&gt;This is a study mapping and analysing the scale and type of employment growth potential for Galiwink&amp;rsquo;u, East Arnhem Land. &lt;br&gt;&lt;br&gt;Population estimates, infrastructure capacity and an assessment of industry growth trends (notably in tourism and agribusiness), and other factors (e.g. job automation and centralisation) have been used to prepare scenarios for economic growth and development.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Technology and Innovation Study</title>
+      <link>https://geografia-au.github.io/projects/technology-and-innovation-study/</link>
+      <pubDate>Fri, 18 Mar 2016 01:13:00 +0000</pubDate>
+      
+      <guid>https://geografia-au.github.io/projects/technology-and-innovation-study/</guid>
+      <description>&lt;p&gt;An investigation of the the status of, and prospects for, the high tech sector in northern Malaysia. The study focused on whether targeted public funding would stimulate sustained private sector investment and, in doing so, contribute to the national economic development agenda. It included a survey of tech sector enterprises in the region.&amp;nbsp;&lt;/p&gt;
 </description>
     </item>
     

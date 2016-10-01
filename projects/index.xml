@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Geografia: Demography, Economics, Spatial Planning</title>
+    <title>Projects on Geografia: Demography, Economics, Spatial Analysis</title>
     <link>https://geografia-au.github.io/projects/</link>
-    <description>Recent content in Projects on Geografia: Demography, Economics, Spatial Planning</description>
+    <description>Recent content in Projects on Geografia: Demography, Economics, Spatial Analysis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 May 2016 01:15:00 +0000</lastBuildDate>
@@ -40,32 +40,12 @@
     </item>
     
     <item>
-      <title>Boroondara Arts and Cultural Strategy</title>
-      <link>https://geografia-au.github.io/projects/boroondara-arts-and-cultural-strategy/</link>
+      <title>Greater Geraldton Expenditure Leakage Analysis</title>
+      <link>https://geografia-au.github.io/projects/greater-geraldton-expenditure-analysis/</link>
       <pubDate>Fri, 13 May 2016 00:25:00 +0000</pubDate>
       
-      <guid>https://geografia-au.github.io/projects/boroondara-arts-and-cultural-strategy/</guid>
-      <description>&lt;p&gt;Introducing evidence-based analysis into arts participation and demand, we developed an arts and cultural strategy that emphasised the development of new and existing arts clusters to ensure the enthusiastic participants of Boroondara had access to a range of arts and cultural activities and facilities. This map below&amp;nbsp;was one of our earliest mapping efforts to identify spatial gaps in service delivery.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Alkimos Eglinton Population Projections and Facility and Services Needs Assessment</title>
-      <link>https://geografia-au.github.io/projects/alkimos-eglinton-population-projections-and-facility-and-services-needs-assessment/</link>
-      <pubDate>Thu, 12 May 2016 07:59:00 +0000</pubDate>
-      
-      <guid>https://geografia-au.github.io/projects/alkimos-eglinton-population-projections-and-facility-and-services-needs-assessment/</guid>
-      <description>&lt;p&gt;We ran population forecasts for the 2,100ha Alkimos Eglinton subdivision using a cellular automata method to populate the land through small contiguous cells. Then we used these figures to prepare a community infrastructure plan with staged rollout of schools and other community facilities over the development cycle of the new suburb.&amp;nbsp;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Binningup Demographic Profile and Infrastructure Need Assessment</title>
-      <link>https://geografia-au.github.io/projects/binningup-demographic-profile-and-infrastructure-need-assessment/</link>
-      <pubDate>Thu, 12 May 2016 07:47:00 +0000</pubDate>
-      
-      <guid>https://geografia-au.github.io/projects/binningup-demographic-profile-and-infrastructure-need-assessment/</guid>
-      <description>&lt;p&gt;By analysing the geography, history, demography and governance of 60 coastal towns around Australia, we found strong evidence for consistent trends that helped us to model the likely demographic change and infrastructure need for fast growing Binningup, south of Perth.&amp;nbsp;&lt;/p&gt;
+      <guid>https://geografia-au.github.io/projects/greater-geraldton-expenditure-analysis/</guid>
+      <description>&lt;p&gt;Working with Landcorp, the MidWest Development Commission and the City of Greater Geraldton, we quantified business, government and consumer expenditure leakage from the region. For consumer leakage, we used real expenditure data sourced from Quantium. The outcome included the identification of supply chain opportunities for new business enterprises in the region.&lt;/p&gt;
 </description>
     </item>
     
@@ -145,7 +125,7 @@
       <pubDate>Fri, 22 Apr 2016 00:09:00 +0000</pubDate>
       
       <guid>https://geografia-au.github.io/projects/alexandra-master-plan/</guid>
-      <description>&lt;p&gt;Working with urban designers SJB&amp;nbsp;to activate the old rail precinct in Alexandra through a masterplan that mixes tourism with community use, open space and commercial areas.&amp;nbsp;&lt;/p&gt;
+      <description>&lt;p&gt;Working with urban designers SJB&amp;nbsp;to activate the old rail precinct in Alexandra through a masterplan. The plan mixes tourism with community use, open space and commercial areas.&amp;nbsp;&lt;/p&gt;
 </description>
     </item>
     
@@ -156,6 +136,26 @@
       
       <guid>https://geografia-au.github.io/projects/mornington-hbb-survey/</guid>
       <description>&lt;p&gt;Telephone and online survey to quantify and evaluate the scale and scope of home based businesses in the Mornington Peninsula&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Darebin Arts ESIA</title>
+      <link>https://geografia-au.github.io/projects/darebin-arts-esia/</link>
+      <pubDate>Thu, 21 Apr 2016 23:46:00 +0000</pubDate>
+      
+      <guid>https://geografia-au.github.io/projects/darebin-arts-esia/</guid>
+      <description>&lt;p&gt;An economic and social impact assessment of the arts and creative sector in Darebin.&amp;nbsp;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Murchison Plan</title>
+      <link>https://geografia-au.github.io/projects/murchison-plan/</link>
+      <pubDate>Thu, 21 Apr 2016 23:05:00 +0000</pubDate>
+      
+      <guid>https://geografia-au.github.io/projects/murchison-plan/</guid>
+      <description>&lt;p&gt;A resource analysis and community statement leading to a regional development framework for the five councils that make up north and western Tasmania. The work included an extensive land suitability assessment and collaboration with environmental and transport&amp;nbsp;planners and community engagement specialists.&lt;/p&gt;
 </description>
     </item>
     
