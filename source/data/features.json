@@ -1,16 +1,16 @@
 [{
-    "weight": 4,
-    "name": "Demography",
-    "icon": "fa fa-user",
-    "description": "Forecasting and analysing how our populations change"
-},{
-    "weight": 4,
-    "name": "Economics",
-    "icon": "fa fa-bar-chart",
-    "description": "Modelling and planning our economies"
-},{
-    "weight": 4,
-    "name": "Spatial Analysis",
-    "icon": "fa fa-map-marker",
-    "description": "Planning the future of our towns and cities"
+  "weight": 4,
+  "name": "Demography",
+  "icon": "fa fa-user",
+  "description": "Forecasting and analysing how our populations change"
+}, {
+  "weight": 4,
+  "name": "Economics",
+  "icon": "fa fa-bar-chart",
+  "description": "Examining and modelling how our economies work"
+}, {
+  "weight": 4,
+  "name": "Spatial Analysis",
+  "icon": "fa fa-map-marker",
+  "description": "Understanding spatial patterns in our towns and cities"
 }]
