@@ -4,7 +4,7 @@ title: "School Demand Forecasting in Moreton Bay"
 draft: false
 longitude: 152.951
 latitude: -27.0833
-categories: ["demography", "economics", "spatial_planning"]
+categories: ["demography", "economics", "spatial_analysis"]
 slug: "school-demand-forecasting-in-moreton-bay"
 date: "2015-05-26T02:49:00+00:00"
 summary_text: "Improving school demand forecasting through better statistical and GIS analysis."

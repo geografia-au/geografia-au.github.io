@@ -4,7 +4,7 @@ title: "Greater Bunbury Population and Housing Capacity Review"
 draft: false
 longitude: 115.639
 latitude: -33.3271
-categories: ["demography", "spatial_planning"]
+categories: ["demography", "spatial_analysis"]
 slug: "greater-bunbury-population-and-housing-capacity-review"
 date: "2015-02-16T23:29:00+00:00"
 summary_text: "As housing density can be slow to change, rapid regional growth can put pressure on land supply"

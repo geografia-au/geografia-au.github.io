@@ -4,7 +4,7 @@ title: "Alkimos Eglinton Population Projections and Facility and Services Needs 
 draft: true
 longitude: 115.657
 latitude: -31.6003
-categories: ["demography", "economics", "spatial_planning"]
+categories: ["demography", "economics", "spatial_analysis"]
 slug: "alkimos-eglinton-population-projections-and-facility-and-services-needs-assessment"
 date: "2008-05-12T07:59:00+00:00"
 summary_text: "Sustainability is the key feature of one of Perth's largest new subdivisions in recent years"

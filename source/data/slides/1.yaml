@@ -1,12 +1,12 @@
 bg: images/Geografia/slide-6-geo.jpg
-small_title:
-  klass: bottom-to-top
-  text: We solve problems
 title:
   klass: bottom-to-top
-  text: Geografia
+  text: Our services
+small_title:
+  klass: bottom-to-top
+  text: We help solve the complex problems of development and planning in our cities, towns, economies and communities
 buttons:
   klass: bottom-to-top
   items:
-    - text: Learn More
-      link_to: http://www.geografia.com.au/lab
+    - text: Learn more
+      link_to: /services/

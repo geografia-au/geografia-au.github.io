@@ -4,7 +4,7 @@ title: "School Site Optimisation in Greater Brisbane"
 draft: false
 longitude: 153.039
 latitude: -26.6272
-categories: ["demography", "economics", "spatial_planning"]
+categories: ["demography", "economics", "spatial_analysis"]
 slug: "school-site-optimisation-in-greater-brisbane"
 date: "2016-03-17T23:33:00+00:00"
 summary_text: "Improving school site location optimisation"

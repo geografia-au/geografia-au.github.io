@@ -4,7 +4,7 @@ title: "Greater Launceston Plan"
 draft: false
 longitude: 147.117
 latitude: -41.4297
-categories: ["demography", "economics", "spatial_planning"]
+categories: ["demography", "economics", "spatial_analysis"]
 slug: "greater-launceston-plan"
 date: "2015-02-16T23:13:00+00:00"
 summary_text: "Informing the public about the Greater Launceston Plan "

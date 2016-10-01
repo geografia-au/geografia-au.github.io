@@ -9,4 +9,4 @@ description: "Geografia welcomes Xavier Goldie to our team"
 banner: "/img/blog/small_file.jpg"
 ---
 
-Fresh from AURIN, Xavier Goldie is working with Geografia now. An expert in GIS and spatial statistics, Xavier adds to our capabilities in spatial planning. And we'll add to his capabilities in economic and demographic&nbsp;analysis.&nbsp;<br><img alt="Thumb xavier goldie low res" src="/img/blog/Xavier_Goldie_low_res.png" class="wysiwyg-float-left"><br><br><br><br><br><br>
+Fresh from AURIN, Xavier Goldie is working with Geografia now. An expert in GIS and spatial statistics, Xavier adds to our capabilities in spatial analysis. And we'll add to his capabilities in economic and demographic&nbsp;analysis.&nbsp;<br><img alt="Thumb xavier goldie low res" src="/img/blog/Xavier_Goldie_low_res.png" class="wysiwyg-float-left"><br><br><br><br><br><br>

@@ -4,7 +4,7 @@ title: "Busselton Library Facilities Background"
 draft: true
 longitude: 115.204
 latitude: -33.3859
-categories: ["spatial_planning"]
+categories: ["spatial_analysis"]
 slug: "busselton-library-facilities-background"
 date: "2016-05-13T00:35:00+00:00"
 summary_text: "Demographic trends suggest growing demand for library services"

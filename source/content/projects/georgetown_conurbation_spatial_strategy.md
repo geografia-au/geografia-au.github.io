@@ -4,10 +4,10 @@ title: "Georgetown Conurbation Spatial Strategy"
 draft: false
 longitude: 100.466
 latitude: 5.40263
-categories: ["demography", "economics", "spatial_planning"]
+categories: ["demography", "economics", "spatial_analysis"]
 slug: "georgetown-conurbation-spatial-strategy"
 date: "2015-02-26T01:30:00+00:00"
-summary_text: "A strategy to improve spatial planning across Northern Malaysia"
+summary_text: "A strategy to improve spatial analysis across Northern Malaysia"
 banner: "SS_image.jpg"
 ---
 

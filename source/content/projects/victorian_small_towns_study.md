@@ -4,7 +4,7 @@ title: "Victorian Small Towns Study"
 draft: false
 longitude: 147.903
 latitude: -36.1803
-categories: ["demography", "economics", "spatial_planning"]
+categories: ["demography", "economics", "spatial_analysis"]
 slug: "victorian-small-towns-study"
 date: "2015-02-26T03:05:00+00:00"
 summary_text: "Recipes for economic success for Victoria's small towns"

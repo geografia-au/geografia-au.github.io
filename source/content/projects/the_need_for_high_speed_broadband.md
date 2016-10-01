@@ -4,7 +4,7 @@ title: "The Need for High Speed Broadband"
 draft: false
 longitude: 145.216
 latitude: -38.0184
-categories: ["demography", "spatial_planning"]
+categories: ["demography", "spatial_analysis"]
 slug: "the-need-for-high-speed-broadband"
 date: "2015-02-26T01:16:00+00:00"
 summary_text: "More jobs and investment if the NBN rollout prioritises business precincts over residential in Melbourne's South East"

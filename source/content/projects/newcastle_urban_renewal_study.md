@@ -4,7 +4,7 @@ title: "Newcastle Urban Renewal Study"
 draft: false
 longitude: 151.772
 latitude: -32.9266
-categories: ["economics", "spatial_planning"]
+categories: ["economics", "spatial_analysis"]
 slug: "newcastle-urban-renewal-study"
 date: "2015-02-19T07:54:00+00:00"
 summary_text: "Location, infrastructure and heritage create diverse opportunities for central Newcastle"
