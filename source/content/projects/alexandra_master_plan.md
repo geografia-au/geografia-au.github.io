@@ -11,4 +11,4 @@ summary_text: "Masterplanning that builds on the historical legacy of a beautifu
 banner: "Alexandra.jpg"
 ---
 
-Working with urban designers SJB&nbsp;to activate the old rail precinct in Alexandra through a masterplan that mixes tourism with community use, open space and commercial areas.&nbsp;
+Working with urban designers SJB&nbsp;to activate the old rail precinct in Alexandra through a masterplan. The plan mixes tourism with community use, open space and commercial areas.&nbsp;
