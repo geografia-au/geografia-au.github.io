@@ -112,6 +112,14 @@ theme = "geografia_theme"
     title = "Our Team"
     subtitle = ""
 
+[params.associates]
+    enable = true
+    # All testimonials are defined in their own files. You can find example items
+    # at 'exampleSite/data/testimonials'.
+    # For more informtion take a look at the README.
+    title = "Our Associates"
+    subtitle = ""
+
 [params.addresses]
     enable = true
     title = "Contact"

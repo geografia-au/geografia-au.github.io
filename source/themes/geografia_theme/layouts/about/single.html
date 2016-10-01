@@ -48,7 +48,25 @@
     </div>
 
     <div class='full'>
+      <div class='row'>
+        <div class='large-12 columns'>
+          {{ partial "section_header.html" (dict  "title" "Our Team") }}
+          <div class='spacing'></div>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+
       {{ partial "members_list" .Site.Data.team }}
+
+      <div class='row'>
+        <div class='large-12 columns'>
+          {{ partial "section_header.html" (dict  "title" "Our Associates") }}
+          <div class='spacing'></div>
+          <div class='two spacing'></div>
+        </div>
+      </div>
+
+      {{ partial "members_list" .Site.Data.associates }}
     </div>
 
     <div class='full parallax' style='background: #f5f5f5'>
@@ -87,7 +105,7 @@
       </div>
     </div>
 
-    {{ partial "our_customers.html" }}
+    {{ partial "our_customers.html" . }}
     {{ partial "footer.html" . }}
   </body>
 </html>
