@@ -69,41 +69,6 @@
       {{ partial "members_list" .Site.Data.associates }}
     </div>
 
-    <div class='full parallax' style='background: #f5f5f5'>
-      <div class='row'>
-        <div class='large-12 columns'>
-          <p class='centered-text'>
-            <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
-          </p>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='large-12 columns'>
-          {{ partial "section_header.html" (dict "title" "What our clients say") }}
-          <div class='spacing'></div>
-        </div>
-      </div>
-      <div class='row'>
-        <div class='large-12 columns'>
-          <div class='mod modTestimonials'>
-            <div class='row'>
-              <div class='small-12 columns'>
-                <div class='items centered-text'>
-                  {{ range $testimonials }}
-                  <div class='item'>
-                    <p class='quote'>"{{ .quote}}"</p>
-                    <p class='author'>- {{ .author}}</p>
-                    <div class='two spacing'></div>
-                  </div>
-                  {{ end }}
-                </div>
-              </div>
-              <div class='spacing'></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     {{ partial "our_customers.html" . }}
     {{ partial "footer.html" . }}
