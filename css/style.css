@@ -3068,6 +3068,7 @@ form input.error, form textarea.error {
 }
 .modIconText .icon-text-circle:hover i {
   color: #d50000;
+  border: 3px solid #d50000;
 }
 .modIconText .icon-text-simple i {
   font-size: 3.42857rem;
