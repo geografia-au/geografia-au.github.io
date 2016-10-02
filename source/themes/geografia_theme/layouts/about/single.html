@@ -8,14 +8,14 @@
 
     {{ partial "header.html" . }}
 
-    {{ $skills := ( slice (dict "title" "Web Design" "percentage" 84) (dict "title" "Web Development" "percentage" 95) (dict "title" "Site Managment" "percentage" 70) (dict "title" "Branding" "percentage" 61) ) }}
+    {{ $skills := ( slice (dict "title" "Demography" "percentage" 33) (dict "title" "Economics" "percentage" 33) (dict "title" "Spatial Planning" "percentage" 50) (dict "title" "Data Analytics" "percentage" 75) (dict "title" "Applications Development" "percentage" 25) (dict "title" "Consultation" "percentage" 60) (dict "title" "Strategic Planning" "percentage" 50)) }}
 
     {{ $testimonials := (slice (dict "quote" "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est." "author" "David White, Designer at Huglab") (dict "quote" "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing." "author" "David White, Designer at Huglab") (dict "quote" "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est." "author" "David White, Designer at Huglab")) }}
 
     <div class='full parallax' style='background-image: url(/images/Geografia/about-us.jpg); color: #fff;'>
       <div class='row'>
         <div class='twelve columns'>
-          {{ partial "section_header.html" (dict "title" "About us" "color" "#fff" "tagline" "Know something about our team" "class" "big") }}
+          {{ partial "section_header.html" (dict "title" "About us" "color" "#fff" "tagline" "get to know a little about our purpose and our skills" "class" "big") }}
         </div>
       </div>
       <div class='four spacing'></div>
@@ -25,11 +25,11 @@
       <div class='row'>
         <div class='medium-6 columns'>
           <h3>Our history</h3>
-          <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+          <p>Geografia was formed in Australia in 2006, with the aim of bringing the techniques of complex systems analysis to how we plan for, develop and live in our cities, towns and regions. We now work around the country, as well as in SE Asia and Europe.</p>
+          <p>We are a multidisciplinary team conducting research and developing insights in demography, economics and spatial planning to inspire leaders and decision-makers to create a better future for communities around the world. We bring together more than one expert in a range of fields and techniques.</p>
         </div>
         <div class='medium-6 columns'>
-          <h3>Our skills</h3>
+          <h3>Our team skills</h3>
           <div class='mod modBarGraph'>
             <ul class='bars'>
               {{ range $skills }}
