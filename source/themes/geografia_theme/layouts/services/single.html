@@ -11,7 +11,7 @@
     <div class='full parallax' style='background-image: url(/images/Geografia/service-page-header.jpg); color: #fff;'>
       <div class='row'>
         <div class='large-12 columns'>
-          {{ partial "section_header.html" (dict "title" "Our services" "tagline" "Get to know what we do" "color" "#fff" "class" "big") }}
+          {{ partial "section_header.html" (dict "title" "Our services" "tagline" "Across the disciplines of demography, economics and spatial analysis we provide a range of quantitative and qualitative analytical services." "color" "#fff" "class" "big") }}
         </div>
       </div>
       <div class='four spacing'></div>
@@ -20,8 +20,15 @@
 
     <div class='full'>
       <div class='row'>
-        <div class='medium-6 columns'>
-          {{ range $index, $element := .Params.services_left }}
+        <div class='full no-padding' style='background: #fff'>
+          {{ partial "call_to_action.html" . }}
+          <div class='two spacing'></div>
+        </div>
+
+        <div class='medium-4 columns'>
+          <h2>Demography</h2>
+          <div class='spacing'></div>
+          {{ range $index, $element := .Params.services_demography }}
           <div class='fadein mod modIconText' data-delay='{{ mul 300 (sub $index 1) }}'>
             <div class='icon-text-simple'>
               <i class='fa fa-{{.icon}}'></i>
@@ -32,8 +39,11 @@
           </div>
           {{ end }}
         </div>
-        <div class='medium-6 columns'>
-          {{ range $index, $element := .Params.services_right }}
+
+        <div class='medium-4 columns'>
+          <h2>Economics</h2>
+          <div class='spacing'></div>
+          {{ range $index, $element := .Params.services_economics }}
           <div class='fadein mod modIconText' data-delay='{{  mul 300 (sub $index 1) }}'>
             <div class='icon-text-simple'>
               <i class='fa fa-{{.icon}}'></i>
@@ -44,9 +54,27 @@
           </div>
           {{ end }}
         </div>
+
+        <div class='medium-4 columns'>
+          <h2>geodata analytics</h2>
+          <div class='spacing'></div>
+          {{ range $index, $element := .Params.services_geodata_analytics }}
+          <div class='fadein mod modIconText' data-delay='{{  mul 300 (sub $index 1) }}'>
+            <div class='icon-text-simple'>
+              <i class='fa fa-{{.icon}}'></i>
+              <h3>{{.title}}</h3>
+              <p>{{.desc}}</p>
+            </div>
+            <div class='two spacing'></div>
+          </div>
+          {{ end }}
+        </div>
+
       </div>
-      <div class='spacing'></div>
     </div>
+
+    {{ partial "call_to_action.html" . }}
+
     {{ partial "footer.html" . }}
   </body>
 </html>

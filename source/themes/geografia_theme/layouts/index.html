@@ -140,7 +140,7 @@
           </div>
         </div>
 
-        {{ partial "members_list" .Site.Data.associates }}
+        {{ partial "members_list" .Site.Data.asso }}
 
       </div>
 
@@ -198,16 +198,7 @@
 
       <div class='full no-padding' style='background: #fff'>
         <div class='two spacing'></div>
-        <div class='mod modCallToAction'>
-          <div class='row'>
-            <div class='medium-9 large-9 columns'>
-              <p>Like what you see? Would you like to learn more or see how we can help you?</p>
-            </div>
-            <div class='medium-3 large-3 columns'>
-              <a class='button' href='mailto:info@geografia.com.au?su=business query'>Get in touch</a>
-            </div>
-          </div>
-        </div>
+        {{ partial "call_to_action.html" . }}
         <div class='spacing'></div>
       </div>
     </div>
