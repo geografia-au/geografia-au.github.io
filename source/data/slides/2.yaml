@@ -10,4 +10,7 @@ buttons:
   klass: bottom-to-top
   items:
     - text: Geografia lab
+      klass: boxed
       link_to: /lab/
+    - text: Get in touch
+      link_to: mailto:info@geografia.com.au?su=Hi Geografia!

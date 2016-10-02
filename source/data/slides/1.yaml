@@ -10,3 +10,6 @@ buttons:
   items:
     - text: Learn more
       link_to: /services/
+      klass: boxed
+    - text: Get in touch
+      link_to: mailto:info@geografia.com.au?su=Hi Geografia!

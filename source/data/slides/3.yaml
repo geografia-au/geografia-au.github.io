@@ -8,5 +8,8 @@ title:
 buttons:
   klass: bottom-to-top
   items:
-    - text: Read our blog
+    - klass: boxed
+      text: Read our blog
       link_to: http://blog.geografia.com.au
+    - text: Get in touch
+      link_to: mailto:info@geografia.com.au?su=Hi Geografia
