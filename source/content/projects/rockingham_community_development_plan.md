@@ -1,7 +1,7 @@
 ---
 id: 67
 title: "Rockingham Community Development Plan"
-draft: false
+draft: true
 longitude: 115.746
 latitude: -32.2864
 categories: ["economics", "spatial_analysis"]

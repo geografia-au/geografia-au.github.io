@@ -11,4 +11,6 @@ summary_text: "Winchelsea prepares for economic and employment growth"
 banner: "winchealseajpg.jpg"
 ---
 
-<p>Economic analysis and stakeholder consultation to identify and assess the options for economic/employment growth in Winchelsea. The project was part of a strategic repositioning of the town as it grows to 10,000 residents.&nbsp;</p><p><br></p><span class="wysiwyg-color-silver">Image: "OldWinchelseaShireOffices" by Mattinbgn - Own work. Licensed under GFDL via Wikimedia Commons - </span><a target="_blank" rel="nofollow" href="http://commons.wikimedia.org/wiki/File:WinchelseaShireOffices.JPG#mediaviewer/File:WinchelseaShireOffices.JPG"><span class="wysiwyg-color-silver">http://commons.wikimedia.org/wiki/File:WinchelseaShireOffices.JPG#mediaviewer/File:WinchelseaShireOf...</span></a><br>
+Economic analysis and stakeholder consultation to identify and assess the options for economic/employment growth in Winchelsea. The project was part of a strategic repositioning of the town as it grows to 10,000 residents.
+
+Image: [OldWinchelseaShireOffices](http://commons.wikimedia.org/wiki/File:WinchelseaShireOffices.JPG#mediaviewer/File:WinchelseaShireOffices.JPG) by Mattinbgn - Own work. Licensed under GFDL via Wikimedia Commons

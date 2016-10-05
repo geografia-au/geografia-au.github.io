@@ -11,4 +11,6 @@ summary_text: "A bold plan for a high amenity residential development"
 banner: "prospectvale.jpg"
 ---
 
-<span><div>In partnership with David Locke Associates and Arup, we have prepared a structure plan to guide development in this fast growing part of northern Tasmania.</div><div><br></div><span class="wysiwyg-color-silver">Image: Prospect Vale activity centre&nbsp;concept drawing (Geografia &amp; DLA, 2014)</span><br><br></span>
+In partnership with David Locke Associates and Arup, we have prepared a structure plan to guide development in this fast growing part of northern Tasmania.
+
+Image: Prospect Vale activity centre; concept drawing (Geografia & DLA, 2014)

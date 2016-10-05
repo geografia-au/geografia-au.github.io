@@ -11,4 +11,6 @@ summary_text: "Agribusiness the driving force behind the Shire's economy"
 banner: "Southern_Grampians_EDS.jpg"
 ---
 
-<div><div>This project pioneered our use of dynamic systems modelling for local government; evaluating the prospects of important regional propulsive industries to stimulate employment and population growth. Since then, Geografia has completed several more projects for the Shire on population analysis; industry growth plans; and economic impact assessments on proposals relating to&nbsp;the regional airport,&nbsp;livestock exchange and&nbsp;road transport issues.<br><br></div></div><div><span class="wysiwyg-color-silver">Image: Southern Grampians economy influence diagram</span></div>
+This project pioneered our use of dynamic systems modelling for local government; evaluating the prospects of important regional propulsive industries to stimulate employment and population growth. Since then, Geografia has completed several more projects for the Shire on population analysis; industry growth plans; and economic impact assessments on proposals relating to the regional airport livestock exchange and road transport issues.
+
+Image: Southern Grampians economy influence diagram

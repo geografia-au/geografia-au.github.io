@@ -6,9 +6,9 @@ longitude: 114.612
 latitude: -28.776
 categories: ["economics"]
 slug: "greater-geraldton-expenditure-analysis"
-date: "2016-05-13T00:25:00+00:00"
+date: "2015-05-13T00:25:00+00:00"
 summary_text: "Regional expenditure leakage is a signal for business opportunity"
-banner: "Small_Tap.jpg"
+banner: "2015 - Greater Geraldton Expenditure Leakage Analysis.png"
 In or out: "In"
 ---
 

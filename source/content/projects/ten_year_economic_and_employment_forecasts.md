@@ -12,4 +12,6 @@ summary_text: "Mining and gas industry cycles create volatility in Western Austr
 banner: "DET_Chart.jpg"
 ---
 
-<div>Working with econometrician, Dr Grant Coble-Neal, we developed a&nbsp;vector autoregressive model (VAR) to test the effects of mining industry boom bust cycles on Western Australia's employment and economic output by region over a 10 year period. It revealed a more volatile growth trajectory than measured by the existing CGE model. These forecasts were used by the Department of Education and Training to guide their analysis of the State's economic prospects.&nbsp;<br><br><span class="wysiwyg-color-silver">Image: 10 year employment and economic forecasts (Geografia, 2008)</span></div><div><br></div>
+Working with econometrician, Dr Grant Coble-Neal, we developed a vector autoregressive model (VAR) to test the effects of mining industry boom bust cycles on Western Australia's employment and economic output by region over a 10 year period. It revealed a more volatile growth trajectory than measured by the existing CGE model. These forecasts were used by the Department of Education and Training to guide their analysis of the State's economic prospects.
+
+Image: 10 year employment and economic forecasts (Geografia, 2008)
