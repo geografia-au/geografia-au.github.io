@@ -1,7 +1,7 @@
 ---
 id: 25
 title: "Southern Grampians Economic Development and Retail Strategy"
-draft: false
+draft: true
 longitude: 142.024
 latitude: -37.7422
 categories: ["economics"]
