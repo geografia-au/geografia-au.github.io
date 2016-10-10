@@ -232,7 +232,7 @@ jQuery(document).foundation();
         autoplay: true,
         pauseOnHover: false,
         dots: true,
-        speed: 1500,
+        speed: 1000,
         arrows: false
       });
 
@@ -277,7 +277,7 @@ jQuery(document).foundation();
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 3000,
+        autoplaySpeed: 1000,
         pauseOnHover: false,
         responsive: [
           {
@@ -330,7 +330,7 @@ jQuery(document).foundation();
         slidesToShow: slides_to_show,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1000,
         pauseOnHover: false,
         responsive: [
           {
@@ -720,7 +720,7 @@ jQuery(document).foundation();
 
       $ctx.appear(function() {
         $('strong', $ctx).countTo({
-          speed: 1400
+          speed: 1000
         });
       });
 
@@ -786,7 +786,7 @@ jQuery(document).foundation();
         autoplay: true,
         pauseOnHover: false,
         dots: show_dots,
-        speed: 1500,
+        speed: 1000,
         arrows: false
       });
 
