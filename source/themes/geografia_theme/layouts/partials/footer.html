@@ -109,6 +109,13 @@
           </a>
         </li>
         {{ end }}
+        {{ with .Site.Params.linkedin }}
+        <li>
+          <a href='{{.}}'>
+            <i class='fa fa-linkedin'></i>
+          </a>
+        </li>
+        {{ end }}
       </ul>
       <div class='spacing'></div>
     </div>
