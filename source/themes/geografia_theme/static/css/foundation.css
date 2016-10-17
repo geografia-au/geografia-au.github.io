@@ -1226,7 +1226,7 @@ table thead tr th, table tfoot tr th, table tfoot tr td, table tbody tr th, tabl
   .tooltip.tip-left, .tooltip.tip-right { float: none !important; }
   .tooltip.tip-left > .nub { border-color: transparent transparent transparent #333333; right: -10px; left: auto; top: 50%; margin-top: -5px; }
   .tooltip.tip-right > .nub { border-color: transparent #333333 transparent transparent; right: auto; left: -10px; top: 50%; margin-top: -5px; } }
-meta.foundation-mq-topbar { font-family: "/only screen and (min-width:960px)/"; width: 50em; }
+meta.foundation-mq-topbar { font-family: "/only screen and (min-width:997px)/"; width: 50em; }
 
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid { width: 100%; background: #fff; }
@@ -1316,7 +1316,7 @@ meta.foundation-mq-topbar { font-family: "/only screen and (min-width:960px)/"; 
 
 .js-generated { display: block; }
 
-@media only screen and (min-width: 960px) { .top-bar { background: #fff; overflow: visible; }
+@media only screen and (min-width: 997px) { .top-bar { background: #fff; overflow: visible; }
   .top-bar:before, .top-bar:after { content: " "; display: table; }
   .top-bar:after { clear: both; }
   .top-bar .toggle-topbar { display: none; }
