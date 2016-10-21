@@ -20,7 +20,7 @@
   }
 }
 .gallery li {
-    padding: 10px;
+    /*padding: 10px;*/
 }
 
 body {
@@ -3014,8 +3014,16 @@ form input.error, form textarea.error {
 }
 .modGallery ul.gallery li a p {
   color: #fff;
-  font-size: 0.875rem;
+  font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 40em) {
+  .modGallery ul.gallery li a p {
+    font-size: 0.875rem;
+  }
+}
+
+
 .modGallery ul.gallery li a:hover .overlay {
   opacity: 1;
 }

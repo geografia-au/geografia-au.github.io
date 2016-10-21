@@ -44,7 +44,7 @@
             {{ range (first 12 (where .Site.Pages.ByDate.Reverse "Section" "projects")) }}
             <li class="{{ delimit .Params.categories " " }}">
               <a href='{{ .RelPermalink }}'>
-                <img style="width:400px;height:269px;background-size:cover;background-image:url({{ with .Params.banner }}/img/projects/{{  . }}{{else}}/images/@stock/work-1.jpg{{end}});" alt="" src="" />
+                <img src="{{ with .Params.banner }}/img/projects/thumbs/{{ replaceRE "\\.(\\w{3})$" "_thumb.$1" . }}{{else}}/images/@stock/work-1.jpg{{end}}" alt="" src="" />
                 <div class='overlay'>
                   <div class='thumb-info'>
                     <h3>{{ .Params.title }}</h3>
@@ -72,7 +72,7 @@
         </div>
         <div class='row'>
           <div class='medium-6 columns'>
-            <img class="fadeinleft" alt="" src="images/Geografia/responsive.png" />
+            <img class="fadeinleft" alt="" src="images/Geografia/responsive.jpg" />
             <div class='three spacing'></div>
           </div>
           <div class='medium-6 columns'>
