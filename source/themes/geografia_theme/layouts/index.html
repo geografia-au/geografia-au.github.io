@@ -41,13 +41,13 @@
 
         <div class="mod modGallery">
           <ul class="gallery small-block-grid-2 medium-block-grid-3 large-block-grid-4">
-            {{ range (first 12 (where .Site.Pages.ByDate.Reverse "Section" "projects")) }}
+            {{ range (where (where .Site.Pages "Section" "projects") ".Params.front_page" "==" true ) }}
             <li class="{{ delimit .Params.categories " " }}">
               <a href='{{ .RelPermalink }}'>
                 <img src="{{ with .Params.banner }}/img/projects/thumbs/{{ replaceRE "\\.(\\w{3})$" "_thumb.$1" . }}{{else}}/images/@stock/work-1.jpg{{end}}" alt="" src="" />
                 <div class='overlay'>
                   <div class='thumb-info'>
-                    <h3>{{ .Params.title }}</h3>
+                    <h3>{{ .Title }}</h3>
                     <p>{{ .Params.summary_text }}</p>
                   </div>
                 </div>

@@ -11,4 +11,5 @@ date:
 categories: []
 summary_text:
 banner:
+front_page:
 ---

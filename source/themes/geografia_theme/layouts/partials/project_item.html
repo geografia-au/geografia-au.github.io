@@ -1,6 +1,6 @@
 <li class="{{ delimit .Params.categories " " }}">
   <a href='{{ .RelPermalink }}'>
-    <img style="width:400px;height:269px;background-size:cover;background-image:url({{ with .Params.banner }}/img/projects/{{  . }}{{else}}/images/@stock/work-1.jpg{{end}});" alt="" src="" />
+    <img src="{{ with .Params.banner }}/img/projects/thumbs/{{ replaceRE "\\.(\\w{3})$" "_thumb.$1" . }}{{else}}/images/@stock/work-1.jpg{{end}}" alt="" src="" />
 
     <div class='overlay'>
       <div class='thumb-info'>
