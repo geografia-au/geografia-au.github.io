@@ -48,30 +48,32 @@ function toBlogTeaser(post) {
   return column;
 };
 
-jQuery.get("https://crossorigin.me/https://medium.com/feed/geografia", function(data) {
-  {
-    var x2js = new window.X2JS();
-    var xmlContents = x2js.xml2json(data);
-    var posts = xmlContents.rss.channel.item.map(function (_ref) {
-      var creator = _ref.creator;
-      var link = _ref.link;
-      var description = _ref.description;
-      var pubDate = _ref.pubDate;
-      var title = _ref.title;
-      return { creator: creator.toString(), description: description, link: link, pubDate: pubDate, title: title };
-    });
+setTimeout(function () {
+  jQuery.get("https://crossorigin.me/https://medium.com/feed/geografia", function(data) {
+    {
+      var x2js = new window.X2JS();
+      var xmlContents = x2js.xml2json(data);
+      var posts = xmlContents.rss.channel.item.map(function (_ref) {
+        var creator = _ref.creator;
+        var link = _ref.link;
+        var description = _ref.description;
+        var pubDate = _ref.pubDate;
+        var title = _ref.title;
+        return { creator: creator.toString(), description: description, link: link, pubDate: pubDate, title: title };
+      });
 
-    posts.forEach(function (post) {
-      jQuery('.recent_from_medium').each(function (index, ul) {
-        ul.appendChild(toListMenuItem(post));
-        ul.appendChild(document.createElement('br'));
-        return ul;
+      posts.forEach(function (post) {
+        jQuery('.recent_from_medium').each(function (index, ul) {
+          ul.appendChild(toListMenuItem(post));
+          ul.appendChild(document.createElement('br'));
+          return ul;
+        });
       });
-    });
-    posts.slice(0,3).forEach(function(post) {
-      jQuery('.row.blogs').each(function (index, ul) {
-        ul.appendChild(toBlogTeaser(post));
+      posts.slice(0,3).forEach(function(post) {
+        jQuery('.row.blogs').each(function (index, ul) {
+          ul.appendChild(toBlogTeaser(post));
+        });
       });
-    });
-  }
-});
+    }
+  });
+}, 2);
