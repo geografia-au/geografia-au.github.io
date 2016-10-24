@@ -371,7 +371,7 @@ jQuery(document).foundation();
         autoPlayDelay: 3000,
         pauseButton: true,
         cycle: true,
-        // preloader: true,
+        preloader: true,
         animateStartingFrameIn: true,
         pagination: true,
         reverseAnimationsWhenNavigatingBackwards: true,
