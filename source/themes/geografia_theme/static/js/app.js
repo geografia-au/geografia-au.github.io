@@ -50,6 +50,7 @@ jQuery(document).foundation();
       setTimeout(function() {
         $(that).addClass('appear');
       }, delay)
+
     });
 
     // $('.popin').each(function() {
@@ -353,66 +354,73 @@ jQuery(document).foundation();
   })
 })(Tc.$);
 (function($) {
-
-
-  var options = {
-    nextButton: true,
-    prevButton: true,
-    autoPlay: true,
-    autoPlayDelay: 0,
-    pauseButton: true,
-    cycle: true,
-    // preloader: true,
-    animateStartingFrameIn: true,
-    pagination: true,
-    reverseAnimationsWhenNavigatingBackwards: true,
-    preventDelayWhenReversingAnimations: true,
-    fadeFrameWhenSkipped: false,
-    swipeEvents: {
-      left: "next",
-      right: "prev"
+  Tc.Module.DefaultSlider = Tc.Module.extend({
+    init: function($ctx, sandbox, modId) {
+      this._super($ctx, sandbox, modId);
     },
-    pauseOnHover: false
-  }
-  var autostop = $('.sequence').data('autostop') == 'on' ? true : false;
-  var timeout = $('.sequence').data('timeout');
+    dependencies: function() {
+      // this.require('jquery.sequence-min.js', 'plugin', 'onBinding');
+    },
+    onBinding: function() {
+      var $ctx = this.$ctx;
 
-  if ( timeout == '0' ) {
-    options.autoPlay = false;
-  } else {
-    options.autoPlay = true;
-    options.autoPlayDelay = parseInt(timeout);
-  }
+      var options = {
+        nextButton: true,
+        prevButton: true,
+        autoPlay: true,
+        autoPlayDelay: 3000,
+        pauseButton: true,
+        cycle: true,
+        // preloader: true,
+        animateStartingFrameIn: true,
+        pagination: true,
+        reverseAnimationsWhenNavigatingBackwards: true,
+        preventDelayWhenReversingAnimations: true,
+        fadeFrameWhenSkipped: false,
+        swipeEvents: {
+          left: "next",
+          right: "prev"
+        },
+        pauseOnHover: false
+      }
+      var autostop = $('.sequence', $ctx).data('autostop') == 'on' ? true : false;
+      var timeout = $('.sequence', $ctx).data('timeout');
 
-  if ( autostop ) {
-    options.autoStop = true;
-  } else {
-    options.autoStop = false;
-  }
+      if ( timeout == '0' ) {
+        options.autoPlay = false;
+      } else {
+        options.autoPlay = true;
+        options.autoPlayDelay = parseInt(timeout);
+      }
 
-  // console.log(options);
-  var sequence = $(".sequence").sequence(options).data("sequence");
-  sequence.beforeCurrentFrameAnimatesOut = function() {
-    var sequence = this;
-    var removeStatic = function() {
-      jQuery(".frame.static").removeClass('static');
-      if ( !window.sequenceAutoStarted && sequence.settings.autoPlay ) {
-        sequence.startAutoPlay(sequence.settings.autoPlayDelay);
-        window.sequenceAutoStarted = true;
+      if ( autostop ) {
+        options.autoStop = true;
+      } else {
+        options.autoStop = false;
+      }
+
+      // console.log(options);
+      var sequence = $(".sequence", $ctx).sequence(options).data("sequence");
+      sequence.beforeCurrentFrameAnimatesOut = function() {
+        var sequence = this;
+        var removeStatic = function() {
+          jQuery(".frame.static").removeClass('static');
+          if ( !window.sequenceAutoStarted && sequence.settings.autoPlay ) {
+            sequence.startAutoPlay(sequence.settings.autoPlayDelay);
+            window.sequenceAutoStarted = true;
+          }
+        }
+        setTimeout(removeStatic, 1000);
+
+        // when the next frame is the last one
+        if ( sequence.nextFrameID == sequence.frames.length && options.autoStop ) {
+          // console.log(sequence.nextFrameID);
+          sequence.stopAutoPlay();
+        }
+
       }
     }
-    $('.slide1').imagesLoaded(function() {
-      removeStatic()
-    });
-    // setTimeout(removeStatic, 1000);
-
-    // when the next frame is the last one
-    if ( sequence.nextFrameID == sequence.frames.length && options.autoStop ) {
-      // console.log(sequence.nextFrameID);
-      sequence.stopAutoPlay();
-    }
-
-  }
+  })
 })(Tc.$);
 (function($) {
   Tc.Module.FullscreenSlider = Tc.Module.extend({
