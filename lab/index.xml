@@ -10,11 +10,29 @@
     <atom:link href="http://geografia.com.au/lab/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Aged Care Suitability</title>
+      <link>http://geografia.com.au/lab/aged_care/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>http://geografia.com.au/lab/aged_care/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>City Atlas</title>
       <link>http://geografia.com.au/lab/city_atlas/</link>
       <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
       
       <guid>http://geografia.com.au/lab/city_atlas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greater Bunbury Plan</title>
+      <link>http://geografia.com.au/lab/bunbury/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>http://geografia.com.au/lab/bunbury/</guid>
       <description></description>
     </item>
     
