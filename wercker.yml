@@ -4,6 +4,8 @@ build:
     - arjen/hugo-build:
         version: "0.17"
         basedir: "source"
+        flags: "-d ../"
+
 deploy:
   steps:
     - install-packages:
@@ -12,4 +14,3 @@ deploy:
         gh_oauth: $GIT_TOKEN
         repo: geografia-au/geografia-au.github.io
         domain: geografia.com.au
-        # basedir: public
