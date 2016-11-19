@@ -12,4 +12,4 @@ deploy:
         gh_oauth: $GIT_TOKEN
         repo: geografia-au/geografia-au.github.io
         domain: geografia.com.au
-        basedir: public
+        # basedir: public
