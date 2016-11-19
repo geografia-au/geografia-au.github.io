@@ -1,7 +1,13 @@
-[![Stories in Ready](https://badge.waffle.io/geografia-au/geografia-au.github.io.svg?label=ready&title=Ready)](http://waffle.io/geografia-au/geografia-au.github.io)
+[![wercker status](https://app.wercker.com/status/c74e2a83e849712959da567b04f447e5/m/master "wercker status")](https://app.wercker.com/project/byKey/c74e2a83e849712959da567b04f447e5)
+
+
+# making changes
+
+1. All changes are to be made in the `source` directory. Don't touch files outside that directory, as they are automatically generated.
+2. 
 
 # geografia-au.github.io
-Rewrite of the geografia.com.au Website Using the Hugo Static Site Generator
+geografia.com.au Website uses the Hugo Static Site Generator
 
 # dependencies
 
@@ -24,4 +30,3 @@ navigate to the sources folder and build the page in ``../``
 cd source
 hugo -d ../
 ```
-
