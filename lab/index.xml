@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Labs on Geografia: Demography, Economics, Spatial Analysis</title>
-    <link>http://geografia.com.au/lab/</link>
-    <description>Recent content in Labs on Geografia: Demography, Economics, Spatial Analysis</description>
+    <title>Lab-rsses on Geografia: Demography, Economics, Spatial Analysis</title>
+    <link>http://geografia.com.au/lab/index.xml</link>
+    <description>Recent content in Lab-rsses on Geografia: Demography, Economics, Spatial Analysis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, Geografia; all rights reserved.</copyright>
     <lastBuildDate>Thu, 26 Feb 2015 03:09:00 +0000</lastBuildDate>
     <atom:link href="http://geografia.com.au/lab/index.xml" rel="self" type="application/rss+xml" />
     

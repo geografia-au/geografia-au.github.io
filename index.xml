@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geografia: Demography, Economics, Spatial Analysis</title>
-    <link>http://geografia.com.au/</link>
+    <link>http://geografia.com.au/index.xml</link>
     <description>Recent content on Geografia: Demography, Economics, Spatial Analysis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2016, Geografia; all rights reserved.</copyright>
     <lastBuildDate>Fri, 13 May 2016 01:08:00 +0000</lastBuildDate>
     <atom:link href="http://geografia.com.au/index.xml" rel="self" type="application/rss+xml" />
     
