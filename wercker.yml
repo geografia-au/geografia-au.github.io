@@ -3,6 +3,7 @@ build:
   steps:
     - arjen/hugo-build:
         version: "0.15"
+        basedir: "source"
 deploy:
   steps:
     - install-packages:
