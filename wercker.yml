@@ -14,9 +14,9 @@ deploy:
         gh_oauth: $GIT_TOKEN
         repo: geografia-au/geografia-au.github.io
         domain: geografia.com.au
-    after-steps:
-      - slack-notifier:
-        url: $SLACK_URL
-        channel: company-website
-        username: wercker
-        branch: master
+  after-steps:
+    - slack-notifier:
+      url: $SLACK_URL
+      channel: company-website
+      username: wercker
+      branch: master
