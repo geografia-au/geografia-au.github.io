@@ -8,7 +8,7 @@ build:
   after-steps:
     - slack-notifier:
       url: $SLACK_URL
-      channel: company-website
+      channel: bot-wercker
       username: wercker
       branch: master
 
