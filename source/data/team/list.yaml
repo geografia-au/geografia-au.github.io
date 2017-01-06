@@ -1,0 +1,79 @@
+-cesar:
+  weight: 6
+  text: "Cesar specialises in infographics, map design and other aspects of Geografia's communication."
+  name: "Cesar Nicolas"
+  position: "Project Researcher"
+  avatar: "img/crew/cs1.png"
+  linkedin: "https://www.linkedin.com/in/cesarnicolas"
+  email: "cesar@geografia.com.au"
+-daniel:
+  weight: 9
+  text: "Daniel is responsible for mapping and geospatial analysis."
+  name: "Daniel Hernandez"
+  position: "Geospatial Analyst"
+  avatar: "img/crew/dh1.png"
+  linkedin: "https://www.linkedin.com/in/daniel-hernandez-84552994"
+  email: "daniel@geografia.com.au"
+-dean:
+  weight: 4
+  text: "Dean uses data, statistics and machine learning to solve client problems."
+  name: "Dean Magee"
+  position: "Senior Analyst"
+  avatar: "img/crew/dm1.jpg"
+  linkedin: "https://www.linkedin.com/in/deanmagee1"
+  email: "dean@geografia.com.au"
+-kevin:
+  weight: 1
+  text: "Kevin leads Geografia's statistical and demographic modelling work."
+  name: "Kevin Johnson"
+  position: "Managing Director"
+  avatar: "img/crew/kj1.jpg"
+  linkedin: "http://au.linkedin.com/pub/kevin-johnson/20/681/78"
+  email: "kevin@geografia.com.au"
+-kirsten:
+  weight: 7
+  text: "Kirsten focuses on data analysis and application development."
+  name: "Kirsten McKenna"
+  position: "Analyst"
+  avatar: "img/crew/km1.jpg"
+  linkedin: "https://www.linkedin.com/in/kirsten-mckenna-8b1a5a121"
+  email: "kirsten@geografia.com.au"
+-matt:
+  weight: 2
+  text: "Matt's experience spans infrastructure planning and spatial analysis in Asia and Australia."
+  name: "Matt Benson"
+  position: "Director"
+  avatar: "img/crew/mb1.jpg"
+  linkedin: "http://au.linkedin.com/in/mattbenson"
+  email: "matt@geografia.com.au"
+-nicki:
+  weight: 6
+  text: "Nicki brings diverse skills in qualitative research and consultation."
+  name: "Nicki Booth"
+  position: "Researcher"
+  avatar: "img/crew/nb1.jpg"
+  linkedin: "http://au.linkedin.com/pub/nicki-booth/97/593/25b"
+  email: "nicki@geografia.com.au"
+-shashi:
+  weight: 5
+  text: "Shashi applies his experience in urban economics to Geografia's projects."
+  name: "Shashi Karunanethy"
+  position: "Economist"
+  avatar: "img/crew/sk1.jpg"
+  linkedin: "http://au.linkedin.com/pub/shashi-karunanethy/25/737/909"
+  email: "shashi@geografia.com.au"
+-shoaib:
+  weight: 3
+  text: "Shoaib works on high-performance and scalable apps."
+  name: "Shoaib Burq"
+  position: "Geospatial Applications Developer"
+  avatar: "img/crew/sb1.jpg"
+  linkedin: "https://www.linkedin.com/in/shoaibburq"
+  email: "shoaib@geografia.com.au"
+-join_us:
+  weight: 10
+  text: "We are always interested in working with people who are passionate about geography and spatial analysis"
+  name: "Like what we do at Geografia?"
+  position: "Join us!"
+  avatar: "img/crew/join-us.png"
+  email: "info@geografia.com.au?subject=I like what you do at Geografia"
