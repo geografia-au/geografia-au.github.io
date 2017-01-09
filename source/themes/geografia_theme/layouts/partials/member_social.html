@@ -1,20 +1,19 @@
 <ul class='socials'>
-
-  {{ if isset . "linkedin" }}
+  {{ if .linkedin }}
   <li>
     <a target="_blank" rel="noopener" href="{{.linkedin}}">
       <i class="fa fa-linkedin" aria-hidden="true"></i></span>
     </a>
   </li>
   {{ end }}
-  {{ if isset . "email" }}
+  {{ if .email }}
   <li>
     <a target="_blank" rel="noopener" href="mailto:{{.email}}">
       <i class="fa fa-envelope" aria-hidden="true"></i></span>
     </a>
   </li>
   {{ end }}
-  {{ if isset . "website" }}
+  {{ if .website }}
   <li>
     <a target="_blank" rel="noopener" href="{{.website}}">
       <i class="fa fa-external-link-square" aria-hidden="true"></i>
