@@ -49,7 +49,7 @@ function toBlogTeaser(post) {
 };
 
 setTimeout(function () {
-  jQuery.get("https://crossorigin.me/https://medium.com/feed/geografia", function(data) {
+  jQuery.get("https://cors-anywhere.herokuapp.com/https://medium.com/feed/geografia", function(data) {
     {
       var x2js = new window.X2JS();
       var xmlContents = x2js.xml2json(data);
