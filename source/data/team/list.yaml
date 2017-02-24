@@ -16,7 +16,7 @@
   email: "daniel@geografia.com.au"
 -dean:
   weight: 4
-  text: "Dean uses data, statistics and machine learning to solve client problems."
+  text: "Dean uses data, statistics and machine learning to solve complex client problems."
   name: "Dean Magee"
   position: "Senior Analyst"
   avatar: "img/crew/dm1.jpg"
@@ -48,7 +48,7 @@
   email: "matt@geografia.com.au"
 -nicki:
   weight: 6
-  text: "Nicki brings diverse skills in qualitative research and consultation."
+  text: "Nicki brings diverse skills to stakeholder engagement and social impact assessment."
   name: "Nicki Booth"
   position: "Researcher"
   avatar: "img/crew/nb1.jpg"
@@ -72,7 +72,7 @@
   email: "shoaib@geografia.com.au"
 -join_us:
   weight: 10
-  text: "We are always interested in working with people who are passionate about geography and spatial analysis"
+  text: "We are always interested in working with people who are passionate about geography and spatial analysis."
   name: "Like what we do at Geografia?"
   position: "Join us!"
   avatar: "img/crew/join-us.png"
