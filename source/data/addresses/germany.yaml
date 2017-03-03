@@ -9,5 +9,5 @@ address:
   postal_code: 10115
   country_name: Germany
 
-map_gist_url: "https://render.githubusercontent.com/view/geojson?ur=https://gist.githubusercontent.com/sabman/638f2d3e5fe253e51b40b2224c88f0e1/raw/3c2b8900aeafd9b2c2e1db01ee3d073ca9432cb3/map.geojson"
+map_gist_url: "https://render.githubusercontent.com/view/geojson?url=https://gist.githubusercontent.com/sabman/638f2d3e5fe253e51b40b2224c88f0e1/raw/3c2b8900aeafd9b2c2e1db01ee3d073ca9432cb3/map.geojson"
 map_link: "https://goo.gl/maps/i86mE5rjsUC2"
