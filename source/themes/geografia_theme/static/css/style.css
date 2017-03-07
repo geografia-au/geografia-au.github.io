@@ -12,7 +12,9 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-
+.github-fork-ribbon.fixed {
+    z-index: 100;
+}
 .vcard {
   all: initial;
   div {
