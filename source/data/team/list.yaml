@@ -30,14 +30,14 @@
   avatar: "img/crew/kj1.jpg"
   linkedin: "http://au.linkedin.com/pub/kevin-johnson/20/681/78"
   email: "kevin@geografia.com.au"
--kirsten:
+-owen:
   weight: 7
-  text: "Kirsten focuses on data analysis and application development."
-  name: "Kirsten McKenna"
-  position: "Analyst"
-  avatar: "img/crew/km1.jpg"
-  linkedin: "https://www.linkedin.com/in/kirsten-mckenna-8b1a5a121"
-  email: "kirsten@geografia.com.au"
+  text: "Owen discovers and develops business opportunities within Geografia's domain expertise."
+  name: "Owen McCormack"
+  position: "Business Development Manager"
+  avatar: "img/crew/ok1.png"
+  linkedin: "https://www.linkedin.com/in/omccormack"
+  email: "owen@geografia.com.au"
 -matt:
   weight: 2
   text: "Matt's experience spans infrastructure and spatial analysis in Asia and Australia."
