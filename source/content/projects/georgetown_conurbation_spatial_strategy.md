@@ -7,7 +7,7 @@ latitude: 5.40263
 categories: ["demography", "economics", "spatial_analysis"]
 slug: "georgetown-conurbation-spatial-strategy"
 date: "2014-02-26T01:30:00+00:00"
-summary_text: "A strategy to improve spatial analysis across Northern Malaysia"
+summary_text: "A strategy to improve spatial analytics across Northern Malaysia"
 banner: "2014 - George Town Land Use Survey.jpg"
 front_page: true
 ---

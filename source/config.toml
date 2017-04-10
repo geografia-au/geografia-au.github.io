@@ -1,6 +1,6 @@
 baseurl = "http://geografia.com.au/"
 languageCode = "en-us"
-title = "Geografia: Demography, Economics, Spatial Analysis"
+title = "Geografia: Demography, Economics, Spatial Analytics"
 theme = "geografia_theme"
 
 [Permalinks]

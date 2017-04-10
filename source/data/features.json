@@ -10,7 +10,7 @@
   "description": "Examining and modelling how our economies work"
 }, {
   "weight": 4,
-  "name": "Spatial Analysis",
+  "name": "Spatial Analytics",
   "icon": "fa fa-map-marker",
   "description": "Understanding spatial patterns in our towns and cities"
 }]

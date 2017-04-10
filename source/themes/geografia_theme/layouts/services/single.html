@@ -11,7 +11,7 @@
     <div class='full parallax' style='background-image: url(//res.cloudinary.com/sabman/image/upload/f_auto,q_auto/v1488580240/generic-header-pg_eshv9s.jpg); color: #fff;'>
       <div class='row'>
         <div class='large-12 columns'>
-          {{ partial "section_header.html" (dict "title" "Our services" "tagline" "Across the disciplines of demography, economics and spatial analysis we provide a range of quantitative and qualitative analytical services." "color" "#fff" "class" "big") }}
+          {{ partial "section_header.html" (dict "title" "Our services" "tagline" "Across the disciplines of demography, economics and spatial analytics we provide a range of quantitative and qualitative analytical services." "color" "#fff" "class" "big") }}
         </div>
       </div>
       <div class='four spacing'></div>
@@ -56,7 +56,7 @@
         </div>
 
         <div class='medium-4 columns'>
-          <h2>spatial analysis</h2>
+          <h2>spatial analytics</h2>
           <div class='spacing'></div>
           {{ range $index, $element := .Params.services_geodata_analytics }}
           <div class='fadein mod modIconText' data-delay='{{  mul 300 (sub $index 1) }}'>
