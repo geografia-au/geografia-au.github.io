@@ -215,7 +215,7 @@ ready = function() {
       "latitude": 5.40263,
       "longitude": 100.466,
       "slug": "georgetown-conurbation-spatial-strategy",
-      "preview": "A strategy to improve spatial analysis across Northern Malaysia"
+      "preview": "A strategy to improve spatial analytics across Northern Malaysia"
     },
     {
       "id": null,
