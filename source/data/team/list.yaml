@@ -1,6 +1,6 @@
 -cesar:
   weight: 6
-  text: "Cesar specialises in infographics, map design and other aspects of Geografia's communication."
+  text: "A planner by trade, Cesar specialises in infographics, map design and other aspects of our communication work."
   name: "Cesar Nicolas"
   position: "Project Researcher"
   avatar: "img/crew/cs1.png"
@@ -32,7 +32,7 @@
   email: "kevin@geografia.com.au"
 -owen:
   weight: 7
-  text: "Owen discovers and develops business and application development opportunities within Geografia's domain."
+  text: "Owen discovers and develops business opportunities within Geografia's domain expertise."
   name: "Owen McCormack"
   position: "Business Development Manager"
   avatar: "img/crew/ok1.png"
