@@ -1,5 +1,5 @@
 -cesar:
-  weight: 6
+  weight: 7
   text: "Cesar specialises in infographics, map design and other aspects of Geografia's communication."
   name: "Cesar Nicolas"
   position: "Project Researcher"
@@ -47,21 +47,21 @@
   linkedin: "http://au.linkedin.com/in/mattbenson"
   email: "matt@geografia.com.au"
 -nicki:
-  weight: 6
+  weight: 7
   text: "Nicki brings diverse skills to stakeholder engagement and social impact assessment."
   name: "Nicki Booth"
   position: "Researcher"
   avatar: "img/crew/nb1.jpg"
   linkedin: "http://au.linkedin.com/pub/nicki-booth/97/593/25b"
   email: "nicki@geografia.com.au"
--shashi:
+-sophie:
   weight: 5
-  text: "Shashi applies his experience in urban economics and demand modelling to Geografia's projects."
-  name: "Shashi Karunanethy"
-  position: "Economist"
-  avatar: "img/crew/sk1.jpg"
-  linkedin: "http://au.linkedin.com/pub/shashi-karunanethy/25/737/909"
-  email: "shashi@geografia.com.au"
+  text: "Sophie focuses on quantitative analytical and modelling projects."
+  name: "Sophie Fitzgerald"
+  position: "Analyst"
+  avatar: "img/crew/sf1.jpg"
+  linkedin: "https://www.linkedin.com/in/fitzsoph/"
+  email: "sophie@geografia.com.au"
 -shoaib:
   weight: 3
   text: "Shoaib works on high-performance and scalable apps."
@@ -70,6 +70,14 @@
   avatar: "img/crew/sb1.jpg"
   linkedin: "https://www.linkedin.com/in/shoaibburq"
   email: "shoaib@geografia.com.au"
+-thomas:
+  weight: 6
+  text: "Tom specialises in economic development and impact studies and cost-benefit analysis."
+  name: "Thomas Devitt"
+  position: "Economist"
+  avatar: "img/crew/td1.jpg"
+  linkedin: "https://www.linkedin.com/in/thomas-devitt-01233673/"
+  email: "thomas@geografia.com.au"
 -join_us:
   weight: 10
   text: "We are always interested in working with people who are passionate about geography and spatial analysis."
