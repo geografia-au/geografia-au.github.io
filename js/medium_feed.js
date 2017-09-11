@@ -91,7 +91,7 @@ function getCORS() {
 }
 
 setTimeout(function () {
-  jQuery.get(getCORS()+"https://blog.geografia.com.au/feed", function(data) {
+  jQuery.get("https://cors-anywhere.herokuapp.com/https://medium.com/feed/geografia", function(data) {
     {
       let xmlContents = rss2json(data);
       var posts = xmlContents.items;
