@@ -2,13 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Geografia: Demography, Economics, Spatial Analytics</title>
-    <link>https://geografia.com.au/index.xml</link>
+    <link>https://geografia.com.au/</link>
     <description>Recent content on Geografia: Demography, Economics, Spatial Analytics</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright (c) 2015 - 2016, Geografia; all rights reserved.</copyright>
+    <copyright>Copyright (c) 2015 - 2017, Geografia; all rights reserved.</copyright>
     <lastBuildDate>Fri, 13 May 2016 01:08:00 +0000</lastBuildDate>
-    <atom:link href="https://geografia.com.au/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://geografia.com.au/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Knowledge Jobs in Melbourne&#39;s SE</title>
@@ -16,8 +18,7 @@
       <pubDate>Fri, 13 May 2016 01:08:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/knowledge-jobs-in-melbourne-s-se/</guid>
-      <description>&lt;p&gt;Together with regular collaborator, Tim Nott, we investigated how to leverage from existing knowledge-based industries and supply chain components in eastern metropolitan Melbourne. The work formed part of a wider strategy designed to increase jobs in the area.&lt;/p&gt;
-</description>
+      <description>Together with regular collaborator, Tim Nott, we investigated how to leverage from existing knowledge-based industries and supply chain components in eastern metropolitan Melbourne. The work formed part of a wider strategy designed to increase jobs in the area.</description>
     </item>
     
     <item>
@@ -26,8 +27,7 @@
       <pubDate>Thu, 12 May 2016 07:32:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/maddington-kenwick-education-and-training-services-profile/</guid>
-      <description>&lt;p&gt;This study made recommendations for improvements to the focus and delivery of education related support programs for the region. The gap analysis was enhanced with a 10-year industry level labour market demand scenario model. GIS was used to map accessibility to education facilities for a community that was significantly transport disadvantaged.&lt;/p&gt;
-</description>
+      <description>This study made recommendations for improvements to the focus and delivery of education related support programs for the region. The gap analysis was enhanced with a 10-year industry level labour market demand scenario model. GIS was used to map accessibility to education facilities for a community that was significantly transport disadvantaged.</description>
     </item>
     
     <item>
@@ -36,8 +36,7 @@
       <pubDate>Thu, 12 May 2016 06:31:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/economic-impact-of-arts-venues-in-melbourne/</guid>
-      <description>&lt;p&gt;This project measured the economic value of artists living and working in the City of Melbourne, focusing on the effect of arts spaces. We found we could use GIS and the City&amp;rsquo;s extensive database to measure the &amp;lsquo;gentrification effect&amp;rsquo;; the flow-on benefits of arts spaces on neighbourhoods over time.&lt;/p&gt;
-</description>
+      <description>This project measured the economic value of artists living and working in the City of Melbourne, focusing on the effect of arts spaces. We found we could use GIS and the City&amp;rsquo;s extensive database to measure the &amp;lsquo;gentrification effect&amp;rsquo;; the flow-on benefits of arts spaces on neighbourhoods over time.</description>
     </item>
     
     <item>
@@ -46,8 +45,7 @@
       <pubDate>Thu, 12 May 2016 06:22:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/mandurah-public-open-space-study/</guid>
-      <description>&lt;p&gt;Helping the City to take a more evidence-based approach to compiling a strategic plan for the City to affordably development and maintain public open space.&amp;nbsp;&lt;/p&gt;
-</description>
+      <description>Helping the City to take a more evidence-based approach to compiling a strategic plan for the City to affordably development and maintain public open space.&amp;nbsp;</description>
     </item>
     
     <item>
@@ -56,8 +54,7 @@
       <pubDate>Thu, 12 May 2016 03:23:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/planning-for-sustainable-tourism-on-tasmania-s-east-coast/</guid>
-      <description>&lt;p&gt;In partnership with Tim Nott and Hansen, along with cultural heritage and biodiversity specialists, we reviewed options for tourism development along the east coast of Tasmania; examining the challenges faced; opportunities; and investment needs.&amp;nbsp;&lt;/p&gt;
-</description>
+      <description>In partnership with Tim Nott and Hansen, along with cultural heritage and biodiversity specialists, we reviewed options for tourism development along the east coast of Tasmania; examining the challenges faced; opportunities; and investment needs.&amp;nbsp;</description>
     </item>
     
     <item>
@@ -66,8 +63,7 @@
       <pubDate>Fri, 22 Apr 2016 00:09:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/alexandra-master-plan/</guid>
-      <description>&lt;p&gt;Working with urban designers SJB&amp;nbsp;to activate the old rail precinct in Alexandra through a masterplan. The plan mixes tourism with community use, open space and commercial areas.&amp;nbsp;&lt;/p&gt;
-</description>
+      <description>Working with urban designers SJB&amp;nbsp;to activate the old rail precinct in Alexandra through a masterplan. The plan mixes tourism with community use, open space and commercial areas.&amp;nbsp;</description>
     </item>
     
     <item>
@@ -76,8 +72,8 @@
       <pubDate>Sat, 16 Apr 2016 04:34:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/blog/2016/04/16/making_maps_accessible/</guid>
-      <description>&lt;div&gt;Humans are innately visual creatures. If you want confirmation of this in our industry, see what happens next time you’re in a long, exhausting meeting. As soon as someone pulls out a map or an image of some sort, people perk up. Conversations become more animated and decisions are made.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We love photos, images, maps and, at a pinch, charts. Its why graphics are significantly more effective (and increasingly popular) at communicating information than large tables of data.&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Another fact about our biology, though, is that not all of us can see colour. While it seems disadvantageous to navigating in a world bursting with bright hues, about 8% of the population (mostly males) have some kind of colourblindness.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;This has implications for mapping. When we learn how to map, we are taught basic techniques about colour, composition and detail. We need to remind ourselves regularly how we can make minor changes that will improve the meaning for everyone.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Some great resources about how to make your maps and charts ‘colour blind friendly’ can be found at &lt;a href=&#34;http://colorbrewer2.org/&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Color Brewer&lt;/a&gt; and the &lt;a href=&#34;http://www.dtpli.vic.gov.au/__data/assets/pdf_file/0006/227445/Communicating-Data-With-Colour.pdf&#34; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Victorian State Government&lt;/a&gt;. QGIS, the free open source GIS, also has colourblind simulators.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Take a look at the following maps. They plot the probable&amp;nbsp;impact of job automation across Greater Sydney (in all cases, red indicates a higher probability).&amp;nbsp;&lt;br&gt;&lt;br&gt;The first map&amp;nbsp;shows a common method for displaying variables: a red to green palette. The reds and greens in the map are essentially indistinguishable from each other for most colourblind people, rendering the map illegible. The other two maps show a more appropriate palette choice – red to blue, or shades of a single colour.&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;It’s not that hard to improve accessibility in maps. And as we map more and more of our world and our lives, it’s crucial to be inclusive of all vision types. Feel free to contact us at &lt;a rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Geografia&lt;/a&gt; if you want to know more about this.&lt;br&gt;&lt;br&gt;&lt;b&gt;Figure 1 Not So Accessible&lt;br&gt;&lt;/b&gt;&lt;img class=&#34;wysiwyg-float-left&#34; src=&#34;https://geografia.com.au/img/blog/large_Accessible_maps_Figure_1.jpg&#34; alt=&#34;Thumb accessible maps figure 1&#34;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Figure 2 Accessible&lt;br&gt;&lt;/b&gt;&lt;img class=&#34;wysiwyg-float-left&#34; src=&#34;https://geografia.com.au/img/blog/medium_Accessible_maps_Figure_2.jpg&#34; alt=&#34;Thumb accessible maps figure 2&#34;&gt;&lt;img class=&#34;wysiwyg-float-left&#34; src=&#34;https://geografia.com.au/img/blog/medium_Accessible_maps_Figure_3.jpg&#34; alt=&#34;Thumb accessible maps figure 3&#34;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;
-</description>
+      <description>Humans are innately visual creatures. If you want confirmation of this in our industry, see what happens next time you’re in a long, exhausting meeting. As soon as someone pulls out a map or an image of some sort, people perk up. Conversations become more animated and decisions are made.&amp;nbsp;
+We love photos, images, maps and, at a pinch, charts. Its why graphics are significantly more effective (and increasingly popular) at communicating information than large tables of data.</description>
     </item>
     
     <item>
@@ -86,8 +82,7 @@
       <pubDate>Fri, 18 Mar 2016 01:24:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/blog/2016/03/18/welcome_xavier/</guid>
-      <description>&lt;p&gt;Fresh from AURIN, Xavier Goldie is working with Geografia now. An expert in GIS and spatial statistics, Xavier adds to our capabilities in spatial analytics. And we&amp;rsquo;ll add to his capabilities in economic and demographic&amp;nbsp;analysis.&amp;nbsp;&lt;br&gt;&lt;img alt=&#34;Thumb xavier goldie low res&#34; src=&#34;https://geografia.com.au/img/blog/Xavier_Goldie_low_res.png&#34; class=&#34;wysiwyg-float-left&#34;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
-</description>
+      <description>Fresh from AURIN, Xavier Goldie is working with Geografia now. An expert in GIS and spatial statistics, Xavier adds to our capabilities in spatial analytics. And we&amp;rsquo;ll add to his capabilities in economic and demographic&amp;nbsp;analysis.&amp;nbsp;</description>
     </item>
     
     <item>
@@ -96,8 +91,7 @@
       <pubDate>Fri, 18 Mar 2016 01:13:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/technology-and-innovation-study/</guid>
-      <description>&lt;p&gt;An investigation of the the status of, and prospects for, the high tech sector in northern Malaysia. The study focused on whether targeted public funding would stimulate sustained private sector investment and, in doing so, contribute to the national economic development agenda. It included a survey of tech sector enterprises in the region.&amp;nbsp;&lt;/p&gt;
-</description>
+      <description>An investigation of the the status of, and prospects for, the high tech sector in northern Malaysia. The study focused on whether targeted public funding would stimulate sustained private sector investment and, in doing so, contribute to the national economic development agenda. It included a survey of tech sector enterprises in the region.&amp;nbsp;</description>
     </item>
     
     <item>
@@ -106,8 +100,7 @@
       <pubDate>Fri, 18 Mar 2016 00:16:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/greater-bunbury-global-and-regional-futures/</guid>
-      <description>&lt;p&gt;An assessment of global, national and regional economic and demographic&amp;nbsp;trends and how they are affecting economic development prospects in Greater Bunbury. The work is part of the State&amp;rsquo;s Regional Centres Development Plan project for eight regional cities. Three key industries are likely to bring in new residents and investment over the next few decades: agribusiness, specialised manufacturing; and tourism.&amp;nbsp;&lt;/p&gt;
-</description>
+      <description>An assessment of global, national and regional economic and demographic&amp;nbsp;trends and how they are affecting economic development prospects in Greater Bunbury. The work is part of the State&amp;rsquo;s Regional Centres Development Plan project for eight regional cities. Three key industries are likely to bring in new residents and investment over the next few decades: agribusiness, specialised manufacturing; and tourism.&amp;nbsp;</description>
     </item>
     
     <item>
@@ -116,8 +109,7 @@
       <pubDate>Fri, 18 Mar 2016 00:02:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/value-adding-to-the-naracoorte-livestock-exchange/</guid>
-      <description>&lt;p&gt;An economic impact assessment of investing in an upgrade to the livestock exchange shows a net benefit to the region.&amp;nbsp;&lt;/p&gt;
-</description>
+      <description>An economic impact assessment of investing in an upgrade to the livestock exchange shows a net benefit to the region.&amp;nbsp;</description>
     </item>
     
     <item>
@@ -126,8 +118,7 @@
       <pubDate>Thu, 17 Mar 2016 23:33:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/school-site-optimisation-in-greater-brisbane/</guid>
-      <description>&lt;p&gt;Following on from the work in Moreton Bay, we further developed the school demand forecasting technique to determine whether a proposed new school site would minimise school catchment area overlaps in a region with a rapidly growing population.&amp;nbsp;&lt;/p&gt;
-</description>
+      <description>Following on from the work in Moreton Bay, we further developed the school demand forecasting technique to determine whether a proposed new school site would minimise school catchment area overlaps in a region with a rapidly growing population.&amp;nbsp;</description>
     </item>
     
     <item>
@@ -136,8 +127,7 @@
       <pubDate>Sun, 04 Oct 2015 22:19:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/blog/2015/10/04/automation_and_atomisation_and_their_spatial_implications/</guid>
-      <description>&lt;p&gt;If we accept that our economy is complex and never in equilibrium, then we need to keep an eye out for both small and large changes in it. You can never tell which one&amp;nbsp;might become a defining influence on what our job landscape and our cities look like. &lt;br&gt;&lt;br&gt;In the case of &lt;b&gt;automation, &lt;/b&gt;a lot has been written on it already. We&amp;rsquo;ve been going through waves of job automation for at least a few centuries now, although the one we&amp;rsquo;re at the beginning of just might be one of the fastest we&amp;rsquo;ve ever experienced. Here in Australia a greater proportion of the population work; so more people want jobs, but automation could be removing them at a faster rate than they are replaced. &lt;br&gt;&lt;br&gt;There are spatial implications to this. Here is a map of Greater Sydney. It shows place of residence data for all workers. The areas in&amp;nbsp;red are where,&amp;nbsp;according to current research, there is a higher probability of jobs being automated over the next few decades (go to &lt;a target=&#34;_blank&#34; rel=&#34;nofollow&#34; href=&#34;https://geografia.com.au/atlas&#34;&gt;www.geografia.com.au/atlas&lt;/a&gt;&amp;nbsp;to see a similar map for Greater Melbourne). &amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;img alt=&#34;Thumb automation small&#34; src=&#34;https://geografia.com.au/img/blog/large_Automation_small.png&#34; class=&#34;wysiwyg-float-left&#34;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;Obviously the outer suburbs already face significant challenges in accessing jobs and services. The pace at which job destruction runs relative to job creation in the outer suburbs&amp;nbsp;is another important issue to address.&lt;br&gt;&lt;br&gt;One of the ways in which it is already being addressed is through &lt;b&gt;job atomisation&lt;/b&gt;, or the shift to what is&amp;nbsp;known as the&amp;nbsp;on-demand economy. Task-oriented, part-time and casual work are all increasing as a share of total employment. We&amp;rsquo;ve recently interviewed some Melbourne-based on-demand workers. They are all educated, ambitious and, by all accounts, doing well.&amp;nbsp;Some of us might be forced down this pathway,&amp;nbsp;but the people we spoke to&amp;nbsp;all made a choice to pursue this less&amp;nbsp;certain&amp;nbsp;career trajectory. They say it&amp;nbsp;allows them to integrate work into their private lives and&amp;nbsp;get paid for work across&amp;nbsp;a variety of fields. They embrace co-working spaces more than business incubators, want more public transport and better access to High Speed Broadband.&amp;nbsp;&lt;br&gt;&lt;br&gt;It appears that&amp;nbsp;the creative classes we&amp;rsquo;ve been reading about for over a decade now, might finally be evolving into&amp;nbsp;this form. The trick for us as economic and urban&amp;nbsp;planners is to work out how to incorporate on-demand workers into our modelling and analysis. For example:&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;How&amp;nbsp;are we going to map commute patterns for someone who has three jobs? Where is their place of work?&amp;nbsp;&lt;/li&gt;&lt;li&gt;In which municipality do we record their contribution to Gross Regional Product?&amp;nbsp;&lt;/li&gt;&lt;li&gt;Will the on-demand economy counterbalance the agglomeration of jobs into the CBD? If the worker is more mobile, do they need to commute into the City everyday? For that matter, robots probably don&amp;rsquo;t need to either.&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;A lot of the generic economic and population modelling tools we have are very unlikely to be up to the job of quantifying this more atomised economic landscape.&amp;nbsp;Its an interesting area to investigate and we&amp;rsquo;re working on it.&amp;nbsp;&lt;br&gt;&lt;/p&gt;
-</description>
+      <description>If we accept that our economy is complex and never in equilibrium, then we need to keep an eye out for both small and large changes in it. You can never tell which one&amp;nbsp;might become a defining influence on what our job landscape and our cities look like. In the case of automation, a lot has been written on it already. We&amp;rsquo;ve been going through waves of job automation for at least a few centuries now, although the one we&amp;rsquo;re at the beginning of just might be one of the fastest we&amp;rsquo;ve ever experienced.</description>
     </item>
     
     <item>
@@ -146,8 +136,8 @@
       <pubDate>Mon, 15 Jun 2015 05:25:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/blog/2015/06/15/what_can_we_learn_from_global_cities/</guid>
-      <description>&lt;p&gt;Matt and Kevin&amp;nbsp;attended the 2015 New Cities Summit in Jakarta. This is a biennial conference run by the New Cities Foundation and its&amp;nbsp;all about lifting the game in city design, planning and management. They attended some interesting sessions and talked to people working around the world&amp;nbsp;on innovative, and often low cost, ways of making cities more efficient and liveable. Some of the things taken from the conference were:&amp;nbsp;&lt;br&gt;&lt;ul&gt;&lt;li&gt;As if&amp;nbsp;you didn&amp;rsquo;t know it by now, its pretty apparent that most of the world&amp;rsquo;s economic dynamism can be found in the rapidly growing cities of the world. Out of sheer necessity and made possible by the mass of human capital, there is burgeoning entrepreneurialism, with people leaping onto opportunities, using new and old tech to meet the needs of residents and businesses in innovative ways&lt;/li&gt;&lt;li&gt;Australia is lagging the world in thinking about, and implementing all that is good about smart cities. That is, collecting and making available, data about how we use and move about our cities&lt;/li&gt;&lt;li&gt;Its accurate to say that some of the problems faced by rapidly growing megacities may have already been solved in Australia through larger scale market operations. For example, in Lagos, Nigeria (a city of around 13 million and growing by the same amount each year as the whole of Australia), a smart phone app is being used by a clever start up to effectively replicate the big supermarket supply chain logistics process; coordinating the distribution of fresh fruit and vegetables to small retailers throughout the city. The difference is, they do it for a fraction of the cost and there are thousands of individual retailers, not just a few&lt;/li&gt;&lt;li&gt;The sheer scale of the challenges some developing world megacities face in water access, mobility, infrastructure shortfalls and housing is daunting. However, what we in Australia can take away from this is, that if cities with much larger challenges, and far fewer resources can make inroads into their problems, then our cities should have the resources to solve our own affordability, congestion and pollution issues&lt;/li&gt;&lt;li&gt;Evidence-based planning and development faces all the same political hurdles in other cities as it does in Australia. We can devise&amp;nbsp;the best, data-driven solution we like,&amp;nbsp;&amp;nbsp;but if we can&amp;rsquo;t win the political argument, it won&amp;rsquo;t necessarily be the solution that is chosen&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;
-</description>
+      <description>Matt and Kevin&amp;nbsp;attended the 2015 New Cities Summit in Jakarta. This is a biennial conference run by the New Cities Foundation and its&amp;nbsp;all about lifting the game in city design, planning and management. They attended some interesting sessions and talked to people working around the world&amp;nbsp;on innovative, and often low cost, ways of making cities more efficient and liveable. Some of the things taken from the conference were:&amp;nbsp;
+As if&amp;nbsp;you didn&amp;rsquo;t know it by now, its pretty apparent that most of the world&amp;rsquo;s economic dynamism can be found in the rapidly growing cities of the world.</description>
     </item>
     
     <item>
@@ -156,8 +146,601 @@
       <pubDate>Tue, 26 May 2015 02:49:00 +0000</pubDate>
       
       <guid>https://geografia.com.au/projects/school-demand-forecasting-in-moreton-bay/</guid>
-      <description>&lt;p&gt;A statistical and GIS-based analysis of school demand to identify the optimum site for a new school in Moreton Bay on behalf of Brisbane Catholic Education (BCE). It uses&amp;nbsp;real enrolment data, analysing trends over time to develop a probabilistic model of the growth rates for new catchment areas. This factors in travel patterns and &amp;lsquo;attractiveness&amp;rsquo; features to identify the better of two locations for a new school in the rapidly growing region. We then adapted and applied the model to assist BCE in determining the viability of a new primary/secondary school in a neighbouring region, factoring in the existing school provision, population growth and the likelihood that the new school would attract a sufficient number of new enrollees to warrant the investment.&amp;nbsp;&lt;/p&gt;
-</description>
+      <description>A statistical and GIS-based analysis of school demand to identify the optimum site for a new school in Moreton Bay on behalf of Brisbane Catholic Education (BCE). It uses&amp;nbsp;real enrolment data, analysing trends over time to develop a probabilistic model of the growth rates for new catchment areas. This factors in travel patterns and &amp;lsquo;attractiveness&amp;rsquo; features to identify the better of two locations for a new school in the rapidly growing region.</description>
+    </item>
+    
+    <item>
+      <title>Greater Geraldton Expenditure Leakage Analysis</title>
+      <link>https://geografia.com.au/projects/greater-geraldton-expenditure-analysis/</link>
+      <pubDate>Wed, 13 May 2015 00:25:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/greater-geraldton-expenditure-analysis/</guid>
+      <description>Working with Landcorp, the MidWest Development Commission and the City of Greater Geraldton, we quantified business, government and consumer expenditure leakage from the region. For consumer leakage, we used real expenditure data sourced from Quantium. The outcome included the identification of supply chain opportunities for new business enterprises in the region.</description>
+    </item>
+    
+    <item>
+      <title>These locations should be the NBN rollout priority areas</title>
+      <link>https://geografia.com.au/blog/2015/04/27/high_speed_broadband_can_accelerate_victoria_s_economic_growth/</link>
+      <pubDate>Mon, 27 Apr 2015 02:59:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/blog/2015/04/27/high_speed_broadband_can_accelerate_victoria_s_economic_growth/</guid>
+      <description>Our recent study for Southern Melbourne RDA looked into the economic benefits of the NBN and included a survey of over 300 businesses in the region.&amp;nbsp;These businesses were in precincts that were not included in the current NBN rollout plan.&amp;nbsp;
+The survey examined the quality of the current Internet access in the precincts; the effect this was having on business productivity and growth; and the expected benefits that high speed broadband (HSB – in this case, the NBN) would bring to their business.</description>
+    </item>
+    
+    <item>
+      <title>Business Opportunities in an Ageing Population</title>
+      <link>https://geografia.com.au/projects/business-opportunities-in-an-ageing-population/</link>
+      <pubDate>Wed, 22 Apr 2015 03:41:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/business-opportunities-in-an-ageing-population/</guid>
+      <description>A study into the demographic change in East Gippsland and the business opportunities arising from a rapidly ageing population.&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Mornington HBB Survey</title>
+      <link>https://geografia.com.au/projects/mornington-hbb-survey/</link>
+      <pubDate>Wed, 22 Apr 2015 00:05:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/mornington-hbb-survey/</guid>
+      <description>Telephone and online survey to quantify and evaluate the scale and scope of home based businesses in the Mornington Peninsula</description>
+    </item>
+    
+    <item>
+      <title>Darebin Arts ESIA</title>
+      <link>https://geografia.com.au/projects/darebin-arts-esia/</link>
+      <pubDate>Tue, 21 Apr 2015 23:46:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/darebin-arts-esia/</guid>
+      <description>An economic and social impact assessment of the arts and creative sector in Darebin.&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Murchison Plan</title>
+      <link>https://geografia.com.au/projects/murchison-plan/</link>
+      <pubDate>Tue, 21 Apr 2015 23:05:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/murchison-plan/</guid>
+      <description>A resource analysis and community statement leading to a regional development framework for the five councils that make up north and western Tasmania. The work included an extensive land suitability assessment and collaboration with environmental and transport&amp;nbsp;planners and community engagement specialists.</description>
+    </item>
+    
+    <item>
+      <title>East Arnhem Land Economic Review</title>
+      <link>https://geografia.com.au/projects/east-arnhem-land-economic-review/</link>
+      <pubDate>Mon, 23 Mar 2015 04:38:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/east-arnhem-land-economic-review/</guid>
+      <description>This is a study mapping and analysing the scale and type of employment growth potential for Galiwink&amp;rsquo;u, East Arnhem Land. Population estimates, infrastructure capacity and an assessment of industry growth trends (notably in tourism and agribusiness), and other factors (e.g. job automation and centralisation) have been used to prepare scenarios for economic growth and development.</description>
+    </item>
+    
+    <item>
+      <title>Fresh open data: three new data sets to help understand our cities</title>
+      <link>https://geografia.com.au/blog/2015/03/18/fresh_and_unwrapped_three_new_open_data_sets_to_help_understand_our_cities/</link>
+      <pubDate>Wed, 18 Mar 2015 02:00:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/blog/2015/03/18/fresh_and_unwrapped_three_new_open_data_sets_to_help_understand_our_cities/</guid>
+      <description>As advocates of open data initiatives, we&#39;re pleased to discover three freshly released data sets available to planners and economists seeking to understand Victoria&#39;s cities. Gaining access to these data sets is hugely important for planning and managing cities. Congratulations to the government departments responsible for compiling and releasing these important data sets - the open data movement is gaining momentum!
+1. Detailed commercial, industrial and residential floor space data</description>
+    </item>
+    
+    <item>
+      <title>Greater Bunbury Population Analysis</title>
+      <link>https://geografia.com.au/projects/greater-bunbury-population-analysis/</link>
+      <pubDate>Wed, 18 Mar 2015 01:18:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/greater-bunbury-population-analysis/</guid>
+      <description>Working with demographer Tom Wilson, we undertook an evaluation of the State population forecasts and the merits of using an alternative approach for Greater Bunbury. Using an&amp;nbsp;employment-based projection method is a more reliable way to calculate population in rapidly growing areas that are highly sensitive to economic conditions.&amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Wellington Economic Development &amp; Tourism Strategy</title>
+      <link>https://geografia.com.au/projects/wellington-economic-development-strategy/</link>
+      <pubDate>Wed, 18 Mar 2015 00:40:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/wellington-economic-development-strategy/</guid>
+      <description>An economic development strategy for one of the more diverse and economically productive parts of rural Victoria. It included a documentation of business activity using GIS Cloud, wide ranging consultation and data analysis. Growth opportunities in tourism, agribusiness, manufacturing and services just need a little nudge from the Council and its stakeholders.</description>
+    </item>
+    
+    <item>
+      <title>Court Service Demand Modelling</title>
+      <link>https://geografia.com.au/projects/court-demand-modelling-across-victoria/</link>
+      <pubDate>Wed, 18 Mar 2015 00:27:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/court-demand-modelling-across-victoria/</guid>
+      <description>A multi-jurisdictional service demand model to estimate future court activity across 50 regions around Victoria. It uses probabilistic (Monte Carlo) modelling to factor in uncertainty around demand, demographic, technology and policy changes and informs GHD&amp;rsquo;s service plan for Court Services Victoria.</description>
+    </item>
+    
+    <item>
+      <title>Penrith Economic Development &amp; Tourism Strategy</title>
+      <link>https://geografia.com.au/projects/penrith-economic-development-strategy/</link>
+      <pubDate>Wed, 18 Mar 2015 00:21:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/penrith-economic-development-strategy/</guid>
+      <description>An economic development strategy for one of western Sydney&amp;rsquo;s major service and employment hubs. The region is experiencing rapid growth and the Council sits on major assets it can use to stimulate development into dense clusters of activity.</description>
+    </item>
+    
+    <item>
+      <title>Melbourne Population &amp; Economic Projections and Profile</title>
+      <link>https://geografia.com.au/projects/melbourne-population-economic-projections-and-profile/</link>
+      <pubDate>Wed, 11 Mar 2015 03:22:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/melbourne-population-economic-projections-and-profile/</guid>
+      <description>Geografia provides both demographic and economic projections and profiling for the City of Melbourne. We employ what is referred to as a Monte Carlo modelling technique to calculate ranged estimates for the City’s population by suburb to 2036. Both the population and economic figures are on websites custom designed by Geografia for the City. We work with leading Australian demographer, Dr Tom Wilson to ensure the figures are based on the latest, most reliable projection methodologies.</description>
+    </item>
+    
+    <item>
+      <title>Some job clusters are easier to grow</title>
+      <link>https://geografia.com.au/blog/2015/03/11/some_job_clusters_are_easier_to_grow/</link>
+      <pubDate>Wed, 11 Mar 2015 00:14:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/blog/2015/03/11/some_job_clusters_are_easier_to_grow/</guid>
+      <description>Normal job distribution around our capital cities shows extreme concentrations in the city centres, with an outward&amp;nbsp;spread of clusters usually located around major infrastructure (e.g. roads, hospitals, industrial areas). Encouraging the growth of jobs in some of the outlying clusters is an important strategic planning objective as it can improve job accessibility for outer suburban residents and spread the transport load around the city.
+A considerable amount is known about&amp;nbsp;how these clusters emerge; whether there are underlying patterns to their formation; and how much&amp;nbsp;influence can be applied to these patterns.</description>
+    </item>
+    
+    <item>
+      <title>A message for the Intergenerational Report: Overseas migration is a bit like the fountain of youth</title>
+      <link>https://geografia.com.au/blog/2015/03/06/a_message_for_the_intergenerational_report_overseas_migration_is_enormous_and_keeping_us_young/</link>
+      <pubDate>Fri, 06 Mar 2015 04:40:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/blog/2015/03/06/a_message_for_the_intergenerational_report_overseas_migration_is_enormous_and_keeping_us_young/</guid>
+      <description>It’s pleasing to see the Intergenerational Report focusing on long-term demographic trends and their implications for Australia. It reminds us that international migration has been, and is likely to continue to be, a major factor for change, influencing the pace and the makeup of growth in our communities.
+With Advanced Demographic Modelling, we’ve been examining what alternative long-term migration scenarios might mean for different municipalities. Obviously, the scale of net overseas migration has been the key reason some areas have grown rapidly, and it needs to be part of the strategic thinking by councils wishing to address population decline.</description>
+    </item>
+    
+    <item>
+      <title>Prospect Vale Structure Plan</title>
+      <link>https://geografia.com.au/projects/prospect-vale-structure-plan/</link>
+      <pubDate>Thu, 26 Feb 2015 03:16:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/prospect-vale-structure-plan/</guid>
+      <description>In partnership with David Locke Associates and Arup, we have prepared a structure plan to guide development in this fast growing part of northern Tasmania.
+Image: Prospect Vale activity centre; concept drawing (Geografia &amp;amp; DLA, 2014)</description>
+    </item>
+    
+    <item>
+      <title>Latrobe City: Population and Economic Indicators</title>
+      <link>https://geografia.com.au/projects/latrobe-city-population-and-economic-indicators/</link>
+      <pubDate>Thu, 26 Feb 2015 03:14:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/latrobe-city-population-and-economic-indicators/</guid>
+      <description>Working with Latrobe City, we have developed and maintained an economic and population indicators document. It helps residents, investors and government to understand the trends that are shaping the City&amp;rsquo;s future.
+Image: Latrobe City (Geografia, 2015)</description>
+    </item>
+    
+    <item>
+      <title>Advancing Orbost Economic Development Strategy</title>
+      <link>https://geografia.com.au/projects/advancing-orbost-economic-development-strategy/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/advancing-orbost-economic-development-strategy/</guid>
+      <description>In partnership with the Orbost community, we have developed a plan for the economic revitalisation of Orbost and surrounds. The plan addresses the effect of industry changes, particularly forestry, and the declining population. It includes business cases for key revitalisation initiatives, such as&amp;nbsp;Orbost as an aged friendly town, tourism opportunities and agribusiness&amp;nbsp;and is based on substantial community input.&amp;nbsp;
+Image: &amp;ldquo;Marshall&amp;rsquo;s Commonwealth Hotel Orbost&amp;rdquo; by Nomad Tales from Australia - Marshall&amp;rsquo;s Commonwealth Hotel Uploaded by Mattinbgn.</description>
+    </item>
+    
+    <item>
+      <title>Aged Care Suitability</title>
+      <link>https://geografia.com.au/lab/aged_care/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/lab/aged_care/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>City Atlas</title>
+      <link>https://geografia.com.au/lab/city_atlas/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/lab/city_atlas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Greater Bunbury Plan</title>
+      <link>https://geografia.com.au/lab/bunbury/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/lab/bunbury/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Port Phillip</title>
+      <link>https://geografia.com.au/lab/port_phillip/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/lab/port_phillip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Victowns</title>
+      <link>https://geografia.com.au/lab/victowns/</link>
+      <pubDate>Thu, 26 Feb 2015 03:09:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/lab/victowns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Victorian Small Towns Study</title>
+      <link>https://geografia.com.au/projects/victorian-small-towns-study/</link>
+      <pubDate>Thu, 26 Feb 2015 03:05:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/victorian-small-towns-study/</guid>
+      <description>Working with Melbourne firm Planisphere, the study examined 31 Victorian towns, all with fewer than a thousand residents, and explored their changing nature and the contributions they make in regional Victoria. As part of the case studies, we undertook economic and demographic modelling, geographic information system (GIS) and consultation. The project outcomes supported the State Government’s regional growth plans.
+Image: Corryong outskirts (Geografia, 2012)</description>
+    </item>
+    
+    <item>
+      <title>Preston Beach Population, Economic and Infrastructure Study</title>
+      <link>https://geografia.com.au/projects/preston-beach-population-economic-and-infrastructure-study/</link>
+      <pubDate>Thu, 26 Feb 2015 02:47:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/preston-beach-population-economic-and-infrastructure-study/</guid>
+      <description>A study into the infrastructure and economic issues and opportunities for Preston Beach, south of Perth. A follow up study made recommendations on town development based on an analysis of 60 small coastal towns around Australia. We also went on to conduct a similar analysis of the small coastal community of Binningup. The work consolidated our understanding of how Australian coastal towns develop along characteristic trajectories dependent on their history, geography, governance and infrastructure.</description>
+    </item>
+    
+    <item>
+      <title>The Need for High Speed Broadband</title>
+      <link>https://geografia.com.au/projects/the-need-for-high-speed-broadband/</link>
+      <pubDate>Thu, 26 Feb 2015 01:16:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/the-need-for-high-speed-broadband/</guid>
+      <description>A study to measure the economic benefits of redirecting the NBN rollout in Melbourne’s South East to prioritise three key industrial precincts. It involved a survey of business operators, along with an economic and GIS analysis to develop a statement of quantitative benefit of the merits of changing the rollout plan.
+Image: iStock</description>
+    </item>
+    
+    <item>
+      <title>The Pilbara Plan</title>
+      <link>https://geografia.com.au/projects/the-pilbara-plan/</link>
+      <pubDate>Wed, 25 Feb 2015 07:29:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/the-pilbara-plan/</guid>
+      <description>Geografia undertook a large analytical exercise to assess the economic benefits of major infrastructure and service provision in the Pilbara. Commissioned by the Pilbara Area Consultative Committee, the work prioritised public investment in infrastructure that would ensure the region could continue to operate efficiently and attract workers and residents.
+Image: Pilbara Plan (coverpage)</description>
+    </item>
+    
+    <item>
+      <title>Loch Sport Population Study</title>
+      <link>https://geografia.com.au/projects/loch-sport-population-study/</link>
+      <pubDate>Wed, 25 Feb 2015 07:07:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/loch-sport-population-study/</guid>
+      <description>This work informed the strategic response to concerns about population decline in the town of Loch Sport in Wellington Shire on the Gippsland Lakes. Environmental, economic and social issues together with public and private investment decisions were closely examined to determine their potential to support sustainable population growth in the town.
+Image: Loch Sport (Geografia, 2013)</description>
+    </item>
+    
+    <item>
+      <title>Metropolitan Perth Local Government Reform: Demographic Analysis</title>
+      <link>https://geografia.com.au/projects/metropolitan-perth-local-government-reform-demographic-analysis/</link>
+      <pubDate>Thu, 19 Feb 2015 07:35:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/metropolitan-perth-local-government-reform-demographic-analysis/</guid>
+      <description>This project analysed&amp;nbsp;significant demographic differences between alternative proposals in the Western Australian&amp;nbsp;metropolitan local government boundary reform process. It included GIS and statistical analysis, as well as 35 year&amp;nbsp;population projections for each new municipal configuration. The work informed the decision-making of the Western Australian&amp;nbsp;Local Government Advisory Board in its recommendations to Government about preferred amalgamations.&amp;nbsp;
+Image: Metropolitan population projections (Geografia, 2014)</description>
+    </item>
+    
+    <item>
+      <title>Western Australian Economic and Employment Forecasts</title>
+      <link>https://geografia.com.au/projects/ten-year-economic-and-employment-forecasts/</link>
+      <pubDate>Wed, 18 Feb 2015 23:56:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/ten-year-economic-and-employment-forecasts/</guid>
+      <description>Working with econometrician, Dr Grant Coble-Neal, we developed a vector autoregressive model (VAR) to test the effects of mining industry boom bust cycles on Western Australia&amp;rsquo;s employment and economic output by region over a 10 year period. It revealed a more volatile growth trajectory than measured by the existing CGE model. These forecasts were used by the Department of Education and Training to guide their analysis of the State&amp;rsquo;s economic prospects.</description>
+    </item>
+    
+    <item>
+      <title>Newman Economic Impact Study</title>
+      <link>https://geografia.com.au/projects/newman-economic-impact-study/</link>
+      <pubDate>Wed, 18 Feb 2015 23:46:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/newman-economic-impact-study/</guid>
+      <description>An economic impact assessment of the effects of large scale mine camps on small, remote towns. The study focused on the increase in demand for essential and other services as a result of the camp&amp;rsquo;s proximity to Newman.
+Image: Newman mine site</description>
+    </item>
+    
+    <item>
+      <title>Wanneroo Land Use Vision</title>
+      <link>https://geografia.com.au/projects/wanneroo-land-use-vision/</link>
+      <pubDate>Wed, 18 Feb 2015 23:31:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/wanneroo-land-use-vision/</guid>
+      <description>A 50 year strategic vision to guide the City onto a more sustainable pathway. After detailed demographic and economic analysis we worked with the City and residents to prepare a strategic plan for land development, transport and community infrastruture planning that would help the City move closer towards the City envisaged its residents and businesses. After its conclusion, we went on to undertake a public open space study and several smaller projects investigating the options for the redevelopment of specific Council facilities.</description>
+    </item>
+    
+    <item>
+      <title>Karratha 2020</title>
+      <link>https://geografia.com.au/projects/karratha-2020/</link>
+      <pubDate>Wed, 18 Feb 2015 23:17:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/karratha-2020/</guid>
+      <description>A detailed study of community and economic development needs in Karratha. Consulting with business and residents and mapping out a detailed plan for community infrastructure priorities. Following on from this we prepared an economic prospectus for Roebourne and undertook a cost benefit analysis of infrastructure plans. We also ran several land use and community satisfaction surveys on behalf of the Shire.
+Image: K2020 Vision (cover page)</description>
+    </item>
+    
+    <item>
+      <title>Brimbank National Employment Cluster Study</title>
+      <link>https://geografia.com.au/projects/brimbank-national-emploment-cluster-study/</link>
+      <pubDate>Tue, 17 Feb 2015 22:20:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/brimbank-national-emploment-cluster-study/</guid>
+      <description>A study mapping and analysing the potential scale and nature of employment growth in the Brimbank National Employment Cluster. It involved extensive economic modelling and GIS analysis to determine three likely growth scenarios for the Cluster and the net employment gain that the Cluster could accommodate as it expands.&amp;nbsp;
+We incorporated uncertainty into the modelling by composing probability ranges for key decisions (e.g. to invest in new transport infrastructure) and processes (e.</description>
+    </item>
+    
+    <item>
+      <title>Can we really expect CBD densities in regional WA?</title>
+      <link>https://geografia.com.au/blog/2015/02/17/can_we_really_expect_cbd_densities_in_regional_wa/</link>
+      <pubDate>Tue, 17 Feb 2015 06:08:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/blog/2015/02/17/can_we_really_expect_cbd_densities_in_regional_wa/</guid>
+      <description>The Greater Bunbury area (150km south of Perth) has a population of 75,000 and is forecast to grow to 100,000 by 2031 and 150,000 by 2050. A review of land supply by the State planning authority concluded that demand could be satisfied through a combination of an urban infill program and the release of over 2,000ha of land for Greenfield development. At first glance this seemed plausible. However, a closer examination revealed some fundamental flaws in the underlying assumptions that would have resulted in a land shortage of between 300 and 1,000ha.</description>
+    </item>
+    
+    <item>
+      <title>Georgetown World Heritage Precinct Land Use Survey</title>
+      <link>https://geografia.com.au/projects/georgetown-world-heritage-precinct-baseline-land-use-survey/</link>
+      <pubDate>Tue, 17 Feb 2015 00:21:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/georgetown-world-heritage-precinct-baseline-land-use-survey/</guid>
+      <description>We built on our 2010 census of the World Heritage Area in George Town, Penang&amp;nbsp;with the development, rollout and analysis of a detailed assessment of households and businesses in the port precinct.&amp;nbsp;
+Photo:&amp;nbsp;&amp;ldquo;Old town of Georgetown.&amp;rdquo; by Milei.vencel - Own work. Licensed under CC BY-SA 3.0 via Wikimedia Commons - http://commons.wikimedia.org/wiki/File:Old_town_of_Georgetown..JPG#mediaviewer/File:Old_town_of_Geor...</description>
+    </item>
+    
+    <item>
+      <title>Liveability, Efficiency and the Knowledge Economy</title>
+      <link>https://geografia.com.au/blog/2015/02/17/liveability_efficiency_and_the_knowledge_economy_92fbc55a_2d2c_4ced_b13d_490df0313618/</link>
+      <pubDate>Tue, 17 Feb 2015 00:04:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/blog/2015/02/17/liveability_efficiency_and_the_knowledge_economy_92fbc55a_2d2c_4ced_b13d_490df0313618/</guid>
+      <description>Liveability, spatial efficiency and the knowledge economy are important to Melbourne’s economic future and the way they are related to one another makes them relevant subject matter for strategic metropolitan planning. This is particularly so for transport infrastructure priorities and whether liveability near knowledge job clusters should be a metropolitan-wide concern. Updating some work done for Melbourne’s 2012 Knowledge Cities conference has revealed some ‘low hanging fruit’ in the spatial distribution of the knowledge sector that may help shed light on the options for a more liveable and efficient city.</description>
+    </item>
+    
+    <item>
+      <title>Greater Bunbury Population and Housing Capacity Review</title>
+      <link>https://geografia.com.au/projects/greater-bunbury-population-and-housing-capacity-review/</link>
+      <pubDate>Mon, 16 Feb 2015 23:29:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/greater-bunbury-population-and-housing-capacity-review/</guid>
+      <description>As part of a review of the population growth assumptions underpinning the Greater Bunbury Strategy, we deployed our housing and population capacity model to estimate the land required to accommodate expected population growth in the Greater Bunbury Region. We found that the increase in density was likely&amp;nbsp;be slower than expected and that this would result in a&amp;nbsp;shortfall of up to 700ha of residential land by build out.&amp;nbsp;
+As with all forecasting we do, we used a probabilistic model to account for the uncertainty in the population growth and other key factors such as household size, dwelling choice,&amp;nbsp;vacancy rates and rate of construction.</description>
+    </item>
+    
+    <item>
+      <title>Ferntree Gully Not for Profit Sector Study</title>
+      <link>https://geografia.com.au/projects/ferntree-gully-not-for-profit-sector-study/</link>
+      <pubDate>Mon, 16 Feb 2015 23:18:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/ferntree-gully-not-for-profit-sector-study/</guid>
+      <description>A study into the health, housing and community services not-for-profit (NFP) sector concentrated in Ferntree Gully in eastern metropolitan Melbourne. We identified a cluster of NFPs that were contributing more than $10 million dollars per annum to the local economy. A set of recommendations were developed that will assist the sector secure its presence in the area as an important economic and social contributor.
+Image: Ferntree Gully NFP Enterprises (Geografia, 2012)</description>
+    </item>
+    
+    <item>
+      <title>Winchelsea Economic Options Study</title>
+      <link>https://geografia.com.au/projects/winchelsea-economic-options-study/</link>
+      <pubDate>Mon, 16 Feb 2015 23:07:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/winchelsea-economic-options-study/</guid>
+      <description>Economic analysis and stakeholder consultation to identify and assess the options for economic/employment growth in Winchelsea. The project was part of a strategic repositioning of the town as it grows to 10,000 residents.
+Image: OldWinchelseaShireOffices by Mattinbgn - Own work. Licensed under GFDL via Wikimedia Commons</description>
+    </item>
+    
+    <item>
+      <title>Housing market mismatches in Northern Tasmania</title>
+      <link>https://geografia.com.au/blog/2015/02/06/housing_market_mismatches_in_northern_tasmania/</link>
+      <pubDate>Fri, 06 Feb 2015 00:16:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/blog/2015/02/06/housing_market_mismatches_in_northern_tasmania/</guid>
+      <description>In northern Tasmania, the population is growing slowly, but ageing rapidly. While the housing supply pipeline appears to be more than adequate to meet the modest demand, the rapid ageing of the population means that the type of current and planned housing stock is increasingly unsuited to the population, who are living in smaller households, consequently, seeking smaller houses and lots. The counter-intuitive result is that, although, at best, the population may grow by 25% (from around 150,000 to 180,000).</description>
+    </item>
+    
+    <item>
+      <title>George Town Grants Program</title>
+      <link>https://geografia.com.au/projects/george-town-grants-program/</link>
+      <pubDate>Tue, 13 May 2014 01:15:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/george-town-grants-program/</guid>
+      <description>Evaluation of the economic and social impact of a three year grants program designed to&amp;nbsp;stimulate private&amp;nbsp;investment and create jobs&amp;nbsp;in the World Heritage listed port city of George Town. We surveyed applicants and the wider business community to measure the success of the funding in meeting program objectives.</description>
+    </item>
+    
+    <item>
+      <title>Value of Manufacturing in South East Melbourne</title>
+      <link>https://geografia.com.au/projects/value-of-manufacturing-in-south-east-melbourne/</link>
+      <pubDate>Mon, 12 May 2014 07:02:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/value-of-manufacturing-in-south-east-melbourne/</guid>
+      <description>Accurately documenting the size and value of&amp;nbsp;manufacturing in a particular region is both difficult and useful. In south east Melbourne we found its 71,300 workers generated almost $7.9 billion in GRP. This is 24% of the State&amp;rsquo;s manufacturing value and almost 7% of national manufacturing GDP. &amp;nbsp;</description>
+    </item>
+    
+    <item>
+      <title>Business Opportunities from High Water Security in Wodonga</title>
+      <link>https://geografia.com.au/projects/high-water-security-in-wodonga/</link>
+      <pubDate>Mon, 12 May 2014 04:01:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/high-water-security-in-wodonga/</guid>
+      <description>An analysis of the City&amp;rsquo;s comparative advantages in water-intensive manufacturing. The project highlighted good prospects for food and beverage manufacturing, which benefits from a number of other local advantages including low water and other input costs; access to a skilled workforce; and a good logistics network.</description>
+    </item>
+    
+    <item>
+      <title>Georgetown Conurbation Spatial Strategy</title>
+      <link>https://geografia.com.au/projects/georgetown-conurbation-spatial-strategy/</link>
+      <pubDate>Wed, 26 Feb 2014 01:30:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/georgetown-conurbation-spatial-strategy/</guid>
+      <description>The Malaysian Federal Government, through Think City commissioned Geografia to research and prepare a spatial strategy for Northern Malaysia. Encompassing land use planning, economic and demographic analysis, we prepared a 20 point plan for making strategic land use planning decisions that would assist with national development goals. The first plan was prepared in 2009 and we updated it in 2014. Amongst other things, we examined and modelled economic development opportunities in manufacturing, agribusiness, tourism, hi tech R&amp;amp;D and services.</description>
+    </item>
+    
+    <item>
+      <title>Royal Agricultural Society of Victoria&#39;s Economic &amp; Social Impact Assessment</title>
+      <link>https://geografia.com.au/projects/royal-agricultural-society-of-victoria-s-economic-social-impact-assessment/</link>
+      <pubDate>Wed, 19 Feb 2014 22:32:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/royal-agricultural-society-of-victoria-s-economic-social-impact-assessment/</guid>
+      <description>To evaluate the economic and social impact of the RASV, with particular emphasis on the Royal Show. The work involves the use of a combination of systems and CGE modelling, along with focus group research to develop a robust measure of the benefits of the RASV’s activities to the State
+Image: show winner</description>
+    </item>
+    
+    <item>
+      <title>Broome Economic Development Strategy</title>
+      <link>https://geografia.com.au/projects/broome-economic-development-strategy/</link>
+      <pubDate>Wed, 19 Feb 2014 08:01:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/broome-economic-development-strategy/</guid>
+      <description>Landcorp, the Shire of Broome and the Kimberley Development Commission worked with Geografia to profile and investigate the Shire&amp;rsquo;s economic state of play&amp;nbsp;and its prospects for growth in light of global and regional conditions.&amp;nbsp;To ensure Broome becomes&amp;nbsp;the region&amp;rsquo;s &amp;lsquo;supertown&amp;rsquo; required strategic decision-making informed by&amp;nbsp;consultation, data analysis, population and economic forecasting. This charted a trajectory for Broome that would balance mining services, tourism and agribusiness.&amp;nbsp;
+Image: Broome economic regions (Geografia, 2014)</description>
+    </item>
+    
+    <item>
+      <title>Newcastle Urban Renewal Study</title>
+      <link>https://geografia.com.au/projects/newcastle-urban-renewal-study/</link>
+      <pubDate>Wed, 19 Feb 2014 07:54:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/newcastle-urban-renewal-study/</guid>
+      <description>A regional economic development research exercise commissioned by UrbanGrowth NSW. This project identified growth opportunities for central Newcastle. The aim was to find ways in which the City could use its competitive advantages, particularly in agribusiness, tourism and existing assets, to diversify its economy and bring more jobs and residents back to the down town&amp;nbsp;area.&amp;nbsp;
+Image: Newcastle central area (Geografia, 2014)</description>
+    </item>
+    
+    <item>
+      <title>Moreland Industrial Land Strategy</title>
+      <link>https://geografia.com.au/projects/moreland-industrial-land-use-strategy/</link>
+      <pubDate>Mon, 17 Feb 2014 02:42:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/moreland-industrial-land-use-strategy/</guid>
+      <description>Working with Tim Nott, using site surveys, GIS and economic modelling, we have estimated the current economic value of industrial sites throughout Moreland. The work is being used to inform rezoning decisions in light of residential development pressures, particularly in the southern part of the municipality.
+Image: Mapping industrial precincts and activity centres in Moreland City (Geografia, 2014)</description>
+    </item>
+    
+    <item>
+      <title>How to revitalise an underperforming pedestrian mall</title>
+      <link>https://geografia.com.au/blog/2014/02/17/how_to_revitalise_an_underperforming_pedestrian_mall/</link>
+      <pubDate>Mon, 17 Feb 2014 00:13:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/blog/2014/02/17/how_to_revitalise_an_underperforming_pedestrian_mall/</guid>
+      <description>There are many interacting factors that influence the choice an individual makes when deciding where to shop and recreate. Understanding this requires a suitably sophisticated approach based on good evidence. Extensive consultation, including consumer surveys, provided us with data we could use to quantify the relative importance of activation, amenity and retail choice when it comes to where they would shop in the Greater Shepparton area. From this we identified the most cost-effective way to increase visitor numbers to Shepparton’s Maude Street Mall.</description>
+    </item>
+    
+    <item>
+      <title>Modelling School Demand</title>
+      <link>https://geografia.com.au/projects/estimating-school-enrolment-demands/</link>
+      <pubDate>Sun, 16 Feb 2014 23:44:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/estimating-school-enrolment-demands/</guid>
+      <description>The school demand model we developed&amp;nbsp;represents a step change in the way future demand for schools can be predicted. At its heart is a powerful statistical technique called kernel density estimation linked to a GIS-based ‘school supply model’. This decision-support tool delivers a reliable estimate of government, catholic and independent primary and secondary school demand. It considers location, ethnicity, income, household size and other demographic characteristics of the catchment area. Broader effects such as underlying school preference and government education policy shifts are also included.</description>
+    </item>
+    
+    <item>
+      <title>Macedon Ranges Agribusiness Plan</title>
+      <link>https://geografia.com.au/projects/macedon-ranges-agribusiness-plan-d1da76f3-fb77-4007-a3b5-ebec5310bbe5/</link>
+      <pubDate>Mon, 25 Feb 2013 04:45:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/macedon-ranges-agribusiness-plan-d1da76f3-fb77-4007-a3b5-ebec5310bbe5/</guid>
+      <description>The Macedon Ranges Agribusiness Plan recognises that agribusiness is, and will continue to be, an important part of the Shire&amp;rsquo;s economy, but that land use pressures mean the Shire needs to take a more active role in minimising conflict. At the end of the project, Geografia was employed to analyse the Shire&amp;rsquo;s business survey and an extensive survey regarding telecommunications blackspots in the region.
+Image: Agribusiness influence diagram (Geografia, 2012)</description>
+    </item>
+    
+    <item>
+      <title>Golden Plains Economic Development &amp; Tourism Strategy</title>
+      <link>https://geografia.com.au/projects/golden-plains-economic-development-strategy/</link>
+      <pubDate>Wed, 20 Feb 2013 00:02:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/golden-plains-economic-development-strategy/</guid>
+      <description>Produced ahead of schedule, and in partnership with regular consulting economist Tim Nott, the background report and draft strategy involved extensive modelling, consultation exercises and an online survey. Our work has given us an up-to-date and thorough understanding of economic, major project and development issues in the G21 region.
+Image: Golden Plains economic landscape (Geografia, 2013)</description>
+    </item>
+    
+    <item>
+      <title>Greater Launceston Plan</title>
+      <link>https://geografia.com.au/projects/greater-launceston-plan/</link>
+      <pubDate>Sat, 16 Feb 2013 23:13:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/greater-launceston-plan/</guid>
+      <description>We completed three of the seven components of the Liveable Cities&amp;rsquo; Greater Launceston Plan (a 20 year part Commonwealth-funded land use plan). First off was the community statement; a thorough documentation of community profiles across the six municipalities that made up the region.
+Part two - the resource analysis - included population, housing and employment modelling designed to map out different growth scenarios and land use suitability. This included the range of probable growth, employment and housing trends into the modelling.</description>
+    </item>
+    
+    <item>
+      <title>Employment and Skills Gaps in Outer Metropolitan Growth Areas</title>
+      <link>https://geografia.com.au/projects/employment-and-skills-gaps-in-outer-metropolitan-growth-areas/</link>
+      <pubDate>Mon, 27 Feb 2012 07:21:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/employment-and-skills-gaps-in-outer-metropolitan-growth-areas/</guid>
+      <description>Working with Melbourne firm, Essential Economics, we undertook a study into the economic conditions and prospects for the 25 councils that make up the National Growth Areas Alliance. Geografia developed a jobs and skills deficit measure that plotted each council according to whether their priority concerns were a lack of jobs, skills or both. The current trajectory for each council was also plotted. A strategy for intervention was prepared. Its foundation was the creation of skills ecosystems that would target 20,000 more jobs in two years.</description>
+    </item>
+    
+    <item>
+      <title>Lindenow Agricultural Intensification Cost Benefit Analysis</title>
+      <link>https://geografia.com.au/projects/lindenow-agricultural-intensification-cost-benefit-analysis/</link>
+      <pubDate>Sun, 19 Feb 2012 00:14:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/lindenow-agricultural-intensification-cost-benefit-analysis/</guid>
+      <description>Our land use optimisation model was used to predict land use change in response to greater water security in the Lindenow Valley in East Gippsland. This model identifies the thresholds at which land can be turned over to commercial crops. Improved water security then becomes the catalyst for investment, an increase in employment and, subsequently, local population. The module factors in rainfall, water availability and other production costs and outputs are farm gate sales, regional multipliers, the impact on population growth and likely demand for essential services.</description>
+    </item>
+    
+    <item>
+      <title>Stockman Mine Economic Impact Study</title>
+      <link>https://geografia.com.au/projects/stockman-mine-economic-impact-study/</link>
+      <pubDate>Fri, 18 Feb 2011 23:03:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/stockman-mine-economic-impact-study/</guid>
+      <description>We introduced the concept of systems modelling to local economic issues by developing a model that would measure the benefits of different development scenarios around the Stockman mine site in the Tambo Valley. The model’s results (and report) were used by the Shire to negotiate community development contributions from the company. The systems approach to modelling was used to construct a community decision support tool for the Shire. This was used at a highly successful community workshop focusing on how best to replace the Raymond Island Ferry service.</description>
+    </item>
+    
+    <item>
+      <title>Shepparton Rail Economic Impact Study</title>
+      <link>https://geografia.com.au/projects/shepparton-rail-economic-impact-study/</link>
+      <pubDate>Wed, 16 Feb 2011 23:35:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/shepparton-rail-economic-impact-study/</guid>
+      <description>One of the first times&amp;nbsp;Geografia used a systems analysis approach to assist in regional economic planning, we developed a model to&amp;nbsp;measure the economic impact of improved passenger rail services to Shepparton. The work was based on a large-scale survey of regional residents which allowed us to value the benefits of being able to regularly commute to and from Melbourne. It highlighted the flow-on benefits of better passenger rail services linking incremental improvements to increase in passenger numbers by type of journey.</description>
+    </item>
+    
+    <item>
+      <title>Darebin City Council Small Area Population Projections</title>
+      <link>https://geografia.com.au/projects/darebin-city-council-small-area-population-projections/</link>
+      <pubDate>Sun, 19 Feb 2006 00:05:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/projects/darebin-city-council-small-area-population-projections/</guid>
+      <description>The City commissioned a set of 25 year population projections for small areas. The primary interest was in understanding the likely effects of infill development in the City.
+Image: Looking south over Darebin</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geografia.com.au/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geografia.com.au/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geografia.com.au/products/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/products/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://geografia.com.au/services/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/services/</guid>
+      <description></description>
     </item>
     
   </channel>

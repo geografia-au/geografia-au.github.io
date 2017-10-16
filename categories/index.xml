@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Geografia: Demography, Economics, Spatial Analytics</title>
+    <link>https://geografia.com.au/categories/</link>
+    <description>Recent content in Categories on Geografia: Demography, Economics, Spatial Analytics</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright (c) 2015 - 2017, Geografia; all rights reserved.</copyright>
+    
+	<atom:link href="https://geografia.com.au/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Demography</title>
+      <link>https://geografia.com.au/categories/demography/</link>
+      <pubDate>Fri, 13 May 2016 01:08:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/categories/demography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Economics</title>
+      <link>https://geografia.com.au/categories/economics/</link>
+      <pubDate>Fri, 13 May 2016 01:08:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/categories/economics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial_analysis</title>
+      <link>https://geografia.com.au/categories/spatial_analysis/</link>
+      <pubDate>Fri, 13 May 2016 01:08:00 +0000</pubDate>
+      
+      <guid>https://geografia.com.au/categories/spatial_analysis/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

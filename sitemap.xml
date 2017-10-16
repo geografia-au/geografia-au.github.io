@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://geografia.com.au/</loc>
-    <lastmod>2016-05-13T01:08:00+00:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://geografia.com.au/projects/knowledge-jobs-in-melbourne-s-se/</loc>
@@ -377,15 +373,66 @@
   </url>
   
   <url>
-    <loc>https://geografia.com.au/about</loc>
+    <loc>https://geografia.com.au/about/</loc>
   </url>
   
   <url>
-    <loc>https://geografia.com.au/contact</loc>
+    <loc>https://geografia.com.au/contact/</loc>
   </url>
   
   <url>
-    <loc>https://geografia.com.au/services</loc>
+    <loc>https://geografia.com.au/products/</loc>
+  </url>
+  
+  <url>
+    <loc>https://geografia.com.au/services/</loc>
+  </url>
+  
+  <url>
+    <loc>https://geografia.com.au/blog/</loc>
+    <lastmod>2016-04-16T04:34:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geografia.com.au/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geografia.com.au/categories/demography/</loc>
+    <lastmod>2016-05-13T01:08:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geografia.com.au/categories/economics/</loc>
+    <lastmod>2016-05-13T01:08:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geografia.com.au/</loc>
+    <lastmod>2016-05-13T01:08:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geografia.com.au/lab/</loc>
+    <lastmod>2015-02-26T03:09:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geografia.com.au/projects/</loc>
+    <lastmod>2016-05-13T01:08:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://geografia.com.au/categories/spatial_analysis/</loc>
+    <lastmod>2016-05-13T01:08:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
