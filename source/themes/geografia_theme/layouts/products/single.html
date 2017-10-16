@@ -1,0 +1,51 @@
+<!doctype html>
+
+<html lang="en">
+
+  {{ partial "head.html" . }}
+
+  <body>
+
+    {{ partial "header.html" . }}
+
+    <div class='full parallax' style='background-image: url(//res.cloudinary.com/sabman/image/upload/f_auto,q_auto/v1488580240/generic-header-pg_eshv9s.jpg); color: #fff;'>
+      <div class='row'>
+        <div class='large-12 columns'>
+          {{ partial "section_header.html" ( dict "title" .Site.Params.products.title "tagline" .Site.Params.products.teaser "color" "#fff" "class" "big") }}
+        </div>
+      </div>
+      <div class='four spacing'></div>
+    </div>
+
+    <div style="padding:20px;" class="full">
+      <div class='row'>
+        <div class='columns'>
+          <div class='spacing'></div>
+          {{ range $index, $element := .Params.products }}
+          <div class='fadein mod modIconText' data-delay='{{ mul 300 (sub $index 1) }}'>
+            <div class='icon-text-simple'>
+              <i class='fa fa-{{.icon}}'>
+                {{ if eq .title "Spendmapp" }}
+                  <img alt="" src="/img/spendmapp-icon.png" />
+                {{ end }}
+              </i>
+              <h3>{{.title}}</h3>
+              <p>{{.desc}}</p>
+              {{if eq (substr .url 0 4) "http" }}
+              <div class='column medium'>
+                <a class='button tiny' target="_blank" rel="noopener" href="{{.url}}">{{.call_to_action}}</a>
+              </div>
+              {{ end }}
+            </div>
+            <hr/>
+            <div class='two spacing'></div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+    <div class='four spacing'></div>
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

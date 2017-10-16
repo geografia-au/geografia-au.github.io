@@ -1,4 +1,5 @@
-<li class="{{ delimit .Params.categories " " }}">
+<li class="economics">
+<!-- <li class="delimit .Params.categories " ""> -->
   <a href='{{ .RelPermalink }}'>
     <img src="{{ with .Params.banner }}/img/projects/thumbs/{{ replaceRE "\\.(\\w{3})$" "_thumb.$1" . }}{{else}}/images/@stock/work-1.jpg{{end}}" alt="" src="" />
 
